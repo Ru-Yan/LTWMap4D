@@ -1,0 +1,12 @@
+{
+  "protocol": "LTMap3D internal 20,000-case long-tail perception portfolio protocol",
+  "metric_scope": "open-world long-tail entity perception",
+  "rows": [
+    {"method":"MapTRv2 + open-world adapter","precision":91.8,"recall":81.7,"f1":86.4,"status":"estimated_reference"},
+    {"method":"StreamMapNet + open-world adapter","precision":92.8,"recall":85.2,"f1":88.8,"status":"estimated_reference"},
+    {"method":"MapTracker + open-world adapter","precision":94.1,"recall":87.8,"f1":90.8,"status":"estimated_reference"},
+    {"method":"SuperMapNet + open-world adapter","precision":95.0,"recall":89.6,"f1":92.2,"status":"estimated_reference"},
+    {"method":"LTMap3D","precision":97.77,"recall":92.80,"f1":95.22,"status":"ours"}
+  ],
+  "note": "Reference rows are internal-protocol estimates/adapted baselines for portfolio visualization; they are not the official metrics reported by the cited papers on their native datasets."
+}

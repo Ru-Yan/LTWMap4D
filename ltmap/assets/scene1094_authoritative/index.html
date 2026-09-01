@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LT-Map3D V18.2.2</title><link rel="stylesheet" href="static/app.css"></head><body><header class="top">
+<div class="brand">LTMap3D · scene-1094</div>
+<div class="timeline"><input id="frame" type="range" value="0"><span id="fv">F013 · 1/4</span></div>
+<details class="displayOpts"><summary>显示设置</summary><div class="optpanel">
+<label class="ctl">动态 BBX <input id="conf" type="range" min=".2" max=".9" step=".05" value=".40"><b id="confv">0.40</b></label>
+<label class="ctl">静态 BBX <input id="staticConf" type="range" min="0" max="1" step=".05" value=".20"><b id="staticConfv">0.20</b><span id="staticCount" class="pill">静态 --/--</span></label>
+<label class="ctl"><input id="showStatic" type="checkbox" checked>静态 BBX</label>
+<label class="ctl"><input id="showMap" type="checkbox" checked>Mask2Map</label>
+<label class="ctl"><input id="showOcc" type="checkbox" checked>安全残余</label>
+<select id="pointColor" class="select"><option value="semantic">点云：语义</option><option value="confidence">点云：置信度</option><option value="height">点云：高度</option></select>
+</div></details>
+</header><main class="page"><section class="cameraBlock"><div id="cams" class="cams"></div></section><section class="bottomBlock"><div class="lower"><canvas id="lowercv"></canvas><div class="lowerbar"><button id="b3d" class="btn active">3D点云</button><button id="blane" class="btn">实体-道路（米制）</button><button id="reset" class="btn">重置视角</button><span id="lowerHint" class="hint">左键平移 · 右键360°旋转 · 滚轮缩放</span></div><div id="legend" class="legend"></div></div><aside class="right"><div class="rhead"><b>驾驶建议 · 关系 · 限定多模态解释</b><div class="muted">几何与数值事实由确定性 validator 管理</div></div><div id="panel" class="rbody"></div></aside></section></main><script src="static/app.js"></script></body></html>

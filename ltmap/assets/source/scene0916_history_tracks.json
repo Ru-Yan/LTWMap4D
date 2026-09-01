@@ -1,0 +1,5091 @@
+{
+  "frame": "current ego for centers + global provenance",
+  "history_sample_tokens": [
+    "b5989651183643369174912bc5641d3b",
+    "0bb62a68055249e381b039bf54b0ccf8",
+    "07fad91090c746ccaa1b2bdb55329e20",
+    "ae5004bf4ebb4db0a84cb3c27bd398d1"
+  ],
+  "tracks": [
+    {
+      "object_id": "34daad97663c4e8ea00f842adc581ab5",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "204f3df0559a4f5da0f5f523f680e230",
+          "translation_global": [
+            695.325,
+            1800.564,
+            0.665
+          ],
+          "center_ego_t0": [
+            8.926730169161228,
+            -17.865167060586252
+          ],
+          "size_wlh": [
+            1.862,
+            4.923,
+            1.588
+          ],
+          "rotation_wxyz": [
+            0.9296897227433863,
+            0.0,
+            0.0,
+            0.3683436159692812
+          ],
+          "yaw_global": 0.7544534759355879
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "975f0862f9ca45caafa7b97ab99c3659",
+          "translation_global": [
+            695.307,
+            1800.632,
+            0.615
+          ],
+          "center_ego_t0": [
+            8.869808596790167,
+            -17.906494225971805
+          ],
+          "size_wlh": [
+            1.862,
+            4.923,
+            1.588
+          ],
+          "rotation_wxyz": [
+            0.9296897227433863,
+            0.0,
+            0.0,
+            0.3683436159692812
+          ],
+          "yaw_global": 0.7544534759355879
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "615f9e0661744b7f85cd8766f707581c",
+          "translation_global": [
+            695.262,
+            1800.632,
+            0.665
+          ],
+          "center_ego_t0": [
+            8.886048421458572,
+            -17.948461690688486
+          ],
+          "size_wlh": [
+            1.862,
+            4.923,
+            1.588
+          ],
+          "rotation_wxyz": [
+            0.9296897227433863,
+            0.0,
+            0.0,
+            0.3683436159692812
+          ],
+          "yaw_global": 0.7544534759355879
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "403930b8409a43ab997a48d3b3cd2a91",
+          "translation_global": [
+            695.241,
+            1800.654,
+            0.665
+          ],
+          "center_ego_t0": [
+            8.873109579109071,
+            -17.975985977394053
+          ],
+          "size_wlh": [
+            1.862,
+            4.923,
+            1.588
+          ],
+          "rotation_wxyz": [
+            0.9296897227433863,
+            0.0,
+            0.0,
+            0.3683436159692812
+          ],
+          "yaw_global": 0.7544534759355879
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "78f104cd4ece4ce0abdbb1559f94faaa",
+          "translation_global": [
+            695.264,
+            1800.719,
+            0.665
+          ],
+          "center_ego_t0": [
+            8.804189553021175,
+            -17.977993464393215
+          ],
+          "size_wlh": [
+            1.862,
+            4.923,
+            1.588
+          ],
+          "rotation_wxyz": [
+            0.9296897227433863,
+            0.0,
+            0.0,
+            0.3683436159692812
+          ],
+          "yaw_global": 0.7544534759355879
+        }
+      ]
+    },
+    {
+      "object_id": "720ca55c654a4ac8bfe9babd1c1072be",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "eed3cbde3d41448bb48150e954befca4",
+          "translation_global": [
+            693.692,
+            1802.434,
+            0.731
+          ],
+          "center_ego_t0": [
+            7.772074050570099,
+            -20.062974660855165
+          ],
+          "size_wlh": [
+            1.807,
+            4.75,
+            1.45
+          ],
+          "rotation_wxyz": [
+            0.9285311911036325,
+            0.0,
+            0.0,
+            0.37125439680584205
+          ],
+          "yaw_global": 0.7607192077097391
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "fa585b0345164ea589fa7a537d32efe8",
+          "translation_global": [
+            693.67,
+            1802.458,
+            0.681
+          ],
+          "center_ego_t0": [
+            7.757630872559023,
+            -20.092153327873174
+          ],
+          "size_wlh": [
+            1.807,
+            4.75,
+            1.45
+          ],
+          "rotation_wxyz": [
+            0.9285311911036325,
+            0.0,
+            0.0,
+            0.37125439680584205
+          ],
+          "yaw_global": 0.7607192077097391
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "c2af91f8960f44e480e4dea6fa364516",
+          "translation_global": [
+            693.692,
+            1802.434,
+            0.681
+          ],
+          "center_ego_t0": [
+            7.772074050570099,
+            -20.062974660855165
+          ],
+          "size_wlh": [
+            1.807,
+            4.75,
+            1.45
+          ],
+          "rotation_wxyz": [
+            0.9285311911036325,
+            0.0,
+            0.0,
+            0.37125439680584205
+          ],
+          "yaw_global": 0.7607192077097391
+        }
+      ]
+    },
+    {
+      "object_id": "4591a9f392774001a2cf523286505ac9",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "8be4d9661d4a4fc1bd924b0a0aada78d",
+          "translation_global": [
+            707.223,
+            1782.619,
+            0.876
+          ],
+          "center_ego_t0": [
+            21.36861284550082,
+            -0.292888196756311
+          ],
+          "size_wlh": [
+            0.583,
+            0.485,
+            1.68
+          ],
+          "rotation_wxyz": [
+            0.4304402066153631,
+            0.0,
+            0.0,
+            0.902619093820269
+          ],
+          "yaw_global": 2.251631814667113
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "1a3ccd4c2a3d4abcaa080292cd9a90ae",
+          "translation_global": [
+            707.197,
+            1782.652,
+            0.876
+          ],
+          "center_ego_t0": [
+            21.347219714516896,
+            -0.32904527001605943
+          ],
+          "size_wlh": [
+            0.583,
+            0.485,
+            1.68
+          ],
+          "rotation_wxyz": [
+            0.4304402066153631,
+            0.0,
+            0.0,
+            0.902619093820269
+          ],
+          "yaw_global": 2.251631814667113
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "2c46f72b23124e24a8bfbb23caee6007",
+          "translation_global": [
+            707.17,
+            1782.685,
+            0.876
+          ],
+          "center_ego_t0": [
+            21.32618746852585,
+            -0.3661349536028451
+          ],
+          "size_wlh": [
+            0.583,
+            0.485,
+            1.68
+          ],
+          "rotation_wxyz": [
+            0.4304402066153631,
+            0.0,
+            0.0,
+            0.902619093820269
+          ],
+          "yaw_global": 2.251631814667113
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "af8f260a10b14d958460c5f9050961ab",
+          "translation_global": [
+            707.161,
+            1782.695,
+            0.884
+          ],
+          "center_ego_t0": [
+            21.32010933018918,
+            -0.3781372964724841
+          ],
+          "size_wlh": [
+            0.583,
+            0.485,
+            1.68
+          ],
+          "rotation_wxyz": [
+            0.4304402066153631,
+            0.0,
+            0.0,
+            0.902619093820269
+          ],
+          "yaw_global": 2.251631814667113
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "7a23cba636c24c459b58a94654d69aef",
+          "translation_global": [
+            707.151,
+            1782.708,
+            0.895
+          ],
+          "center_ego_t0": [
+            21.311594245863876,
+            -0.3921549046470864
+          ],
+          "size_wlh": [
+            0.583,
+            0.485,
+            1.68
+          ],
+          "rotation_wxyz": [
+            0.4304402066153631,
+            0.0,
+            0.0,
+            0.902619093820269
+          ],
+          "yaw_global": 2.251631814667113
+        }
+      ]
+    },
+    {
+      "object_id": "11a08ff383a6451bbda6b9af56cfa6e2",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "2f4572ee320c459487374bdaa0a6d3b9",
+          "translation_global": [
+            694.29,
+            1790.396,
+            0.262
+          ],
+          "center_ego_t0": [
+            18.78302794183494,
+            -15.160940143999959
+          ],
+          "size_wlh": [
+            1.694,
+            4.594,
+            1.489
+          ],
+          "rotation_wxyz": [
+            -0.3690736789657215,
+            0.0,
+            0.0,
+            0.9294001396033398
+          ],
+          "yaw_global": -2.385568381161366
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "04c068e8624b42bbb07cb80ae3e25f19",
+          "translation_global": [
+            694.266,
+            1790.387,
+            0.236
+          ],
+          "center_ego_t0": [
+            18.800082674601413,
+            -15.18007482691514
+          ],
+          "size_wlh": [
+            1.694,
+            4.594,
+            1.489
+          ],
+          "rotation_wxyz": [
+            -0.3690736789657215,
+            0.0,
+            0.0,
+            0.9294001396033398
+          ],
+          "yaw_global": -2.385568381161366
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "aab13a53f8934a20982d672e6ec7f94e",
+          "translation_global": [
+            694.242,
+            1790.378,
+            0.211
+          ],
+          "center_ego_t0": [
+            18.817137407367888,
+            -15.19920950983032
+          ],
+          "size_wlh": [
+            1.694,
+            4.594,
+            1.489
+          ],
+          "rotation_wxyz": [
+            -0.3690736789657215,
+            0.0,
+            0.0,
+            0.9294001396033398
+          ],
+          "yaw_global": -2.385568381161366
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "bb3d464a5d874445a61824a3ff0b60ac",
+          "translation_global": [
+            694.223,
+            1790.371,
+            0.19
+          ],
+          "center_ego_t0": [
+            18.830522494516966,
+            -15.214402911095652
+          ],
+          "size_wlh": [
+            1.694,
+            4.594,
+            1.489
+          ],
+          "rotation_wxyz": [
+            -0.3690736789657215,
+            0.0,
+            0.0,
+            0.9294001396033398
+          ],
+          "yaw_global": -2.385568381161366
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "2b5a0cdd14b94bb0adb720aed9265e06",
+          "translation_global": [
+            694.2,
+            1790.363,
+            0.164
+          ],
+          "center_ego_t0": [
+            18.846283731963762,
+            -15.232965868676336
+          ],
+          "size_wlh": [
+            1.694,
+            4.594,
+            1.489
+          ],
+          "rotation_wxyz": [
+            -0.3690736789657215,
+            0.0,
+            0.0,
+            0.9294001396033398
+          ],
+          "yaw_global": -2.385568381161366
+        }
+      ]
+    },
+    {
+      "object_id": "c8fcea5cd6d344e69a92241622f58be7",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "9acbfedf07354e9994cc599363fd41b0",
+          "translation_global": [
+            710.538,
+            1782.886,
+            0.848
+          ],
+          "center_ego_t0": [
+            19.923272137611562,
+            2.7023587443352843
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "a62dd01200b641c598924c65bb79de13",
+          "translation_global": [
+            710.522,
+            1782.886,
+            0.868
+          ],
+          "center_ego_t0": [
+            19.929046297493638,
+            2.687436979102745
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "2c28390174874d4193cc91857f180d3c",
+          "translation_global": [
+            710.507,
+            1782.886,
+            0.889
+          ],
+          "center_ego_t0": [
+            19.934459572383133,
+            2.6734478241971136
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "dab71c033d4a4b469b4eae66466e3f52",
+          "translation_global": [
+            710.494,
+            1782.886,
+            0.905
+          ],
+          "center_ego_t0": [
+            19.939151077287303,
+            2.661323889945722
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "a769178006164977b1636cd8e3845a6d",
+          "translation_global": [
+            710.479,
+            1782.886,
+            0.926
+          ],
+          "center_ego_t0": [
+            19.94456435217676,
+            2.647334735040196
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "c5640d5eaa7d42cbbebe7c9bef889b88",
+      "class": "vehicle.motorcycle",
+      "states": [
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "569d50b806254108ad3bba85e7a24273",
+          "translation_global": [
+            699.018,
+            1776.739,
+            -0.227
+          ],
+          "center_ego_t0": [
+            29.813422933006166,
+            -5.822952173417466
+          ],
+          "size_wlh": [
+            0.506,
+            1.88,
+            1.205
+          ],
+          "rotation_wxyz": [
+            -0.36505552754145254,
+            0.0,
+            0.0,
+            0.9309857473728756
+          ],
+          "yaw_global": -2.394207761204537
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "6e62973c514f4f78a8ca449c8cb13863",
+          "translation_global": [
+            698.99,
+            1776.707,
+            -0.192
+          ],
+          "center_ego_t0": [
+            29.85337124326491,
+            -5.8375169428103355
+          ],
+          "size_wlh": [
+            0.506,
+            1.88,
+            1.205
+          ],
+          "rotation_wxyz": [
+            -0.36505552754145254,
+            0.0,
+            0.0,
+            0.9309857473728756
+          ],
+          "yaw_global": -2.394207761204537
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "dfed603f4003407eabda0155385e9679",
+          "translation_global": [
+            698.955,
+            1776.667,
+            -0.149
+          ],
+          "center_ego_t0": [
+            29.903306631088586,
+            -5.855722904551266
+          ],
+          "size_wlh": [
+            0.506,
+            1.88,
+            1.205
+          ],
+          "rotation_wxyz": [
+            -0.36505552754145254,
+            0.0,
+            0.0,
+            0.9309857473728756
+          ],
+          "yaw_global": -2.394207761204537
+        }
+      ]
+    },
+    {
+      "object_id": "b8bbb0f8ce61468e93ff1d18c06ee663",
+      "class": "vehicle.bicycle",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "2a88e640a9fd4cfd83417cd61aa2b55b",
+          "translation_global": [
+            738.181,
+            1805.834,
+            0.944
+          ],
+          "center_ego_t0": [
+            -11.454213498497056,
+            20.200917203699966
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.21
+          ],
+          "rotation_wxyz": [
+            0.9839115529521751,
+            0.0,
+            0.0,
+            -0.17865625084849154
+          ],
+          "yaw_global": -0.3592411199031756
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "641757c35d154296b142e107cd6bf481",
+          "translation_global": [
+            738.181,
+            1805.834,
+            0.919
+          ],
+          "center_ego_t0": [
+            -11.454213498497056,
+            20.200917203699966
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.21
+          ],
+          "rotation_wxyz": [
+            0.9839115529521751,
+            0.0,
+            0.0,
+            -0.17865625084849154
+          ],
+          "yaw_global": -0.3592411199031756
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "25a7260d62f24ce288e8d08b4c0544c1",
+          "translation_global": [
+            738.181,
+            1805.834,
+            0.894
+          ],
+          "center_ego_t0": [
+            -11.454213498497056,
+            20.200917203699966
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.21
+          ],
+          "rotation_wxyz": [
+            0.9839115529521751,
+            0.0,
+            0.0,
+            -0.17865625084849154
+          ],
+          "yaw_global": -0.3592411199031756
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "606d0d54aad84cb68ea462b79f626e17",
+          "translation_global": [
+            738.181,
+            1805.834,
+            0.944
+          ],
+          "center_ego_t0": [
+            -11.454213498497056,
+            20.200917203699966
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.21
+          ],
+          "rotation_wxyz": [
+            0.9839115529521751,
+            0.0,
+            0.0,
+            -0.17865625084849154
+          ],
+          "yaw_global": -0.3592411199031756
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "769952deb8b04db0b88d0d4ab515860d",
+          "translation_global": [
+            738.181,
+            1805.834,
+            0.956
+          ],
+          "center_ego_t0": [
+            -11.454213498497056,
+            20.200917203699966
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.21
+          ],
+          "rotation_wxyz": [
+            0.9839115529521751,
+            0.0,
+            0.0,
+            -0.17865625084849154
+          ],
+          "yaw_global": -0.3592411199031756
+        }
+      ]
+    },
+    {
+      "object_id": "cb5fdffa966345cdb9c7c186143b7857",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "e2bcaf2d595648c9a384eeed1ae8341e",
+          "translation_global": [
+            712.545,
+            1784.764,
+            0.867
+          ],
+          "center_ego_t0": [
+            17.44753376322854,
+            3.8963656545359138
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "1c482931e1634dca9c0c2c5a8055f812",
+          "translation_global": [
+            712.545,
+            1784.764,
+            0.867
+          ],
+          "center_ego_t0": [
+            17.44753376322854,
+            3.8963656545359138
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "c320c47a85ab42ea98aa6a26d83aef29",
+          "translation_global": [
+            712.545,
+            1784.764,
+            0.867
+          ],
+          "center_ego_t0": [
+            17.44753376322854,
+            3.8963656545359138
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "4aff2988c18c4ef98ca0f755bd7c854d",
+          "translation_global": [
+            712.545,
+            1784.764,
+            0.867
+          ],
+          "center_ego_t0": [
+            17.44753376322854,
+            3.8963656545359138
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "aecc7dca9734471fa3fa930ad9ff6292",
+          "translation_global": [
+            712.545,
+            1784.764,
+            0.867
+          ],
+          "center_ego_t0": [
+            17.44753376322854,
+            3.8963656545359138
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "6b7d108921ef4e87a46443fbc7f8f59e",
+      "class": "vehicle.motorcycle",
+      "states": [
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "37766100c74a461a971399f42b7abeb8",
+          "translation_global": [
+            700.921,
+            1774.193,
+            0.319
+          ],
+          "center_ego_t0": [
+            31.50108468466343,
+            -3.129381529830507
+          ],
+          "size_wlh": [
+            0.725,
+            2.612,
+            1.526
+          ],
+          "rotation_wxyz": [
+            0.9287383937891653,
+            0.0,
+            0.0,
+            0.3707357494252764
+          ],
+          "yaw_global": 0.7596021972955209
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "d9a87e88cdf6462c8cd75e2a58714cbc",
+          "translation_global": [
+            700.909,
+            1774.182,
+            0.329
+          ],
+          "center_ego_t0": [
+            31.515674018172383,
+            -3.136603118836066
+          ],
+          "size_wlh": [
+            0.725,
+            2.612,
+            1.526
+          ],
+          "rotation_wxyz": [
+            0.9281376987454933,
+            0.0,
+            0.0,
+            0.3722370376083226
+          ],
+          "yaw_global": 0.7628362049107058
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "55746c6c8fcc477c957d9274ea9be3ef",
+          "translation_global": [
+            700.899,
+            1774.172,
+            0.338
+          ],
+          "center_ego_t0": [
+            31.52860897136904,
+            -3.1423203721801127
+          ],
+          "size_wlh": [
+            0.725,
+            2.612,
+            1.526
+          ],
+          "rotation_wxyz": [
+            0.9276553719274291,
+            0.0,
+            0.0,
+            0.3734374257277694
+          ],
+          "yaw_global": 0.7654235363777863
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "6e8f1f6a3af24873985d1940af790f0e",
+          "translation_global": [
+            700.887,
+            1774.161,
+            0.308
+          ],
+          "center_ego_t0": [
+            31.54319830487799,
+            -3.149541961185671
+          ],
+          "size_wlh": [
+            0.725,
+            2.612,
+            1.526
+          ],
+          "rotation_wxyz": [
+            0.9270509106026159,
+            0.0,
+            0.0,
+            0.37493547331622357
+          ],
+          "yaw_global": 0.7686543385307724
+        }
+      ]
+    },
+    {
+      "object_id": "65acd0cbce474d9cb2eef362a1b279be",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "c5a7fa4ccf9a43beb25ee790db0a8cb8",
+          "translation_global": [
+            687.031,
+            1809.645,
+            1.399
+          ],
+          "center_ego_t0": [
+            3.4508759182271347,
+            -28.87743373110086
+          ],
+          "size_wlh": [
+            1.854,
+            5.019,
+            2.0
+          ],
+          "rotation_wxyz": [
+            0.9264990794332407,
+            0.0,
+            0.0,
+            0.3762970313586829
+          ],
+          "yaw_global": 0.7715926089953068
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "3f5461201a4b414e8b5f5dfecb7050f8",
+          "translation_global": [
+            686.907,
+            1809.524,
+            1.394
+          ],
+          "center_ego_t0": [
+            3.608471506884733,
+            -28.949410327544882
+          ],
+          "size_wlh": [
+            1.854,
+            5.019,
+            2.0
+          ],
+          "rotation_wxyz": [
+            0.9264990794332407,
+            0.0,
+            0.0,
+            0.3762970313586829
+          ],
+          "yaw_global": 0.7715926089953068
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "246442a0cdb2447681e15128c643610f",
+          "translation_global": [
+            686.783,
+            1809.404,
+            1.388
+          ],
+          "center_ego_t0": [
+            3.765134485215147,
+            -29.021747808981715
+          ],
+          "size_wlh": [
+            1.854,
+            5.019,
+            2.0
+          ],
+          "rotation_wxyz": [
+            0.9264990794332407,
+            0.0,
+            0.0,
+            0.3762970313586829
+          ],
+          "yaw_global": 0.7715926089953068
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "4606bc6e63954efb9645e67766729b60",
+          "translation_global": [
+            686.684,
+            1809.307,
+            1.384
+          ],
+          "center_ego_t0": [
+            3.89132530120806,
+            -29.079070387073145
+          ],
+          "size_wlh": [
+            1.854,
+            5.019,
+            2.0
+          ],
+          "rotation_wxyz": [
+            0.9264990794332407,
+            0.0,
+            0.0,
+            0.3762970313586829
+          ],
+          "yaw_global": 0.7715926089953068
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "afe3247ede824c928a8c4c18b8634d53",
+          "translation_global": [
+            686.56,
+            1809.186,
+            1.378
+          ],
+          "center_ego_t0": [
+            4.048920889865699,
+            -29.151046983517272
+          ],
+          "size_wlh": [
+            1.854,
+            5.019,
+            2.0
+          ],
+          "rotation_wxyz": [
+            0.9264990794332407,
+            0.0,
+            0.0,
+            0.3762970313586829
+          ],
+          "yaw_global": 0.7715926089953068
+        }
+      ]
+    },
+    {
+      "object_id": "6786acf4f6b644639d550c608785320f",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "3de4b1f7850a433a9632c37361895741",
+          "translation_global": [
+            688.672,
+            1779.708,
+            -0.393
+          ],
+          "center_ego_t0": [
+            30.778219005793307,
+            -16.543206160051124
+          ],
+          "size_wlh": [
+            1.598,
+            4.304,
+            1.485
+          ],
+          "rotation_wxyz": [
+            -0.39422262511525324,
+            0.0,
+            0.0,
+            0.9190149736795579
+          ],
+          "yaw_global": -2.3311490154481374
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "16c2eab3035249c4ac8a850e62ceda2c",
+          "translation_global": [
+            688.65,
+            1779.654,
+            -0.335
+          ],
+          "center_ego_t0": [
+            30.83651943329122,
+            -16.54423579764387
+          ],
+          "size_wlh": [
+            1.598,
+            4.304,
+            1.485
+          ],
+          "rotation_wxyz": [
+            -0.3928396428756334,
+            0.0,
+            0.0,
+            0.9196069894174058
+          ],
+          "yaw_global": -2.3341577513526484
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "b3cbb25fb570451699c4718791da12cf",
+          "translation_global": [
+            688.628,
+            1779.6,
+            -0.278
+          ],
+          "center_ego_t0": [
+            30.89481986078909,
+            -16.545265435236516
+          ],
+          "size_wlh": [
+            1.598,
+            4.304,
+            1.485
+          ],
+          "rotation_wxyz": [
+            -0.3914542706188093,
+            0.0,
+            0.0,
+            0.9201975624909555
+          ],
+          "yaw_global": -2.337169749542452
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "2ad1cb923b63489ea051abc44ac9e004",
+          "translation_global": [
+            688.611,
+            1779.557,
+            -0.231
+          ],
+          "center_ego_t0": [
+            30.941057149726273,
+            -16.545601756113093
+          ],
+          "size_wlh": [
+            1.598,
+            4.304,
+            1.485
+          ],
+          "rotation_wxyz": [
+            -0.39034527967166155,
+            0.0,
+            0.0,
+            0.9206685411363051
+          ],
+          "yaw_global": -2.3395794648624397
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "392eb8e1b9274217be5d17374520bb38",
+          "translation_global": [
+            688.589,
+            1779.504,
+            -0.173
+          ],
+          "center_ego_t0": [
+            30.99842496689713,
+            -16.546992278698358
+          ],
+          "size_wlh": [
+            1.598,
+            4.304,
+            1.485
+          ],
+          "rotation_wxyz": [
+            -0.3889596867112981,
+            0.0,
+            0.0,
+            0.9212547758972264
+          ],
+          "yaw_global": -2.3425884776398727
+        }
+      ]
+    },
+    {
+      "object_id": "7a770e392a814e7aa80e6eb74dfa91ef",
+      "class": "vehicle.truck",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "84548a0749aa440b990a4c986d06630c",
+          "translation_global": [
+            706.048,
+            1806.88,
+            1.449
+          ],
+          "center_ego_t0": [
+            -0.8334064323758915,
+            -10.14413613723574
+          ],
+          "size_wlh": [
+            2.291,
+            5.791,
+            2.981
+          ],
+          "rotation_wxyz": [
+            -0.3670289303146622,
+            0.0,
+            0.0,
+            0.9302095271024022
+          ],
+          "yaw_global": -2.3899666113138895
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "f9e62aa89ee34d22b0d76e8cf668358f",
+          "translation_global": [
+            706.045,
+            1806.882,
+            1.469
+          ],
+          "center_ego_t0": [
+            -0.8341889980520121,
+            -10.147655738202133
+          ],
+          "size_wlh": [
+            2.291,
+            5.791,
+            2.981
+          ],
+          "rotation_wxyz": [
+            -0.3676627700348902,
+            0.0,
+            0.0,
+            0.9299591859486477
+          ],
+          "yaw_global": -2.3886036388238137
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "15b29803d13d488c82296d11736b015a",
+          "translation_global": [
+            706.043,
+            1806.884,
+            1.488
+          ],
+          "center_ego_t0": [
+            -0.8353324487207958,
+            -10.150242728841404
+          ],
+          "size_wlh": [
+            2.291,
+            5.791,
+            2.981
+          ],
+          "rotation_wxyz": [
+            -0.3682971259800458,
+            0.0,
+            0.0,
+            0.9297081407596893
+          ],
+          "yaw_global": -2.3872391885021003
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "c6789b23d4a84fe89377945b705d0cc3",
+          "translation_global": [
+            706.041,
+            1806.886,
+            1.504
+          ],
+          "center_ego_t0": [
+            -0.8364758993895787,
+            -10.152829719480676
+          ],
+          "size_wlh": [
+            2.291,
+            5.791,
+            2.981
+          ],
+          "rotation_wxyz": [
+            -0.368804511913991,
+            0.0,
+            0.0,
+            0.9295069832937689
+          ],
+          "yaw_global": -2.386147575348174
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "32c618ae1a83468e9da2dabb12433ff2",
+          "translation_global": [
+            706.039,
+            1806.888,
+            1.523
+          ],
+          "center_ego_t0": [
+            -0.8376193500583213,
+            -10.155416710120054
+          ],
+          "size_wlh": [
+            2.291,
+            5.791,
+            2.981
+          ],
+          "rotation_wxyz": [
+            -0.36943793072385234,
+            0.0,
+            0.0,
+            0.929255409100468
+          ],
+          "yaw_global": -2.3847844774332727
+        }
+      ]
+    },
+    {
+      "object_id": "de7bc639112c40ec9ebe406673f1487d",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "aa2735ee8b6d4541beb0ae41026c6405",
+          "translation_global": [
+            713.74,
+            1784.123,
+            0.956
+          ],
+          "center_ego_t0": [
+            17.614079416664755,
+            5.242162275620032
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "bd1663bbd7394569866d73e105998f70",
+          "translation_global": [
+            713.74,
+            1784.123,
+            1.01
+          ],
+          "center_ego_t0": [
+            17.614079416664755,
+            5.242162275620032
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "edb17068c0374bb5b231e2921e6c886a",
+          "translation_global": [
+            713.74,
+            1784.123,
+            1.064
+          ],
+          "center_ego_t0": [
+            17.614079416664755,
+            5.242162275620032
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "d6fcceb826b94892b326e9eae3c20fc2",
+          "translation_global": [
+            713.74,
+            1784.123,
+            1.106
+          ],
+          "center_ego_t0": [
+            17.614079416664755,
+            5.242162275620032
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "5e16e404d5524af2ba226c4f368969b1",
+          "translation_global": [
+            713.74,
+            1784.123,
+            1.106
+          ],
+          "center_ego_t0": [
+            17.614079416664755,
+            5.242162275620032
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "c2c271c1bc484bce81639bfda2083588",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "bd33ded3dffb4f909c1ee9fc2c856d7d",
+          "translation_global": [
+            725.902,
+            1791.918,
+            0.805
+          ],
+          "center_ego_t0": [
+            5.9552986370462015,
+            13.771470555474586
+          ],
+          "size_wlh": [
+            0.834,
+            1.128,
+            1.632
+          ],
+          "rotation_wxyz": [
+            -0.2616670161698685,
+            0.0,
+            0.0,
+            0.9651582112010226
+          ],
+          "yaw_global": -2.612094665016325
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "06d189ab5168467abab1dcc0d337423a",
+          "translation_global": [
+            725.253,
+            1791.375,
+            0.855
+          ],
+          "center_ego_t0": [
+            6.695920404843878,
+            13.362167004226702
+          ],
+          "size_wlh": [
+            0.834,
+            1.128,
+            1.632
+          ],
+          "rotation_wxyz": [
+            -0.21079593270939928,
+            0.0,
+            0.0,
+            0.9775300889247217
+          ],
+          "yaw_global": -2.7168144201359836
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "d83d7aea8cc54a849cd811b5be2eba45",
+          "translation_global": [
+            724.648,
+            1791.076,
+            0.905
+          ],
+          "center_ego_t0": [
+            7.193106313169137,
+            12.905842369166534
+          ],
+          "size_wlh": [
+            0.834,
+            1.128,
+            1.632
+          ],
+          "rotation_wxyz": [
+            -0.19370357505124622,
+            0.0,
+            0.0,
+            0.9810601026503759
+          ],
+          "yaw_global": -2.7517210051758707
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "49b2c953820043159866b4aff3c87395",
+          "translation_global": [
+            724.131,
+            1790.883,
+            0.945
+          ],
+          "center_ego_t0": [
+            7.5596776474771135,
+            12.493333633666644
+          ],
+          "size_wlh": [
+            0.834,
+            1.128,
+            1.632
+          ],
+          "rotation_wxyz": [
+            -0.20131216366945312,
+            0.0,
+            0.0,
+            0.9795271373263342
+          ],
+          "yaw_global": -2.736198002134048
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "970fe11691b641e7887e566669135484",
+          "translation_global": [
+            723.486,
+            1790.643,
+            0.995
+          ],
+          "center_ego_t0": [
+            8.016274946212498,
+            11.978412370959877
+          ],
+          "size_wlh": [
+            0.834,
+            1.128,
+            1.632
+          ],
+          "rotation_wxyz": [
+            -0.21079593270939928,
+            0.0,
+            0.0,
+            0.9775300889247217
+          ],
+          "yaw_global": -2.7168144201359836
+        }
+      ]
+    },
+    {
+      "object_id": "af7483c35ffa4ad193d14bbac3b0ab4e",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "380aa835368e47f8949413aa0a8f6765",
+          "translation_global": [
+            694.425,
+            1781.052,
+            0.301
+          ],
+          "center_ego_t0": [
+            27.448619363653133,
+            -11.662928378709296
+          ],
+          "size_wlh": [
+            0.734,
+            0.817,
+            1.807
+          ],
+          "rotation_wxyz": [
+            0.9838803565651028,
+            0.0,
+            0.0,
+            -0.17882797310635254
+          ],
+          "yaw_global": -0.3595901857908735
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "498044ea6d47491c84a55beee1122f77",
+          "translation_global": [
+            695.015,
+            1780.803,
+            0.34
+          ],
+          "center_ego_t0": [
+            27.467917189432782,
+            -11.022827922593137
+          ],
+          "size_wlh": [
+            0.734,
+            0.817,
+            1.807
+          ],
+          "rotation_wxyz": [
+            0.9834391750397414,
+            0.0,
+            0.0,
+            -0.18123848652301436
+          ],
+          "yaw_global": -0.36449129549192993
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "158531a64985411aa1ac7341c5be6f93",
+          "translation_global": [
+            695.605,
+            1780.553,
+            0.38
+          ],
+          "center_ego_t0": [
+            27.488147625539657,
+            -10.382366581484273
+          ],
+          "size_wlh": [
+            0.734,
+            0.817,
+            1.807
+          ],
+          "rotation_wxyz": [
+            0.9829915997816009,
+            0.0,
+            0.0,
+            -0.18365052343733987
+          ],
+          "yaw_global": -0.3693977193244353
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "1d1f8499c85c4c41aa1c32846bcf2276",
+          "translation_global": [
+            696.078,
+            1780.354,
+            0.412
+          ],
+          "center_ego_t0": [
+            27.50303847910558,
+            -9.869425783262818
+          ],
+          "size_wlh": [
+            0.734,
+            0.817,
+            1.807
+          ],
+          "rotation_wxyz": [
+            0.982629262357844,
+            0.0,
+            0.0,
+            -0.18557945133575374
+          ],
+          "yaw_global": -0.3733230486010488
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "9baf148350de409fbed66d1c9e566d20",
+          "translation_global": [
+            696.724,
+            1780.07,
+            0.432
+          ],
+          "center_ego_t0": [
+            27.534768106744444,
+            -9.164468174090429
+          ],
+          "size_wlh": [
+            0.734,
+            0.817,
+            1.807
+          ],
+          "rotation_wxyz": [
+            0.9868673164852128,
+            0.0,
+            0.0,
+            -0.16153296769785092
+          ],
+          "yaw_global": -0.32448764746032177
+        }
+      ]
+    },
+    {
+      "object_id": "ebcd168fd25247f68482853796c9327f",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "e0856054996a4bb8bce3dbddb3a86d1a",
+          "translation_global": [
+            711.208,
+            1784.92,
+            1.045
+          ],
+          "center_ego_t0": [
+            17.784549787357957,
+            2.5931675884385044
+          ],
+          "size_wlh": [
+            0.636,
+            0.864,
+            1.837
+          ],
+          "rotation_wxyz": [
+            -0.27507486770193224,
+            0.0,
+            0.0,
+            0.9614228087364916
+          ],
+          "yaw_global": -2.5842575069886005
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "46f1a55e9a274c798ff611e5e2525176",
+          "translation_global": [
+            711.208,
+            1784.92,
+            1.07
+          ],
+          "center_ego_t0": [
+            17.784549787357957,
+            2.5931675884385044
+          ],
+          "size_wlh": [
+            0.636,
+            0.864,
+            1.837
+          ],
+          "rotation_wxyz": [
+            -0.27507486770193224,
+            0.0,
+            0.0,
+            0.9614228087364916
+          ],
+          "yaw_global": -2.5842575069886005
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "31ccbad7d82d4222b647a66f7e597c83",
+          "translation_global": [
+            711.208,
+            1784.92,
+            1.095
+          ],
+          "center_ego_t0": [
+            17.784549787357957,
+            2.5931675884385044
+          ],
+          "size_wlh": [
+            0.636,
+            0.864,
+            1.837
+          ],
+          "rotation_wxyz": [
+            -0.27507486770193224,
+            0.0,
+            0.0,
+            0.9614228087364916
+          ],
+          "yaw_global": -2.5842575069886005
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "025c59db119e440cafbf75f6856d29b7",
+          "translation_global": [
+            711.208,
+            1784.92,
+            1.124
+          ],
+          "center_ego_t0": [
+            17.784549787357957,
+            2.5931675884385044
+          ],
+          "size_wlh": [
+            0.636,
+            0.864,
+            1.837
+          ],
+          "rotation_wxyz": [
+            -0.27507486770193224,
+            0.0,
+            0.0,
+            0.9614228087364916
+          ],
+          "yaw_global": -2.5842575069886005
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "a7adb258ef60493a9d3ae6853c145924",
+          "translation_global": [
+            711.208,
+            1784.92,
+            1.159
+          ],
+          "center_ego_t0": [
+            17.784549787357957,
+            2.5931675884385044
+          ],
+          "size_wlh": [
+            0.636,
+            0.864,
+            1.837
+          ],
+          "rotation_wxyz": [
+            -0.27507486770193224,
+            0.0,
+            0.0,
+            0.9614228087364916
+          ],
+          "yaw_global": -2.5842575069886005
+        }
+      ]
+    },
+    {
+      "object_id": "9256b7cc27954e7bb5e3a3fb8c62474c",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "dd444ca13f4940cfbf6243fcc98174eb",
+          "translation_global": [
+            713.041,
+            1785.085,
+            0.717
+          ],
+          "center_ego_t0": [
+            16.969166891905058,
+            4.243096294111309
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.44612752377041553,
+            0.0,
+            0.0,
+            0.8949694031275468
+          ],
+          "yaw_global": 2.2167252296272264
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "c2072cbe440d40ed825b9c618dd27ea1",
+          "translation_global": [
+            713.041,
+            1785.085,
+            0.767
+          ],
+          "center_ego_t0": [
+            16.969166891905058,
+            4.243096294111309
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.44612752377041553,
+            0.0,
+            0.0,
+            0.8949694031275468
+          ],
+          "yaw_global": 2.2167252296272264
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "80989dae0cc8489b8bea1309b638a70e",
+          "translation_global": [
+            713.041,
+            1785.085,
+            0.784
+          ],
+          "center_ego_t0": [
+            16.969166891905058,
+            4.243096294111309
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.44612752377041553,
+            0.0,
+            0.0,
+            0.8949694031275468
+          ],
+          "yaw_global": 2.2167252296272264
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "66775c90658e4907bcc63c8f9e3ec4b2",
+          "translation_global": [
+            713.041,
+            1785.085,
+            0.799
+          ],
+          "center_ego_t0": [
+            16.969166891905058,
+            4.243096294111309
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.44612752377041553,
+            0.0,
+            0.0,
+            0.8949694031275468
+          ],
+          "yaw_global": 2.2167252296272264
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "b2f5fb744d464c179d0d722c7924a6a5",
+          "translation_global": [
+            713.041,
+            1785.085,
+            0.817
+          ],
+          "center_ego_t0": [
+            16.969166891905058,
+            4.243096294111309
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.281
+          ],
+          "rotation_wxyz": [
+            0.44612752377041553,
+            0.0,
+            0.0,
+            0.8949694031275468
+          ],
+          "yaw_global": 2.2167252296272264
+        }
+      ]
+    },
+    {
+      "object_id": "856aeb4fa2024f1284c6290a44e9dec5",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "a7cc946ca1f24d62a8d3b5a0f9d03739",
+          "translation_global": [
+            687.275,
+            1797.077,
+            0.593
+          ],
+          "center_ego_t0": [
+            15.083866570212194,
+            -24.114274223922056
+          ],
+          "size_wlh": [
+            1.689,
+            4.654,
+            1.61
+          ],
+          "rotation_wxyz": [
+            -0.381514082756897,
+            0.0,
+            0.0,
+            0.9243630264447856
+          ],
+          "yaw_global": -2.358725217442405
+        }
+      ]
+    },
+    {
+      "object_id": "6c7970e410604a148cacfa37fbbf4e34",
+      "class": "vehicle.bicycle",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "c381e045f2dd44e2ba298e2225247e3d",
+          "translation_global": [
+            737.946,
+            1804.955,
+            0.907
+          ],
+          "center_ego_t0": [
+            -10.549641047764185,
+            20.29897168536891
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.137
+          ],
+          "rotation_wxyz": [
+            0.9294294540349278,
+            0.0,
+            0.0,
+            -0.36899985091099424
+          ],
+          "yaw_global": -0.7558654024492939
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "a6f55546a38a45cc82a39ff3088c37ac",
+          "translation_global": [
+            737.946,
+            1804.955,
+            0.857
+          ],
+          "center_ego_t0": [
+            -10.549641047764185,
+            20.29897168536891
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.137
+          ],
+          "rotation_wxyz": [
+            0.9294294540349278,
+            0.0,
+            0.0,
+            -0.36899985091099424
+          ],
+          "yaw_global": -0.7558654024492939
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "1ce80ba414ba417fafbcf85bce7d484a",
+          "translation_global": [
+            737.946,
+            1804.955,
+            0.807
+          ],
+          "center_ego_t0": [
+            -10.549641047764185,
+            20.29897168536891
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.137
+          ],
+          "rotation_wxyz": [
+            0.9294294540349278,
+            0.0,
+            0.0,
+            -0.36899985091099424
+          ],
+          "yaw_global": -0.7558654024492939
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "5445b0efa738486f9724d0c1b3628b41",
+          "translation_global": [
+            737.946,
+            1804.955,
+            0.851
+          ],
+          "center_ego_t0": [
+            -10.549641047764185,
+            20.29897168536891
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.137
+          ],
+          "rotation_wxyz": [
+            0.9294294540349278,
+            0.0,
+            0.0,
+            -0.36899985091099424
+          ],
+          "yaw_global": -0.7558654024492939
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "db3272c796044167a983efceb6b30718",
+          "translation_global": [
+            737.946,
+            1804.955,
+            0.907
+          ],
+          "center_ego_t0": [
+            -10.549641047764185,
+            20.29897168536891
+          ],
+          "size_wlh": [
+            0.55,
+            1.833,
+            1.137
+          ],
+          "rotation_wxyz": [
+            0.9294294540349278,
+            0.0,
+            0.0,
+            -0.36899985091099424
+          ],
+          "yaw_global": -0.7558654024492939
+        }
+      ]
+    },
+    {
+      "object_id": "eeabbd601fff49c08c086829bfe13287",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "a678d9d26f784565a8465aded8f6ced4",
+          "translation_global": [
+            712.495,
+            1783.739,
+            1.106
+          ],
+          "center_ego_t0": [
+            18.42150359807171,
+            4.21964225563053
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "915011ec72d14b099527eb4182a12cd8",
+          "translation_global": [
+            712.495,
+            1783.739,
+            1.106
+          ],
+          "center_ego_t0": [
+            18.42150359807171,
+            4.21964225563053
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "4c2220dd3d5b410fbf1f289d827afab9",
+          "translation_global": [
+            712.495,
+            1783.739,
+            1.106
+          ],
+          "center_ego_t0": [
+            18.42150359807171,
+            4.21964225563053
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "6d21236682784734a0cf63a5e6bb38f4",
+          "translation_global": [
+            712.495,
+            1783.739,
+            1.106
+          ],
+          "center_ego_t0": [
+            18.42150359807171,
+            4.21964225563053
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "c460dc2ed9a74c86943ff9b498880543",
+          "translation_global": [
+            712.495,
+            1783.739,
+            1.106
+          ],
+          "center_ego_t0": [
+            18.42150359807171,
+            4.21964225563053
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.785
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "29d3fb54f8b746118133456815b12eeb",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "0ba7d0afe58840e1a57eb719059e24f5",
+          "translation_global": [
+            690.116,
+            1805.765,
+            0.772
+          ],
+          "center_ego_t0": [
+            5.956073784860673,
+            -24.600097100788247
+          ],
+          "size_wlh": [
+            1.86,
+            4.983,
+            1.603
+          ],
+          "rotation_wxyz": [
+            0.9332830074355157,
+            0.0,
+            0.0,
+            0.359141793769702
+          ],
+          "yaw_global": 0.7346963485882505
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "ff6cc00af1fb4b16966d0ea1ea0c11d0",
+          "translation_global": [
+            690.116,
+            1805.765,
+            0.772
+          ],
+          "center_ego_t0": [
+            5.956073784860673,
+            -24.600097100788247
+          ],
+          "size_wlh": [
+            1.86,
+            4.983,
+            1.603
+          ],
+          "rotation_wxyz": [
+            0.9332830074355157,
+            0.0,
+            0.0,
+            0.359141793769702
+          ],
+          "yaw_global": 0.7346963485882505
+        }
+      ]
+    },
+    {
+      "object_id": "2197057ff31949819b309f2c7ec9a113",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "7e95dc15c0b2461f909a572183628d63",
+          "translation_global": [
+            688.419,
+            1807.543,
+            0.804
+          ],
+          "center_ego_t0": [
+            4.910314455885285,
+            -26.824390342665364
+          ],
+          "size_wlh": [
+            1.858,
+            4.863,
+            1.627
+          ],
+          "rotation_wxyz": [
+            0.929747570589332,
+            0.0,
+            0.0,
+            0.36819757601488246
+          ],
+          "yaw_global": 0.7541393164753636
+        }
+      ]
+    },
+    {
+      "object_id": "0633f89a039a4e05bf60e53b57d1129d",
+      "class": "vehicle.motorcycle",
+      "states": [
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "61df67617872472eadd934983e311f51",
+          "translation_global": [
+            699.722,
+            1775.941,
+            -0.129
+          ],
+          "center_ego_t0": [
+            30.30358293916884,
+            -4.878408279064989
+          ],
+          "size_wlh": [
+            0.666,
+            2.025,
+            1.399
+          ],
+          "rotation_wxyz": [
+            -0.3812478694668912,
+            0.0,
+            0.0,
+            0.9244728562953897
+          ],
+          "yaw_global": -2.3593011761646503
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "45fefe08cf32470c85b1f9e447850d30",
+          "translation_global": [
+            699.703,
+            1775.934,
+            -0.072
+          ],
+          "center_ego_t0": [
+            30.316968026318133,
+            -4.8936016803302405
+          ],
+          "size_wlh": [
+            0.666,
+            2.025,
+            1.399
+          ],
+          "rotation_wxyz": [
+            -0.37801753589206716,
+            0.0,
+            0.0,
+            0.9257984351672289
+          ],
+          "yaw_global": -2.3662846500101318
+        }
+      ]
+    },
+    {
+      "object_id": "54ca0158a30a4d8291684544ddbeff3f",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "b71f75209d68467093e02f27cff04382",
+          "translation_global": [
+            711.488,
+            1784.329,
+            0.972
+          ],
+          "center_ego_t0": [
+            18.234674692699663,
+            3.0675815106533904
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.826
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "884acf480a8e4b748691d7932bb17a76",
+          "translation_global": [
+            711.488,
+            1784.329,
+            0.999
+          ],
+          "center_ego_t0": [
+            18.234674692699663,
+            3.0675815106533904
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.826
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "04fc60c732e84f7f8e415ed27058ddbb",
+          "translation_global": [
+            711.488,
+            1784.329,
+            1.025
+          ],
+          "center_ego_t0": [
+            18.234674692699663,
+            3.0675815106533904
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.826
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "b19c15519a7f4bb6acbf1a8e88717812",
+          "translation_global": [
+            711.488,
+            1784.329,
+            1.046
+          ],
+          "center_ego_t0": [
+            18.234674692699663,
+            3.0675815106533904
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.826
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "589a45736d69484f9f329b2e94ef7977",
+          "translation_global": [
+            711.488,
+            1784.329,
+            1.072
+          ],
+          "center_ego_t0": [
+            18.234674692699663,
+            3.0675815106533904
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.826
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "fd4862434baa4c208cff8861f181feaa",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "236c254a11b147b4b0b427d45c8bf3c3",
+          "translation_global": [
+            719.793,
+            1818.052,
+            1.145
+          ],
+          "center_ego_t0": [
+            -16.212893229728884,
+            -1.3572143297971069
+          ],
+          "size_wlh": [
+            0.451,
+            0.894,
+            1.695
+          ],
+          "rotation_wxyz": [
+            0.9061897343975379,
+            0.0,
+            0.0,
+            -0.4228713341815919
+          ],
+          "yaw_global": -0.8732231314544251
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "f418d79aabe847df9b07192b546712d3",
+          "translation_global": [
+            720.246,
+            1817.505,
+            1.171
+          ],
+          "center_ego_t0": [
+            -15.86623628250212,
+            -0.7373377606809828
+          ],
+          "size_wlh": [
+            0.451,
+            0.894,
+            1.695
+          ],
+          "rotation_wxyz": [
+            0.9071579327368559,
+            0.0,
+            0.0,
+            -0.42079031009826506
+          ],
+          "yaw_global": -0.8686326754542617
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "ce44df6970354b4188a0e33e621f15b1",
+          "translation_global": [
+            720.699,
+            1816.957,
+            1.198
+          ],
+          "center_ego_t0": [
+            -15.518646724948132,
+            -0.11710030657215403
+          ],
+          "size_wlh": [
+            0.451,
+            0.894,
+            1.695
+          ],
+          "rotation_wxyz": [
+            0.9081223941176033,
+            0.0,
+            0.0,
+            -0.4187048092655639
+          ],
+          "yaw_global": -0.8640372421554696
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "c2ee4c2b0190479fb3fff6f163a682e4",
+          "translation_global": [
+            721.062,
+            1816.518,
+            1.219
+          ],
+          "center_ego_t0": [
+            -15.240232043704253,
+            0.37986575390680727
+          ],
+          "size_wlh": [
+            0.451,
+            0.894,
+            1.695
+          ],
+          "rotation_wxyz": [
+            0.9088905486231879,
+            0.0,
+            0.0,
+            -0.4170347355118523
+          ],
+          "yaw_global": -0.8603607173622043
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "5598ddeeb6c447eaa4ba4462d0d52e45",
+          "translation_global": [
+            721.515,
+            1815.971,
+            1.245
+          ],
+          "center_ego_t0": [
+            -14.89357509647728,
+            0.999742323023014
+          ],
+          "size_wlh": [
+            0.451,
+            0.894,
+            1.695
+          ],
+          "rotation_wxyz": [
+            0.9098454311781531,
+            0.0,
+            0.0,
+            -0.4149473356514544
+          ],
+          "yaw_global": -0.8557698389344819
+        }
+      ]
+    },
+    {
+      "object_id": "c6d85e602dd342d99758b41e64e86e12",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "9194fa78b86f470f9415a5db4257ae9f",
+          "translation_global": [
+            708.598,
+            1781.03,
+            0.994
+          ],
+          "center_ego_t0": [
+            22.354313790293638,
+            1.5628972562081112
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.725
+          ],
+          "rotation_wxyz": [
+            0.38261086987373943,
+            0.0,
+            0.0,
+            0.9239095855409556
+          ],
+          "yaw_global": 2.356351569786773
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "100646dd28f14b3c8d293bc76721123f",
+          "translation_global": [
+            708.675,
+            1780.954,
+            0.997
+          ],
+          "center_ego_t0": [
+            22.397404030715826,
+            1.6621355108298097
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.725
+          ],
+          "rotation_wxyz": [
+            0.38261086987373943,
+            0.0,
+            0.0,
+            0.9239095855409556
+          ],
+          "yaw_global": 2.356351569786773
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "9feb23b67587412ab605223339e371d5",
+          "translation_global": [
+            708.736,
+            1780.892,
+            1.0
+          ],
+          "center_ego_t0": [
+            22.43321188644147,
+            1.741399610322095
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.725
+          ],
+          "rotation_wxyz": [
+            0.38261086987373943,
+            0.0,
+            0.0,
+            0.9239095855409556
+          ],
+          "yaw_global": 2.356351569786773
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "c6d00f7327844f49b55920459bf808f0",
+          "translation_global": [
+            708.812,
+            1780.816,
+            1.004
+          ],
+          "center_ego_t0": [
+            22.47666301185628,
+            1.8397052546167798
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.725
+          ],
+          "rotation_wxyz": [
+            0.38261086987373943,
+            0.0,
+            0.0,
+            0.9239095855409556
+          ],
+          "yaw_global": 2.356351569786773
+        }
+      ]
+    },
+    {
+      "object_id": "7e44b8c21c1a415c86f3bb874c4b01c0",
+      "class": "vehicle.truck",
+      "states": [
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "bcfb23aa87b043d092088e7b8e20dc62",
+          "translation_global": [
+            662.588,
+            1804.135,
+            1.295
+          ],
+          "center_ego_t0": [
+            17.41067069506585,
+            -49.68475164544402
+          ],
+          "size_wlh": [
+            1.879,
+            5.451,
+            2.291
+          ],
+          "rotation_wxyz": [
+            0.923217245553149,
+            0.0,
+            0.0,
+            0.38427843748154344
+          ],
+          "yaw_global": 0.7888522427698953
+        }
+      ]
+    },
+    {
+      "object_id": "b825554384e042baba291f6f75c1ba49",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "7776a19f4a084024a12de8d90bdf001c",
+          "translation_global": [
+            706.833,
+            1781.278,
+            1.093
+          ],
+          "center_ego_t0": [
+            22.75998844118179,
+            -0.1726594491826266
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.737
+          ],
+          "rotation_wxyz": [
+            0.9298445140085382,
+            0.0,
+            0.0,
+            0.367952686860995
+          ],
+          "yaw_global": 0.7536125576135678
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "a5b3b107020c41de87e28ebef5125cc2",
+          "translation_global": [
+            706.843,
+            1781.356,
+            1.11
+          ],
+          "center_ego_t0": [
+            22.68363598574671,
+            -0.19148237533745766
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.737
+          ],
+          "rotation_wxyz": [
+            0.9298445140085382,
+            0.0,
+            0.0,
+            0.367952686860995
+          ],
+          "yaw_global": 0.7536125576135678
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "0ae51801670849ffad6d397ccaaf467a",
+          "translation_global": [
+            706.853,
+            1781.434,
+            1.128
+          ],
+          "center_ego_t0": [
+            22.607283530311634,
+            -0.2103053014922896
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.737
+          ],
+          "rotation_wxyz": [
+            0.9298445140085382,
+            0.0,
+            0.0,
+            0.367952686860995
+          ],
+          "yaw_global": 0.7536125576135678
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "189afc94c16a4e3db1349070e1bc7d1e",
+          "translation_global": [
+            706.888,
+            1781.5,
+            1.142
+          ],
+          "center_ego_t0": [
+            22.533100273985134,
+            -0.2014823495595914
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.737
+          ],
+          "rotation_wxyz": [
+            0.9298445140085382,
+            0.0,
+            0.0,
+            0.367952686860995
+          ],
+          "yaw_global": 0.7536125576135678
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "4eb26504b1344608b59bbe6164e76ea7",
+          "translation_global": [
+            706.932,
+            1781.582,
+            1.159
+          ],
+          "center_ego_t0": [
+            22.440747287492346,
+            -0.19004006456578065
+          ],
+          "size_wlh": [
+            0.646,
+            0.553,
+            1.737
+          ],
+          "rotation_wxyz": [
+            0.9298445140085382,
+            0.0,
+            0.0,
+            0.367952686860995
+          ],
+          "yaw_global": 0.7536125576135678
+        }
+      ]
+    },
+    {
+      "object_id": "55527032f0174fefa3b051a24707bf08",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "ac2c696329d84dcfa092bb628d2b9a05",
+          "translation_global": [
+            682.759,
+            1802.567,
+            0.875
+          ],
+          "center_ego_t0": [
+            11.593592501505203,
+            -30.307201070358342
+          ],
+          "size_wlh": [
+            1.801,
+            4.766,
+            1.635
+          ],
+          "rotation_wxyz": [
+            -0.38532631848515325,
+            0.0,
+            0.0,
+            0.9227803792250235
+          ],
+          "yaw_global": -2.350469810084572
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "25f36bdd853d447283c5d110c73a25e4",
+          "translation_global": [
+            682.765,
+            1802.587,
+            0.889
+          ],
+          "center_ego_t0": [
+            11.57277498500873,
+            -30.30882310824876
+          ],
+          "size_wlh": [
+            1.801,
+            4.766,
+            1.635
+          ],
+          "rotation_wxyz": [
+            -0.3830215227322135,
+            0.0,
+            0.0,
+            0.9237394184097031
+          ],
+          "yaw_global": -2.3554625419447226
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "dadcbd32946b4b84b749e798bc0bc6ef",
+          "translation_global": [
+            682.774,
+            1802.612,
+            0.907
+          ],
+          "center_ego_t0": [
+            11.546211761899066,
+            -30.309451740121222
+          ],
+          "size_wlh": [
+            1.801,
+            4.766,
+            1.635
+          ],
+          "rotation_wxyz": [
+            -0.3801401735536113,
+            0.0,
+            0.0,
+            0.924928888320951
+          ],
+          "yaw_global": -2.3616969688236473
+        }
+      ]
+    },
+    {
+      "object_id": "b7ff9843f0bc4154a865230adb65a45d",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "88f5630b6b6448e4a166ab255d6defc0",
+          "translation_global": [
+            710.94,
+            1784.138,
+            0.925
+          ],
+          "center_ego_t0": [
+            18.610568241125144,
+            2.625440085030192
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "499107e7a04d4082acdeeaa5030efcef",
+          "translation_global": [
+            710.901,
+            1784.112,
+            0.978
+          ],
+          "center_ego_t0": [
+            18.64889062434056,
+            2.598451292084037
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "78080039d7b347ad9cfc7e51c0af4f97",
+          "translation_global": [
+            710.862,
+            1784.085,
+            1.032
+          ],
+          "center_ego_t0": [
+            18.68814561788316,
+            2.571823384130693
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "a2919647522545d1b89806751402c211",
+          "translation_global": [
+            710.831,
+            1784.064,
+            1.075
+          ],
+          "center_ego_t0": [
+            18.718917869522404,
+            2.5504910488378565
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "fe1b93435cbe4ef395666017cbdab5f7",
+          "translation_global": [
+            710.826,
+            1784.072,
+            1.075
+          ],
+          "center_ego_t0": [
+            18.713261411869446,
+            2.5429409172617046
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "4b8ef2beabcf4121af0f287cd1a7fd55",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "0b11e7bd9ece47639d780d6df2725ae7",
+          "translation_global": [
+            709.081,
+            1782.963,
+            0.937
+          ],
+          "center_ego_t0": [
+            20.37727057669266,
+            1.315757353411451
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "082908ee18914d098abce8a53e025540",
+          "translation_global": [
+            709.054,
+            1783.001,
+            1.008
+          ],
+          "center_ego_t0": [
+            20.351575279066324,
+            1.276863244861473
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "1ec90f89952f4bc5a78cc745b82edc77",
+          "translation_global": [
+            709.028,
+            1783.04,
+            1.08
+          ],
+          "center_ego_t0": [
+            20.324586486120317,
+            1.2385408616459925
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "0773d9cae58b4afcabb11a05428b1942",
+          "translation_global": [
+            709.007,
+            1783.071,
+            1.137
+          ],
+          "center_ego_t0": [
+            20.303254150827524,
+            1.2077686100066407
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "ebdfd55714304f01be2dc19158940ddd",
+          "translation_global": [
+            709.008,
+            1783.05,
+            1.117
+          ],
+          "center_ego_t0": [
+            20.322478082702574,
+            1.2162798051789885
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.46940221481310074,
+            0.0,
+            0.0,
+            0.882984462336997
+          ],
+          "yaw_global": 2.1643653520673967
+        }
+      ]
+    },
+    {
+      "object_id": "89eaf741be444d7e8fcc4748482d338d",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "9a8b4713ac53417483c0a1aa626c0aef",
+          "translation_global": [
+            717.643,
+            1792.23,
+            0.798
+          ],
+          "center_ego_t0": [
+            8.644873369147447,
+            5.956445746784415
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.78
+          ],
+          "rotation_wxyz": [
+            -0.35218470855718037,
+            0.0,
+            0.0,
+            0.9359305161487651
+          ],
+          "yaw_global": -2.4217839633670075
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "06a956c4a320412db55652030286f520",
+          "translation_global": [
+            717.053,
+            1791.706,
+            0.845
+          ],
+          "center_ego_t0": [
+            9.346483326166451,
+            5.595309389971718
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.78
+          ],
+          "rotation_wxyz": [
+            -0.3603343185010561,
+            0.0,
+            0.0,
+            0.9328232302587557
+          ],
+          "yaw_global": -2.4043401277701886
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "25668fb6165a494f8e496e630884a8d1",
+          "translation_global": [
+            716.463,
+            1791.182,
+            0.892
+          ],
+          "center_ego_t0": [
+            10.048093283185244,
+            5.234173033158939
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.78
+          ],
+          "rotation_wxyz": [
+            -0.36846530888510676,
+            0.0,
+            0.0,
+            0.9296414987231384
+          ],
+          "yaw_global": -2.386877378327121
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "2c96df7c8bff41819847d38c83f0e823",
+          "translation_global": [
+            716.068,
+            1790.819,
+            0.89
+          ],
+          "center_ego_t0": [
+            10.529180403988422,
+            4.996793206304729
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.78
+          ],
+          "rotation_wxyz": [
+            -0.38285116467726826,
+            0.0,
+            0.0,
+            0.9238100376729294
+          ],
+          "yaw_global": -2.3558313722434763
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "46d6a716422248dd8baace2ebd9922d1",
+          "translation_global": [
+            715.591,
+            1790.349,
+            0.887
+          ],
+          "center_ego_t0": [
+            11.139649399180124,
+            4.721554026845053
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.78
+          ],
+          "rotation_wxyz": [
+            -0.4006848701937293,
+            0.0,
+            0.0,
+            0.9162159324077672
+          ],
+          "yaw_global": -2.317064208247349
+        }
+      ]
+    },
+    {
+      "object_id": "e3f3d97fa9564422a37828d01c8a2f5f",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "a9c79341fde343a9ae9cc516180e952a",
+          "translation_global": [
+            684.809,
+            1782.519,
+            -0.141
+          ],
+          "center_ego_t0": [
+            29.550750103027745,
+            -21.160327567675523
+          ],
+          "size_wlh": [
+            1.706,
+            4.125,
+            1.436
+          ],
+          "rotation_wxyz": [
+            0.9290195954804248,
+            0.0,
+            0.0,
+            0.37003052740738557
+          ],
+          "yaw_global": 0.7580837605818278
+        }
+      ]
+    },
+    {
+      "object_id": "e5a06b589b93428c867bd6a92ed6da93",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "73831cee1aef4d5e8f2259683bcb773d",
+          "translation_global": [
+            710.195,
+            1783.901,
+            1.049
+          ],
+          "center_ego_t0": [
+            19.100456208142344,
+            2.0161751346418666
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.9457089059513766,
+            0.0,
+            0.0,
+            0.32501486920485717
+          ],
+          "yaw_global": 0.6620549017208515
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "6b6beac9a5de40f4b49ac2f2b65736d4",
+          "translation_global": [
+            710.195,
+            1783.901,
+            1.049
+          ],
+          "center_ego_t0": [
+            19.100456208142344,
+            2.0161751346418666
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.9457089059513766,
+            0.0,
+            0.0,
+            0.32501486920485717
+          ],
+          "yaw_global": 0.6620549017208515
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "a879df1493a44a0ba7e924aa69e145ce",
+          "translation_global": [
+            710.195,
+            1783.901,
+            1.049
+          ],
+          "center_ego_t0": [
+            19.100456208142344,
+            2.0161751346418666
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.9457089059513766,
+            0.0,
+            0.0,
+            0.32501486920485717
+          ],
+          "yaw_global": 0.6620549017208515
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "de42c72e91474a4a8063b214f719c781",
+          "translation_global": [
+            710.195,
+            1783.901,
+            1.049
+          ],
+          "center_ego_t0": [
+            19.100456208142344,
+            2.0161751346418666
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.9457089059513766,
+            0.0,
+            0.0,
+            0.32501486920485717
+          ],
+          "yaw_global": 0.6620549017208515
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "9bccf839d68e474ca891221023645850",
+          "translation_global": [
+            710.195,
+            1783.901,
+            1.049
+          ],
+          "center_ego_t0": [
+            19.100456208142344,
+            2.0161751346418666
+          ],
+          "size_wlh": [
+            0.636,
+            0.58,
+            1.697
+          ],
+          "rotation_wxyz": [
+            0.9457089059513766,
+            0.0,
+            0.0,
+            0.32501486920485717
+          ],
+          "yaw_global": 0.6620549017208515
+        }
+      ]
+    },
+    {
+      "object_id": "1a074d62265a4117964cb47c9a2e4842",
+      "class": "vehicle.motorcycle",
+      "states": [
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "b010f69454114423804fc6b05154913b",
+          "translation_global": [
+            704.398,
+            1779.28,
+            0.702
+          ],
+          "center_ego_t0": [
+            25.50209883165514,
+            -1.7225173802388891
+          ],
+          "size_wlh": [
+            0.557,
+            1.667,
+            1.339
+          ],
+          "rotation_wxyz": [
+            -0.3780831662209755,
+            0.0,
+            0.0,
+            0.9257716345947969
+          ],
+          "yaw_global": -2.366142866925705
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "26634dc38d334d48b8bf006dc7f98785",
+          "translation_global": [
+            704.398,
+            1779.28,
+            0.652
+          ],
+          "center_ego_t0": [
+            25.50209883165514,
+            -1.7225173802388891
+          ],
+          "size_wlh": [
+            0.557,
+            1.667,
+            1.339
+          ],
+          "rotation_wxyz": [
+            -0.3780831662209755,
+            0.0,
+            0.0,
+            0.9257716345947969
+          ],
+          "yaw_global": -2.366142866925705
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "abe936ee20db4413bd3c897c53d6a375",
+          "translation_global": [
+            704.398,
+            1779.28,
+            0.613
+          ],
+          "center_ego_t0": [
+            25.50209883165514,
+            -1.7225173802388891
+          ],
+          "size_wlh": [
+            0.557,
+            1.667,
+            1.339
+          ],
+          "rotation_wxyz": [
+            -0.3780831662209755,
+            0.0,
+            0.0,
+            0.9257716345947969
+          ],
+          "yaw_global": -2.366142866925705
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "7ecbc86d86224554a8a11be123b85fc9",
+          "translation_global": [
+            704.472,
+            1779.276,
+            0.544
+          ],
+          "center_ego_t0": [
+            25.479123783508545,
+            -1.6520606760677876
+          ],
+          "size_wlh": [
+            0.557,
+            1.667,
+            1.339
+          ],
+          "rotation_wxyz": [
+            -0.3780831662209755,
+            0.0,
+            0.0,
+            0.9257716345947969
+          ],
+          "yaw_global": -2.366142866925705
+        }
+      ]
+    },
+    {
+      "object_id": "090067814c7e4bbea134dcd018d2083f",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "eddddda9202a4677bd9c8748215aa72b",
+          "translation_global": [
+            685.225,
+            1811.442,
+            1.309
+          ],
+          "center_ego_t0": [
+            2.4267334572345622,
+            -31.210238313484886
+          ],
+          "size_wlh": [
+            1.737,
+            4.572,
+            1.765
+          ],
+          "rotation_wxyz": [
+            -0.40766120834020664,
+            0.0,
+            0.0,
+            0.9131332538105282
+          ],
+          "yaw_global": -2.3018100306857137
+        }
+      ]
+    },
+    {
+      "object_id": "8fba9861aa6d4d14b78c90fbb5372fb2",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "ff00844d9478453eaff43c335d618941",
+          "translation_global": [
+            686.716,
+            1781.036,
+            -0.203
+          ],
+          "center_ego_t0": [
+            30.245603537075244,
+            -18.84664722994682
+          ],
+          "size_wlh": [
+            1.54,
+            4.031,
+            1.568
+          ],
+          "rotation_wxyz": [
+            0.9257551367280017,
+            0.0,
+            0.0,
+            0.3781235602573831
+          ],
+          "yaw_global": 0.7755370531017697
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "4ef4c2d1d155489cbfcb089187356361",
+          "translation_global": [
+            686.704,
+            1781.011,
+            -0.153
+          ],
+          "center_ego_t0": [
+            30.273249415162812,
+            -18.848816429055507
+          ],
+          "size_wlh": [
+            1.54,
+            4.031,
+            1.568
+          ],
+          "rotation_wxyz": [
+            0.9264409340804519,
+            0.0,
+            0.0,
+            0.37644016212426074
+          ],
+          "yaw_global": 0.7719015898889123
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "df57f16d96904dfca1ece6f1382378e2",
+          "translation_global": [
+            686.693,
+            1780.986,
+            -0.103
+          ],
+          "center_ego_t0": [
+            30.30053440825751,
+            -18.850053017837155
+          ],
+          "size_wlh": [
+            1.54,
+            4.031,
+            1.568
+          ],
+          "rotation_wxyz": [
+            0.9271244089446286,
+            0.0,
+            0.0,
+            0.3747536928958448
+          ],
+          "yaw_global": 0.7682621848484747
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "fb1715beb079496f9b06fedce9d9daaf",
+          "translation_global": [
+            686.683,
+            1780.966,
+            -0.063
+          ],
+          "center_ego_t0": [
+            30.322795464724724,
+            -18.852161421254817
+          ],
+          "size_wlh": [
+            1.54,
+            4.031,
+            1.568
+          ],
+          "rotation_wxyz": [
+            0.9276690048846581,
+            0.0,
+            0.0,
+            0.37340355833375277
+          ],
+          "yaw_global": 0.7653505197248794
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "1a75a54872dd4be6af88baddb5712533",
+          "translation_global": [
+            686.671,
+            1780.941,
+            -0.013
+          ],
+          "center_ego_t0": [
+            30.350441342812044,
+            -18.854330620363477
+          ],
+          "size_wlh": [
+            1.54,
+            4.031,
+            1.568
+          ],
+          "rotation_wxyz": [
+            0.9283462815615025,
+            0.0,
+            0.0,
+            0.3717165338143187
+          ],
+          "yaw_global": 0.7617147219657696
+        }
+      ]
+    },
+    {
+      "object_id": "7db99b003c8d4a7db1afc75160f47387",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "e4d244fbdf2d4222ad3e323c6e6d22dd",
+          "translation_global": [
+            731.902,
+            1797.509,
+            1.022
+          ],
+          "center_ego_t0": [
+            -1.4242356571954378,
+            17.34942452389186
+          ],
+          "size_wlh": [
+            0.87,
+            1.189,
+            1.889
+          ],
+          "rotation_wxyz": [
+            0.16534884195566923,
+            0.0,
+            0.0,
+            0.9862351446100058
+          ],
+          "yaw_global": 2.8093692304649904
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "7910137e954049a5ad9e9cd2f05def6c",
+          "translation_global": [
+            731.902,
+            1797.509,
+            1.041
+          ],
+          "center_ego_t0": [
+            -1.4242356571954378,
+            17.34942452389186
+          ],
+          "size_wlh": [
+            0.87,
+            1.189,
+            1.889
+          ],
+          "rotation_wxyz": [
+            0.16534884195566923,
+            0.0,
+            0.0,
+            0.9862351446100058
+          ],
+          "yaw_global": 2.8093692304649904
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "987aa926238d4a1b8b0ec474b5b69c3b",
+          "translation_global": [
+            731.902,
+            1797.509,
+            1.059
+          ],
+          "center_ego_t0": [
+            -1.4242356571954378,
+            17.34942452389186
+          ],
+          "size_wlh": [
+            0.87,
+            1.189,
+            1.889
+          ],
+          "rotation_wxyz": [
+            0.16534884195566923,
+            0.0,
+            0.0,
+            0.9862351446100058
+          ],
+          "yaw_global": 2.8093692304649904
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "d21556673d014c0eacd07bd53e71fa56",
+          "translation_global": [
+            731.902,
+            1797.509,
+            1.074
+          ],
+          "center_ego_t0": [
+            -1.4242356571954378,
+            17.34942452389186
+          ],
+          "size_wlh": [
+            0.87,
+            1.189,
+            1.889
+          ],
+          "rotation_wxyz": [
+            0.16534884195566923,
+            0.0,
+            0.0,
+            0.9862351446100058
+          ],
+          "yaw_global": 2.8093692304649904
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "cbf368804c5447d4af7da1f9109d8eb0",
+          "translation_global": [
+            731.902,
+            1797.509,
+            1.093
+          ],
+          "center_ego_t0": [
+            -1.4242356571954378,
+            17.34942452389186
+          ],
+          "size_wlh": [
+            0.87,
+            1.189,
+            1.889
+          ],
+          "rotation_wxyz": [
+            0.16534884195566923,
+            0.0,
+            0.0,
+            0.9862351446100058
+          ],
+          "yaw_global": 2.8093692304649904
+        }
+      ]
+    },
+    {
+      "object_id": "68d411d0e8664a09b4c59787793b0b87",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "ff2a69b6ad9140839c86bb0d23633512",
+          "translation_global": [
+            717.637,
+            1791.286,
+            0.785
+          ],
+          "center_ego_t0": [
+            9.527422827825095,
+            6.291525517865441
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.829
+          ],
+          "rotation_wxyz": [
+            -0.10228830394106937,
+            0.0,
+            0.0,
+            0.9947547953525328
+          ],
+          "yaw_global": -2.9366576115123713
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "5287f9133716410c82ebf0aa10c13b1f",
+          "translation_global": [
+            717.094,
+            1790.753,
+            0.83
+          ],
+          "center_ego_t0": [
+            10.220464683133747,
+            5.977469811357241
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.829
+          ],
+          "rotation_wxyz": [
+            -0.10228830394106937,
+            0.0,
+            0.0,
+            0.9947547953525328
+          ],
+          "yaw_global": -2.9366576115123713
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "876fa22e9a9842079f966ccd208e0b99",
+          "translation_global": [
+            716.55,
+            1790.219,
+            0.874
+          ],
+          "center_ego_t0": [
+            10.914800033761903,
+            5.662842379514355
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.829
+          ],
+          "rotation_wxyz": [
+            -0.10228830394106937,
+            0.0,
+            0.0,
+            0.9947547953525328
+          ],
+          "yaw_global": -2.9366576115123713
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "e90581e31f6d492cbd1b114a60b7216f",
+          "translation_global": [
+            716.115,
+            1789.792,
+            0.91
+          ],
+          "center_ego_t0": [
+            11.470009615200665,
+            5.411254779107135
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.829
+          ],
+          "rotation_wxyz": [
+            -0.10228830394106937,
+            0.0,
+            0.0,
+            0.9947547953525328
+          ],
+          "yaw_global": -2.9366576115123713
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "6d450084cd224e228079b181514ae60d",
+          "translation_global": [
+            715.688,
+            1789.339,
+            0.933
+          ],
+          "center_ego_t0": [
+            12.04657998520119,
+            5.1765110711244695
+          ],
+          "size_wlh": [
+            0.674,
+            0.883,
+            1.829
+          ],
+          "rotation_wxyz": [
+            -0.10228830394106937,
+            0.0,
+            0.0,
+            0.9947547953525328
+          ],
+          "yaw_global": -2.9366576115123713
+        }
+      ]
+    },
+    {
+      "object_id": "6f6934f00f014284856716428eefd90e",
+      "class": "human.pedestrian.adult",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "8d5d8018ded8482192a0901126a0c375",
+          "translation_global": [
+            723.074,
+            1814.214,
+            1.19
+          ],
+          "center_ego_t0": [
+            -13.817598455386351,
+            3.0877567549240026
+          ],
+          "size_wlh": [
+            0.49,
+            0.768,
+            1.846
+          ],
+          "rotation_wxyz": [
+            0.901251030637913,
+            0.0,
+            0.0,
+            -0.433297334141464
+          ],
+          "yaw_global": -0.8962963840334737
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "352858215f19421091762a88fba4f093",
+          "translation_global": [
+            723.503,
+            1813.647,
+            1.19
+          ],
+          "center_ego_t0": [
+            -13.443628061795582,
+            3.692468376044059
+          ],
+          "size_wlh": [
+            0.49,
+            0.768,
+            1.846
+          ],
+          "rotation_wxyz": [
+            0.8935559303004772,
+            0.0,
+            0.0,
+            -0.4489518898778006
+          ],
+          "yaw_global": -0.9311840552271115
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "a32c979cba3e48eda888b7698de887ab",
+          "translation_global": [
+            723.912,
+            1813.065,
+            1.19
+          ],
+          "center_ego_t0": [
+            -13.048450813446744,
+            4.283941065512724
+          ],
+          "size_wlh": [
+            0.49,
+            0.768,
+            1.846
+          ],
+          "rotation_wxyz": [
+            0.885580153976964,
+            0.0,
+            0.0,
+            -0.4644865884846803
+          ],
+          "yaw_global": -0.9661095541132462
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "0effe9c03b174fd39028e284f24140b3",
+          "translation_global": [
+            724.196,
+            1812.607,
+            1.279
+          ],
+          "center_ego_t0": [
+            -12.723806621571333,
+            4.714087725015775
+          ],
+          "size_wlh": [
+            0.49,
+            0.768,
+            1.846
+          ],
+          "rotation_wxyz": [
+            0.8782635226557054,
+            0.0,
+            0.0,
+            -0.4781769387709859
+          ],
+          "yaw_global": -0.9971555601968907
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "bda12431d6ef46119a0bfd0ff248e2a0",
+          "translation_global": [
+            724.53,
+            1812.023,
+            1.39
+          ],
+          "center_ego_t0": [
+            -12.29969777812094,
+            5.236336409942031
+          ],
+          "size_wlh": [
+            0.49,
+            0.768,
+            1.846
+          ],
+          "rotation_wxyz": [
+            0.8688303343115594,
+            0.0,
+            0.0,
+            -0.495109937468502
+          ],
+          "yaw_global": -1.0359227241930182
+        }
+      ]
+    },
+    {
+      "object_id": "5999098cd1734cea8979dd41bc34b88f",
+      "class": "vehicle.motorcycle",
+      "states": [
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "a7f9af1a719b438084d9dd7a77502fb6",
+          "translation_global": [
+            703.626,
+            1779.737,
+            0.786
+          ],
+          "center_ego_t0": [
+            25.35449912651052,
+            -2.6074169943428815
+          ],
+          "size_wlh": [
+            0.572,
+            1.961,
+            1.289
+          ],
+          "rotation_wxyz": [
+            0.925577975009337,
+            0.0,
+            0.0,
+            0.37855701311376466
+          ],
+          "yaw_global": 0.7764735735922494
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "d4b61407e68e46cb9eff9e2f3fff408a",
+          "translation_global": [
+            703.626,
+            1779.737,
+            0.786
+          ],
+          "center_ego_t0": [
+            25.35449912651052,
+            -2.6074169943428815
+          ],
+          "size_wlh": [
+            0.572,
+            1.961,
+            1.289
+          ],
+          "rotation_wxyz": [
+            0.925577975009337,
+            0.0,
+            0.0,
+            0.37855701311376466
+          ],
+          "yaw_global": 0.7764735735922494
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "0c97193c6cce4cf3936c758586813777",
+          "translation_global": [
+            703.626,
+            1779.737,
+            0.786
+          ],
+          "center_ego_t0": [
+            25.35449912651052,
+            -2.6074169943428815
+          ],
+          "size_wlh": [
+            0.572,
+            1.961,
+            1.289
+          ],
+          "rotation_wxyz": [
+            0.925577975009337,
+            0.0,
+            0.0,
+            0.37855701311376466
+          ],
+          "yaw_global": 0.7764735735922494
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "b48ce8d6e11e433a9db4ae65a1777633",
+          "translation_global": [
+            703.626,
+            1779.737,
+            0.786
+          ],
+          "center_ego_t0": [
+            25.35449912651052,
+            -2.6074169943428815
+          ],
+          "size_wlh": [
+            0.572,
+            1.961,
+            1.289
+          ],
+          "rotation_wxyz": [
+            0.925577975009337,
+            0.0,
+            0.0,
+            0.37855701311376466
+          ],
+          "yaw_global": 0.7764735735922494
+        }
+      ]
+    },
+    {
+      "object_id": "52770232202d4ad1a98ed07d5b4c20b9",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "1d2b002ea4ed4b82b8c252bb3fac79bf",
+          "translation_global": [
+            697.095,
+            1799.148,
+            0.607
+          ],
+          "center_ego_t0": [
+            9.608539955287947,
+            -15.703433632167696
+          ],
+          "size_wlh": [
+            1.771,
+            4.268,
+            1.643
+          ],
+          "rotation_wxyz": [
+            0.9311576723823376,
+            0.0,
+            0.0,
+            0.36461677027189426
+          ],
+          "yaw_global": 0.746442414471291
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "be451e38132b44d6a8864f593c8c955a",
+          "translation_global": [
+            697.116,
+            1799.168,
+            0.607
+          ],
+          "center_ego_t0": [
+            9.582309163902018,
+            -15.691066515152588
+          ],
+          "size_wlh": [
+            1.771,
+            4.268,
+            1.643
+          ],
+          "rotation_wxyz": [
+            0.9311576723823376,
+            0.0,
+            0.0,
+            0.36461677027189426
+          ],
+          "yaw_global": 0.746442414471291
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "a5d88d2aee1c42bcbcb4fbd3e3703b3e",
+          "translation_global": [
+            697.116,
+            1799.168,
+            0.607
+          ],
+          "center_ego_t0": [
+            9.582309163902018,
+            -15.691066515152588
+          ],
+          "size_wlh": [
+            1.771,
+            4.268,
+            1.643
+          ],
+          "rotation_wxyz": [
+            0.9311576723823376,
+            0.0,
+            0.0,
+            0.36461677027189426
+          ],
+          "yaw_global": 0.746442414471291
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "10b3e08b27ad4689bc22ae0221b2338a",
+          "translation_global": [
+            697.116,
+            1799.168,
+            0.607
+          ],
+          "center_ego_t0": [
+            9.582309163902018,
+            -15.691066515152588
+          ],
+          "size_wlh": [
+            1.771,
+            4.268,
+            1.643
+          ],
+          "rotation_wxyz": [
+            0.9279403755623196,
+            0.0,
+            0.0,
+            0.3727286672651586
+          ],
+          "yaw_global": 0.7638957069912353
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "9d00e720ed33450eaca9c6356d362f70",
+          "translation_global": [
+            697.116,
+            1799.168,
+            0.657
+          ],
+          "center_ego_t0": [
+            9.582309163902018,
+            -15.691066515152588
+          ],
+          "size_wlh": [
+            1.771,
+            4.268,
+            1.643
+          ],
+          "rotation_wxyz": [
+            0.9279403755623196,
+            0.0,
+            0.0,
+            0.3727286672651586
+          ],
+          "yaw_global": 0.7638957069912353
+        }
+      ]
+    },
+    {
+      "object_id": "8a26f7d33ff04b1a8c8679f8c4a7da91",
+      "class": "vehicle.bus.rigid",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "06445bfcdd2b49f79aaadc64f45a851b",
+          "translation_global": [
+            702.769,
+            1825.735,
+            1.595
+          ],
+          "center_ego_t0": [
+            -17.234432257801345,
+            -20.006651935637255
+          ],
+          "size_wlh": [
+            2.883,
+            12.086,
+            3.419
+          ],
+          "rotation_wxyz": [
+            0.9369713479980528,
+            0.0,
+            0.0,
+            -0.34940620061858074
+          ],
+          "yaw_global": -0.7138745706548177
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "6ab5c8d8b116459b8d67731d607238b6",
+          "translation_global": [
+            704.793,
+            1823.982,
+            1.595
+          ],
+          "center_ego_t0": [
+            -16.329997579591947,
+            -17.486417241635124
+          ],
+          "size_wlh": [
+            2.883,
+            12.086,
+            3.419
+          ],
+          "rotation_wxyz": [
+            0.9369713479980528,
+            0.0,
+            0.0,
+            -0.34940620061858074
+          ],
+          "yaw_global": -0.7138745706548177
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "92fc3540f58f48ada857ba00c574086b",
+          "translation_global": [
+            706.82,
+            1822.227,
+            1.595
+          ],
+          "center_ego_t0": [
+            -15.424780335706433,
+            -14.9626629466666
+          ],
+          "size_wlh": [
+            2.883,
+            12.086,
+            3.419
+          ],
+          "rotation_wxyz": [
+            0.9369713479980528,
+            0.0,
+            0.0,
+            -0.34940620061858074
+          ],
+          "yaw_global": -0.7138745706548177
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "0ea1946a3dca41b4a368756d09613a7c",
+          "translation_global": [
+            708.331,
+            1820.871,
+            1.595
+          ],
+          "center_ego_t0": [
+            -14.705457956110685,
+            -13.06412869250825
+          ],
+          "size_wlh": [
+            2.883,
+            12.086,
+            3.419
+          ],
+          "rotation_wxyz": [
+            0.9334357109611426,
+            0.0,
+            0.0,
+            -0.35874471912833256
+          ],
+          "yaw_global": -0.7338454980954207
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "016cdf9a4d844d8d9ce9f9224dfe9c3c",
+          "translation_global": [
+            710.158,
+            1819.115,
+            1.595
+          ],
+          "center_ego_t0": [
+            -13.727131103371796,
+            -10.726535577954241
+          ],
+          "size_wlh": [
+            2.883,
+            12.086,
+            3.419
+          ],
+          "rotation_wxyz": [
+            0.9288901306642624,
+            0.0,
+            0.0,
+            -0.3703554038414041
+          ],
+          "yaw_global": -0.758783205611122
+        }
+      ]
+    },
+    {
+      "object_id": "ec5241e32939433baeb2b3955920b28c",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": -4,
+          "sample_token": "b5989651183643369174912bc5641d3b",
+          "annotation_token": "dc1d1db2d75a4ec18082f35c142b76b3",
+          "translation_global": [
+            690.958,
+            1793.924,
+            0.427
+          ],
+          "center_ego_t0": [
+            16.69524750349766,
+            -19.54160000768446
+          ],
+          "size_wlh": [
+            1.672,
+            4.478,
+            1.597
+          ],
+          "rotation_wxyz": [
+            -0.3690736789657215,
+            0.0,
+            0.0,
+            0.9294001396033398
+          ],
+          "yaw_global": -2.385568381161366
+        },
+        {
+          "relative_index": -3,
+          "sample_token": "0bb62a68055249e381b039bf54b0ccf8",
+          "annotation_token": "20d47f488ae34092ba1ae3186bcdebe5",
+          "translation_global": [
+            690.934,
+            1793.918,
+            0.466
+          ],
+          "center_ego_t0": [
+            16.70950440528309,
+            -19.561817345577506
+          ],
+          "size_wlh": [
+            1.672,
+            4.478,
+            1.597
+          ],
+          "rotation_wxyz": [
+            -0.36767510207877296,
+            0.0,
+            0.0,
+            0.9299543103353862
+          ],
+          "yaw_global": -2.388577117065877
+        },
+        {
+          "relative_index": -2,
+          "sample_token": "07fad91090c746ccaa1b2bdb55329e20",
+          "annotation_token": "c819577db1274d38aa9282eb0213cc8b",
+          "translation_global": [
+            690.91,
+            1793.911,
+            0.506
+          ],
+          "center_ego_t0": [
+            16.724693917395324,
+            -19.58167379847801
+          ],
+          "size_wlh": [
+            1.672,
+            4.478,
+            1.597
+          ],
+          "rotation_wxyz": [
+            -0.3662741753089047,
+            0.0,
+            0.0,
+            0.930506973913566
+          ],
+          "yaw_global": -2.3915891152556807
+        },
+        {
+          "relative_index": -1,
+          "sample_token": "ae5004bf4ebb4db0a84cb3c27bd398d1",
+          "annotation_token": "e142e901ad5d457e99b5d20cacd10f6a",
+          "translation_global": [
+            690.89,
+            1793.906,
+            0.507
+          ],
+          "center_ego_t0": [
+            16.73657466888321,
+            -19.598521580055518
+          ],
+          "size_wlh": [
+            1.672,
+            4.478,
+            1.597
+          ],
+          "rotation_wxyz": [
+            -0.36515278126818285,
+            0.0,
+            0.0,
+            0.9309476066525498
+          ],
+          "yaw_global": -2.3939988305756685
+        },
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "c6c72d05e4254f13ab3cbae7e2733753",
+          "translation_global": [
+            690.866,
+            1793.899,
+            0.508
+          ],
+          "center_ego_t0": [
+            16.751764180995657,
+            -19.618378032955945
+          ],
+          "size_wlh": [
+            1.672,
+            4.478,
+            1.597
+          ],
+          "rotation_wxyz": [
+            -0.36375175190601633,
+            0.0,
+            0.0,
+            0.9314959275194411
+          ],
+          "yaw_global": -2.397007843353101
+        }
+      ]
+    },
+    {
+      "object_id": "7a2612095f7840048f58d69a07e836a5",
+      "class": "vehicle.car",
+      "states": [
+        {
+          "relative_index": 0,
+          "sample_token": "ac8b4d49731d43289579f014cb7c97ef",
+          "annotation_token": "c1ed90a4581d4c87a3480c316515c7bc",
+          "translation_global": [
+            689.219,
+            1795.714,
+            0.583
+          ],
+          "center_ego_t0": [
+            15.653454020288141,
+            -21.809393503208632
+          ],
+          "size_wlh": [
+            1.64,
+            4.33,
+            1.396
+          ],
+          "rotation_wxyz": [
+            -0.38555178483611524,
+            0.0,
+            0.0,
+            0.9226861986665271
+          ],
+          "yaw_global": -2.3499811177342655
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="LTMap3D 长尾场景感知：开放世界实体、VLM 关系推理、Mask2Map 矢量地图、动态 Track、语义点云与驾驶建议。" name="description"/>
+<title>LTMap3D · Open-World Entity Map Perception</title>
+<link href="assets/site.css" rel="stylesheet"/>
+<link href="../shared/portfolio_nav.css" rel="stylesheet"/><link href="../shared/final_layout.css" rel="stylesheet"/><style id="r25-ltmap-outer-css">
+.contract-strip{display:none!important}
+.authoritative-frame{display:block;width:100%;border:0}
+@media(max-width:760px){.authoritative-frame{height:760px!important}.authoritative-shell{overflow:hidden!important}}
+@media(max-width:430px){.authoritative-frame{height:700px!important}}
+</style></head>
+<body>
+<header class="portfolio-global-nav" data-no-edit="1"><div class="nav-shell"><a class="global-brand" href="../index.html">LTWMap<b>4D</b></a><nav aria-label="项目导航" class="business-nav">
+<div class="biz current"><a class="biz-main" href="../ltmap/index.html"><span class="biz-title">基于VLM的长尾场景感知</span></a><div class="biz-menu"><div class="menu-head"><strong>开放世界实体地图</strong><span></span></div><a class="menu-link" href="../ltmap/index.html#abstract"><b>项目摘要</b><span></span></a><a class="menu-link" href="../ltmap/index.html#method"><b>方法概览</b><span></span></a><a class="menu-link" href="../ltmap/index.html#quant"><b>定量结果</b><span></span></a><a class="menu-link" href="../ltmap/index.html#qual"><b>定性结果</b><span></span></a></div></div>
+<div class="biz"><a class="biz-main" href="../vggt/index.html"><span class="biz-title">VGGT-Ω 4D重建与领域适配</span></a><div class="biz-menu"><div class="menu-head"><strong>三维视觉重建与领域微调</strong><span>Reconstruction · Evaluation · Fine-tuning</span></div><a class="menu-link" href="../vggt/index.html#overview"><b>项目摘要</b><span>重建后端、大规模评测与领域适配</span></a><a class="menu-link" href="../vggt/index.html#reconstruction"><b>重建对比</b><span>26,383 Case · VGGT-v2 vs Omega</span></a><a class="menu-link" href="../vggt/index.html#finetune"><b>领域微调</b><span>4.97M 帧 · AUC / AbsRel / Delta</span></a></div></div>
+<div class="biz"><a class="biz-main" href="../world-model/index.html"><span class="biz-title">LTMap × World Model</span></a><div class="biz-menu"><div class="menu-head"><strong>未来 4D 世界建模</strong><span>Persistent Memory · VLM · 4D Forecasting</span></div><a class="menu-link" href="../world-model/index.html#overview"><b>项目摘要</b><span>长期地图记忆条件化未来世界预测</span></a><a class="menu-link" href="../world-model/index.html#method"><b>方法概览</b><span>Persistent Memory + VLM Grounding</span></a><a class="menu-link" href="../world-model/index.html#quant"><b>定量分析</b><span>Controlled Study + Benchmark Target</span></a><a class="menu-link" href="../world-model/index.html#forecast"><b>4D Forecasting</b><span>3D Occupancy + 2D BEV + Track</span></a></div></div>
+</nav></div></header>
+<main>
+<section class="hero"><div class="wrap"><div class="venue">OPEN-WORLD MAP PERCEPTION · VLM-GROUNDED ENTITY REASONING</div><h1>基于VLM的长尾场景感知与实体地图构建</h1><p class="sub">面向传统 HD Map 难以覆盖的公交站、园区出入口、路口等长尾场景，LTMap3D 将 VLM 场景理解与现有道路几何、语义点云和动态 Track 结合起来，把“地图里没有定义的对象”进一步组织成可定位、可跟踪、可关联的实体地图。</p><div class="links"><span class="chip">20,000-case Evaluation</span><span class="chip">VLM Entity Perception</span><span class="chip">Semantic LiDAR</span><span class="chip">Temporal Track</span><span class="chip dark">Entity Relations + Driving Advice</span></div></div></section>
+<section class="section" id="abstract"><div class="wrap"><h2>摘要</h2><p class="abstract">传统矢量地图主要描述车道线、道路边界、停止线等固定类别，但真实驾驶中还存在大量与决策相关、却难以通过封闭类别完整建模的长尾实体。
+LTMap3D 在现有道路地图基础上，引入多视角图像、LiDAR / 语义点云、Mask2Map 道路结构与动态目标 Track，利用 VLM 判断场景中存在的长尾实体，并进一步补充实体类别、空间位置、属性和时序身份。
+最终输出的不只是单帧检测结果，而是一张包含道路结构、长尾实体、动态对象及实体关系的结构化地图，为后续跨帧 Persistent Map 和 World Model 提供可持续使用的场景信息。</p></div></section>
+<section class="section" id="method"><div class="wrap"><h2>方法概览</h2><p class="lead">从道路几何，到实体级场景地图</p><figure class="method-figure"><img alt="LTMap3D Open-World Entity Map Perception 方法图" src="assets/method_overview.png"/><figcaption class="caption">多帧输入 → BEV 几何语义编码 → 开放世界地图感知 → VLM Grounding → 实体关系推理 → 结构化 LTMap 与实体级驾驶建议。</figcaption></figure></div></section>
+<section class="section" id="quant"><div class="wrap"><h2>定量结果</h2><p class="lead">在统一的 <strong>20,000 个 Case</strong>长尾场景协议下，评估系统对目标实体的识别能力。</p>
+<div class="stat-grid stat-grid-4"><div class="stat accent"><strong>20,000</strong><span>Evaluation Cases</span></div><div class="stat"><strong>97.77%</strong><span>Precision</span></div><div class="stat"><strong>92.80%</strong><span>Recall</span></div><div class="stat"><strong>95.22%</strong><span>F1</span></div></div>
+<div class="benchmark-layout"><div class="benchmark-chart"><h3>F1 对比</h3>
+<div class="bar-row"><span>MapTRv2*</span><div class="bar-track"><i style="width:86.4%"></i></div><b>86.4</b></div>
+<div class="bar-row"><span>StreamMapNet*</span><div class="bar-track"><i style="width:88.8%"></i></div><b>88.8</b></div>
+<div class="bar-row"><span>MapTracker*</span><div class="bar-track"><i style="width:90.8%"></i></div><b>90.8</b></div>
+<div class="bar-row"><span>SuperMapNet*</span><div class="bar-track"><i style="width:92.2%"></i></div><b>92.2</b></div>
+<div class="bar-row ours"><span>LTMap3D</span><div class="bar-track"><i style="width:95.22%"></i></div><b>95.22</b></div>
+</div>
+<div class="benchmark-callout"><strong>+3.02 pp</strong><span>相对最强参考基线的 F1 增益</span><p>在保持较高 Precision 的同时，系统能够覆盖大部分目标长尾场景，为后续实体定位、时序跟踪和长期地图维护提供稳定入口。</p></div></div>
+<div class="table-box"><table class="table"><thead><tr><th>方法</th><th>Precision</th><th>Recall</th><th>F1</th><th>协议</th></tr></thead><tbody>
+<tr><td>MapTRv2 + open-world adapter </td><td>91.80%</td><td>81.70%</td><td>86.40%</td><td>20k internal reference</td></tr>
+<tr><td>StreamMapNet + open-world adapter </td><td>92.80%</td><td>85.20%</td><td>88.80%</td><td>20k internal reference</td></tr>
+<tr><td>MapTracker + open-world adapter </td><td>94.10%</td><td>87.80%</td><td>90.80%</td><td>20k internal reference</td></tr>
+<tr><td>SuperMapNet + open-world adapter </td><td>95.00%</td><td>89.60%</td><td>92.20%</td><td>20k internal reference</td></tr>
+<tr class="ours-row"><td><strong>LTMap3D</strong></td><td class="best">97.77%</td><td class="best">92.80%</td><td class="best">95.22%</td><td><strong>20,000 Cases</strong></td></tr>
+</tbody></table></div>
+
+<div class="table-box compact"><table class="table"><thead><tr><th>系统级回归</th><th>Frame</th><th>Divider</th><th>Boundary</th><th>Ped. Crossing</th><th>Vector Total</th><th>Dynamic Obs.</th><th>Runtime Failures</th></tr></thead><tbody><tr><td>40-frame regression</td><td>40</td><td>251</td><td>172</td><td>58</td><td class="best">481</td><td class="best">4,366</td><td class="best">0</td></tr></tbody></table></div>
+</div></section>
+<section class="section" id="qual"><div class="wrap"><h2>定性结果 </h2>
+<div class="contract-strip"><span><b></b></span><span><b></b></span><span><b></b></span><span><b></b></span></div>
+<div class="http-gate" id="ltmapFileGate" style="display:none"><b>完整 LTMap 前端需要通过本地 HTTP 打开。</b><br/>请运行网站根目录的 <code>OPEN_SITE.sh</code>；启动后这里会直接显示之前验收的六相机 + 语义点云 + BBX + Track + Mask2Map + 驾驶建议前端。</div><div class="authoritative-shell" id="ltmapInteractive"><iframe class="authoritative-frame" loading="eager" src="assets/scene1094_authoritative/index.html" title="scene-1094 authoritative LTMap frontend frames 013 to 016"></iframe></div></div></section>
+<section class="section"><div class="wrap"><div class="next"><div><h3>下一阶段：LTMap → World Model</h3><p>本页只讲开放长尾实体地图感知。地图进入未来 4D occupancy / semantic forecasting 后的指标与可视化，独立放在 World Model 页面。</p></div><a href="../world-model/index.html">查看 World Model →</a></div></div></section>
+</main>
+<footer class="footer"><div class="wrap">LTMap3D Project Page · Open-World Entity Map Perception</div></footer>
+<script>(function(){if(location.protocol==='file:'){document.getElementById('ltmapFileGate').style.display='block';document.getElementById('ltmapInteractive').style.display='none';}})();</script>
+</body>
+</html>

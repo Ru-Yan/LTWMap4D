@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "source_frontend": "/mnt/data/mock_scene1094_run_r2/frontend_input",
+  "source_frames": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "thresholds": {
+    "dynamic_bbox": 0.4,
+    "static_bbox": 0.2
+  },
+  "pedestrian_alias_anchor_frame": 13,
+  "pedestrian_alias_by_frame": {
+    "13": {
+      "map": {
+        "6": 6,
+        "17": 17,
+        "26": 26,
+        "59": 59
+      },
+      "match_distance_m": {
+        "6": 0.0,
+        "17": 0.0,
+        "26": 0.0,
+        "59": 0.0
+      }
+    },
+    "14": {
+      "map": {
+        "6": 6,
+        "17": 17,
+        "26": 26,
+        "49": 33,
+        "59": 59
+      },
+      "match_distance_m": {
+        "6": 0.0,
+        "17": 0.0,
+        "26": 0.0,
+        "49": 0.6436277319219599,
+        "59": 0.0
+      }
+    },
+    "15": {
+      "map": {
+        "6": 6,
+        "17": 17,
+        "26": 26,
+        "59": 59
+      },
+      "match_distance_m": {
+        "6": 0.0,
+        "17": 0.0,
+        "26": 0.0,
+        "59": 0.0
+      }
+    },
+    "16": {
+      "map": {
+        "6": 6,
+        "17": 17,
+        "26": 26,
+        "59": 59
+      },
+      "match_distance_m": {
+        "6": 0.0,
+        "17": 0.0,
+        "26": 0.0,
+        "59": 0.0
+      }
+    }
+  },
+  "frames": [
+    {
+      "local_index": 0,
+      "source_frame": 13,
+      "semantic_point_count": 2048,
+      "dynamic_boxes_raw": 118,
+      "dynamic_boxes_display": 38,
+      "static_boxes_raw": 22,
+      "static_boxes_display": 22,
+      "track_count": 0,
+      "mask2map_vector_count": 11
+    },
+    {
+      "local_index": 1,
+      "source_frame": 14,
+      "semantic_point_count": 2048,
+      "dynamic_boxes_raw": 118,
+      "dynamic_boxes_display": 38,
+      "static_boxes_raw": 22,
+      "static_boxes_display": 22,
+      "track_count": 0,
+      "mask2map_vector_count": 11
+    },
+    {
+      "local_index": 2,
+      "source_frame": 15,
+      "semantic_point_count": 2048,
+      "dynamic_boxes_raw": 118,
+      "dynamic_boxes_display": 38,
+      "static_boxes_raw": 22,
+      "static_boxes_display": 22,
+      "track_count": 0,
+      "mask2map_vector_count": 11
+    },
+    {
+      "local_index": 3,
+      "source_frame": 16,
+      "semantic_point_count": 2048,
+      "dynamic_boxes_raw": 118,
+      "dynamic_boxes_display": 38,
+      "static_boxes_raw": 22,
+      "static_boxes_display": 22,
+      "track_count": 0,
+      "mask2map_vector_count": 11
+    }
+  ]
+}

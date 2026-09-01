@@ -1,0 +1,4 @@
+method,measured,display_only,source,global_occ_iou,global_occ_iou_gain_pp,fixed17_miou,fixed17_miou_gain_pp,static_group_iou,static_group_iou_gain_pp,dynamic_iou,dynamic_iou_gain_pp,vehicle_iou,vehicle_iou_gain_pp
+I2-World,True,True,measured baseline copied from PAPER_CLEAN,0.46975427529285296,0.0,0.27533071708840207,0.0,0.46319541387840785,0.0,0.502459961632046,0.0,0.5162749076888568,0.0
+Static LTMap — illustrative target,False,True,illustrative target derived from measured baseline + configured target gain,0.491754275292853,2.2,0.2933307170884021,1.8,0.4931954138784078,3.0,0.506459961632046,0.4,0.5202749076888568,0.4
+Static + Dynamic LTMap — illustrative target,False,True,illustrative target derived from measured baseline + configured target gain,0.509754275292853,4.0,0.3113307170884021,3.6,0.5051954138784078,4.2,0.552459961632046,5.0,0.5712749076888568,5.5

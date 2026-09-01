@@ -1,0 +1,166 @@
+/* LTMap3D R14 final presentation layer
+   - typography polish / CJK justification
+   - automatic empty-state collapse
+   - desktop + tablet + phone responsive layout
+   - no editing UI
+*/
+:root{
+  --final-gutter:clamp(14px,3.2vw,40px);
+  --final-reading:880px;
+}
+html{scroll-padding-top:88px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-x:hidden;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+img,video,canvas,svg,iframe{max-width:100%}
+
+/* Long-form copy: cleaner CJK rhythm and justified body copy. */
+.lead,.abstract,.hero-note,.section-head p,.project p,.contrib p,.case-desc,
+.note,.science,.science-callout,.table-note,.source-note,.provenance-note,
+.figure-caption,.video-copy span,.next p,.relation-card li,.advice-card p,
+.closing-box p,.forecast-case p,.case-meta span,.cap{
+  text-align:justify;
+  text-justify:inter-character;
+  text-align-last:left;
+  line-height:1.82;
+  letter-spacing:.012em;
+  overflow-wrap:break-word;
+}
+h1,h2,h3,h4,.section-title,.section-head h2,.case-title strong,.panel-head{
+  text-wrap:balance;
+}
+p,.lead,.abstract,.hero-note,.case-desc,.note,.science,.source-note,.provenance-note{
+  text-wrap:pretty;
+}
+
+/* Do not leave visual shells after the user has deleted their copy. */
+.final-empty,[data-final-empty="1"],p:empty,h1:empty,h2:empty,h3:empty,h4:empty,
+figcaption:empty,.caption:empty,.case-desc:empty,.video-copy:empty,.figure-caption:empty,
+.note:empty,.science:empty,.source-note:empty,.provenance-note:empty{display:none!important}
+
+/* If finalization leaves only one meaningful card, let it breathe instead of leaving a hole. */
+.projects>:only-child,.contrib>:only-child,.case-grid>:only-child,.video-grid>:only-child,
+.qual-grid>:only-child,.metrics>:only-child,.stat-grid>:only-child,.finetune-cases>:only-child{
+  grid-column:1/-1;
+}
+
+/* Tables remain readable and scroll locally rather than breaking the page. */
+.table-wrap,.table-box{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch}
+table,.table{font-variant-numeric:tabular-nums}
+
+/* Unified top navigation. */
+.portfolio-global-nav .nav-shell{width:min(1320px,calc(100% - 2*var(--final-gutter)))}
+.business-nav .biz-title{text-wrap:balance}
+
+/* Slightly calmer desktop spacing after copy edits. */
+section,.section{scroll-margin-top:88px}
+.section-head p{max-width:780px}
+.abstract{max-width:960px}
+
+@media (max-width:980px){
+  .portfolio-global-nav .nav-shell{gap:12px}
+  .hero-grid,.section-head,.result-grid,.tune-grid,.badcase,.benchmark-layout,
+  .semantic-stage,.quant-row,.forecast-layout,.case-head{grid-template-columns:1fr!important}
+  .contrib,.engineering,.cards,.metrics,.stat-grid,.stat-grid-4,.big-numbers{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .pipeline{grid-template-columns:1fr!important}
+  .authoritative-frame{height:760px!important}
+}
+
+@media (max-width:760px){
+  html{scroll-padding-top:118px}
+  body{line-height:1.66}
+  .wrap{width:calc(100% - 28px)!important;max-width:none!important}
+  section,.section{padding:46px 0!important;scroll-margin-top:118px}
+  .hero{padding:46px 0 34px!important}
+  h1,.hero h1{font-size:clamp(34px,10.5vw,46px)!important;line-height:1.08!important;letter-spacing:-.035em!important}
+  .section-head h2,.section-title,.section h2{font-size:clamp(27px,8vw,36px)!important;line-height:1.16!important}
+  .subhead{font-size:21px!important}
+  .lead,.hero .sub{font-size:16px!important;line-height:1.78!important}
+
+  /* Mobile navigation keeps the same three business pillars. */
+  .portfolio-global-nav{position:sticky!important;top:0!important}
+  .portfolio-global-nav .nav-shell{
+    width:100%!important;min-height:0!important;padding:8px 12px 9px!important;
+    display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:7px!important;
+  }
+  .portfolio-global-nav .global-brand{font-size:16px!important;align-self:flex-start}
+  .portfolio-global-nav .business-nav{
+    display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    width:100%!important;gap:5px!important;overflow:visible!important;padding:0!important;
+  }
+  .business-nav .biz{min-width:0!important;width:100%!important}
+  .business-nav .biz-main{
+    width:100%!important;min-height:42px!important;padding:7px 5px!important;
+    justify-content:center!important;text-align:center!important;border:1px solid rgba(219,228,226,.85)!important;
+    background:rgba(255,255,255,.72)!important;border-radius:10px!important;
+  }
+  .business-nav .biz.current>.biz-main{background:#e6f1ee!important}
+  .business-nav .biz-title{font-size:10.8px!important;line-height:1.25!important;white-space:normal!important}
+  .business-nav .biz-menu{display:none!important}
+
+  /* Cards / grids. */
+  .projects,.timeline,.contrib,.engineering,.cards,.metrics,.stat-grid,.stat-grid-4,
+  .big-numbers,.case-grid,.video-grid,.qual-grid,.finetune-cases,.align-mini,.overlay-row,
+  .sixcam-grid,.relation-panel{grid-template-columns:1fr!important}
+  .project,.metric,.stat,.train-card,.case-card,.figure-panel,.forecast-panel,.chart-card,
+  .abstract,.closing-box{border-radius:16px!important}
+  .project,.train-card,.figure-panel,.abstract,.closing-box{padding:18px!important}
+  .metrics,.stat-grid,.stat-grid-4{gap:9px!important}
+  .metric strong,.stat strong,.big-num strong{font-size:24px!important}
+
+  /* Preserve OURS vs GT side-by-side inside each forecast view on phones. */
+  .forecast-layout{grid-template-columns:1fr!important;gap:12px!important}
+  .compare-two{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px!important}
+  .compare-two figcaption{font-size:10px!important;padding:7px 8px!important}
+  .forecast-panel{padding:10px!important}
+  .forecast-panel h3{font-size:17px!important}
+  .horizon-control{grid-template-columns:1fr!important;gap:5px!important}
+
+  /* Visual input frames become a touch-friendly horizontal strip. */
+  .input-strip{
+    display:flex!important;overflow-x:auto!important;gap:9px!important;scroll-snap-type:x mandatory;
+    padding-bottom:4px;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;
+  }
+  .input-strip figure{flex:0 0 84%!important;scroll-snap-align:center}
+
+  .case-tabs{justify-content:flex-start!important;flex-wrap:nowrap!important;overflow-x:auto!important;padding:2px 1px 7px!important;-webkit-overflow-scrolling:touch}
+  .case-tab{flex:0 0 auto!important}
+  .case-camera .cap{flex-direction:column!important;gap:3px!important}
+
+  /* Dense tables and triplets remain usable instead of shrinking to illegibility. */
+  table,.table{min-width:640px!important;font-size:12px!important}
+  th,td,.table th,.table td{padding:10px 11px!important}
+  .triplet{display:flex!important;overflow-x:auto!important;gap:8px!important;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+  .triplet figure{flex:0 0 72%!important;scroll-snap-align:center}
+
+  /* Interactive media. */
+  .viewer{aspect-ratio:4/3!important;min-height:0!important}
+  .viewer-foot{flex-direction:column!important;align-items:flex-start!important}
+  .pc-canvas-wrap,.sem-canvas-wrap{height:430px!important}
+  .pc-camera{width:118px!important;right:7px!important;top:7px!important}
+  .authoritative-frame{height:690px!important}
+  .authoritative-shell{border-radius:8px!important}
+
+  /* Buttons / chips can wrap without clipping. */
+  .links,.contract-strip,.track-legend,.decision-tags,.viewer-tools{gap:6px!important}
+  .chip,.pill,.case-tab{font-size:10.5px!important}
+  .next{display:block!important;padding:18px!important}
+  .next a{display:inline-block!important;margin-top:12px!important}
+
+  .figure-caption{display:block!important}
+  .figure-caption>*+*{margin-top:6px}
+  .footer{padding:28px 0 38px!important}
+}
+
+@media (max-width:420px){
+  .wrap{width:calc(100% - 22px)!important}
+  .portfolio-global-nav .nav-shell{padding-left:9px!important;padding-right:9px!important}
+  .business-nav .biz-title{font-size:10px!important}
+  .compare-two{gap:4px!important}
+  .compare-two figcaption{font-size:9.5px!important}
+  .authoritative-frame{height:620px!important}
+  .pc-canvas-wrap,.sem-canvas-wrap{height:390px!important}
+}
+
+@media print{
+  .portfolio-global-nav{position:static!important}
+  .business-nav .biz-menu{display:none!important}
+}

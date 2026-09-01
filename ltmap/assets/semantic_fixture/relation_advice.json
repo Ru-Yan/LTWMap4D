@@ -1,0 +1,20 @@
+{
+  "relations": [
+    "行人 #6位于人行横道：m2m_f000_ped_crossing_01。",
+    "行人 #17位于人行横道：m2m_f000_ped_crossing_04。",
+    "行人 #26位于人行横道：m2m_f000_ped_crossing_04。",
+    "行人 #59位于人行横道：m2m_f000_ped_crossing_04。",
+    "traffic_sign #2位于人行横道：m2m_f000_ped_crossing_01。"
+  ],
+  "advice": "当前没有经过充分证据验证、需要改变驾驶动作的新增风险。建议保持当前行驶并持续观察前后左右环境。",
+  "decision": {
+    "longitudinal": "MAINTAIN",
+    "lateral": "KEEP_LANE",
+    "urgency": "LOW",
+    "source": "deterministic_safety_validator",
+    "primary_hazard_id": null,
+    "secondary_hazard_ids": [],
+    "risk_competition": []
+  },
+  "vlm_used": false
+}

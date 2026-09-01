@@ -1,0 +1,43 @@
+{
+  "schema_version": "ltmap3d_compact_frontend_v18_2_2",
+  "frame_count": 4,
+  "baseline": "LT-Map3D V18.2.2 High-Precision 360 Safety",
+  "camera_layout": "compact_six_camera_top",
+  "lower_view": [
+    "interactive_semantic_point_cloud_3d",
+    "metric_entity_road"
+  ],
+  "mask2map_pc_range": [
+    -30.0,
+    -30.0,
+    -5.0,
+    60.0,
+    30.0,
+    3.0
+  ],
+  "contracts": {
+    "dynamic_geometry_owner": "MambaFusion+TrackBridge",
+    "dense_semantics_owner": "Mask4Former",
+    "road_geometry_owner": "Mask2Map",
+    "occupancy_owner": "OccAny safety-verified only",
+    "gt_used": false,
+    "synthetic_static_camera_boxes": false
+  },
+  "sample": {
+    "kind": "authoritative_scene1094_f013_f016",
+    "source": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/scene1094_align_check/frontend_input",
+    "point_policy": "full authoritative LTS4 semantic points per frame",
+    "camera_policy": "six authoritative camera images per frame"
+  },
+  "portfolio_subset": {
+    "source_frames": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "dynamic_bbox_threshold": 0.3,
+    "static_bbox_threshold": 0.2,
+    "pedestrian_display_id_anchor_frame": 13
+  }
+}

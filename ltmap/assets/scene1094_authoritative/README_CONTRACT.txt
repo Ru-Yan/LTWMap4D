@@ -1,0 +1,1 @@
+Frames 013-016. Current-frame perception/relation/advice retained. Only pedestrian display IDs in explanatory text are aliased to Frame 013. Dynamic BBX >= 0.40; static BBX >= 0.20. Source run is not modified.

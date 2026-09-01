@@ -1,0 +1,60 @@
+{
+  "schema_version": "ltmap3d_decision_graph_v18_2_2",
+  "frame_count": 1,
+  "frames": [
+    {
+      "frame_index": 0,
+      "hazards": [],
+      "decision": {
+        "longitudinal": "MAINTAIN",
+        "lateral": "KEEP_LANE",
+        "urgency": "LOW",
+        "source": "deterministic_safety_validator",
+        "primary_hazard_id": null,
+        "secondary_hazard_ids": [],
+        "risk_competition": []
+      },
+      "advice": {
+        "summary_zh": "当前没有经过充分证据验证、需要改变驾驶动作的新增风险。建议保持当前行驶并持续观察前后左右环境。",
+        "primary_concern_zh": "无明确主要风险",
+        "secondary_concerns_zh": [],
+        "context_zh": [
+          "行人 #6位于人行横道：m2m_f000_ped_crossing_01。",
+          "行人 #17位于人行横道：m2m_f000_ped_crossing_04。",
+          "行人 #26位于人行横道：m2m_f000_ped_crossing_04。",
+          "行人 #59位于人行横道：m2m_f000_ped_crossing_04。"
+        ]
+      },
+      "relation_explanations_zh": [
+        "行人 #6位于人行横道：m2m_f000_ped_crossing_01。",
+        "行人 #17位于人行横道：m2m_f000_ped_crossing_04。",
+        "行人 #26位于人行横道：m2m_f000_ped_crossing_04。",
+        "行人 #59位于人行横道：m2m_f000_ped_crossing_04。",
+        "traffic_sign #2位于人行横道：m2m_f000_ped_crossing_01。"
+      ],
+      "signal_explanations_zh": [],
+      "vlm_reasoning": {
+        "used": false,
+        "scene_summary_zh": "",
+        "unknown_semantics": [],
+        "visual_hazards": [],
+        "runtime": {
+          "used": false,
+          "reason": "disabled_or_not_scheduled"
+        }
+      },
+      "validation": {
+        "geometry_modified_by_vlm": false,
+        "numeric_fact_modified_by_vlm": false,
+        "image_only_3d_birth": false,
+        "visual_only_stop_allowed": false,
+        "gt_used": false
+      }
+    }
+  ],
+  "contracts": {
+    "red_light_requires_verified_ego_relevance": true,
+    "visual_only_hazard_can_stop": false,
+    "gt_used": false
+  }
+}
