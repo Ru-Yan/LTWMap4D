@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "version": "R30-cacheproof-reasoning-wm-synchronized-playback",
+  "hashed_app": "app.r30.5ff56256cc36.js",
+  "wm": {
+    "mode": "six-real-horizon-frame-sequence",
+    "autoplay_when_forecast_visible": true,
+    "interval_ms": 850,
+    "synthetic_interpolation": false,
+    "track_contract": "same history context transformed into each horizon future-ego frame"
+  },
+  "frames": [
+    {
+      "source_frame": 13,
+      "action": "DECELERATE",
+      "urgency": "MEDIUM",
+      "hazards": 2,
+      "relations": 518,
+      "advice": "行人 #17位于自车前方约25.0米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约26.9米）。 建议适当减速并确认周围通行空间。"
+    },
+    {
+      "source_frame": 14,
+      "action": "DECELERATE",
+      "urgency": "MEDIUM",
+      "hazards": 2,
+      "relations": 507,
+      "advice": "行人 #17位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约22.7米）。 建议适当减速并确认周围通行空间。"
+    },
+    {
+      "source_frame": 15,
+      "action": "DECELERATE",
+      "urgency": "MEDIUM",
+      "hazards": 1,
+      "relations": 512,
+      "advice": "行人 #17位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议适当减速并确认周围通行空间。"
+    },
+    {
+      "source_frame": 16,
+      "action": "YIELD",
+      "urgency": "HIGH",
+      "hazards": 1,
+      "relations": 503,
+      "advice": "行人 #17位于自车前方约16.5米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议减速并准备让行。"
+    }
+  ]
+}

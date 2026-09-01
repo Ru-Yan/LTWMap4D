@@ -1,0 +1,1179 @@
+{
+  "passed": true,
+  "version": "R28-ultrafast-static-pages",
+  "before_bytes": 71543388,
+  "after_bytes": 24152199,
+  "saved_bytes": 47391189,
+  "saved_percent": 66.24,
+  "removed": [
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/camera",
+      "bytes": 1135552
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/qualitative",
+      "bytes": 775022
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/semantic_fixture",
+      "bytes": 179299
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/sixcam",
+      "bytes": 573975
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/source",
+      "bytes": 509170
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/ltmap_temporal_webgl.js",
+      "bytes": 2076310
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/ltmap_temporal_semantic.js",
+      "bytes": 784234
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/pointcloud_semantic_viewer.js",
+      "bytes": 3422
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/pointcloud_viewer.js",
+      "bytes": 5791
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/pointcloud_fallback.png",
+      "bytes": 30110
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/pointcloud_semantic_fallback.png",
+      "bytes": 35700
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/LTMap_PERCEPTION_STATS.json",
+      "bytes": 1181
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/TEMPORAL_DEMO_PROVENANCE.md",
+      "bytes": 1095
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/benchmark_reference.json",
+      "bytes": 935
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/metrics_ltmap.json",
+      "bytes": 675
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/cinematic",
+      "bytes": 8458419
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/qualitative",
+      "bytes": 4271118
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/qualitative_r9",
+      "bytes": 2253897
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/qualitative_r10",
+      "bytes": 4767070
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/all_scenes_track_only_frame_locked.png",
+      "bytes": 674536
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scientific_baseline_vs_ltmap.mp4",
+      "bytes": 283294
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/metrics.js",
+      "bytes": 2977
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/data",
+      "bytes": 10154
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0101_h6.png",
+      "bytes": 463057
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0101_h4.png",
+      "bytes": 461494
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_h5.png",
+      "bytes": 551104
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_h1.png",
+      "bytes": 632793
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_h2.png",
+      "bytes": 625089
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_h3.png",
+      "bytes": 547223
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_scientific_rollout.mp4",
+      "bytes": 591915
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_h4.png",
+      "bytes": 589645
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0101_h5.png",
+      "bytes": 497620
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_h4.png",
+      "bytes": 599698
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0101_h2.png",
+      "bytes": 497986
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_h6.png",
+      "bytes": 553958
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_h2.png",
+      "bytes": 563614
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0101_h3.png",
+      "bytes": 464803
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_h5.png",
+      "bytes": 576522
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_h6.png",
+      "bytes": 539187
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_h3.png",
+      "bytes": 644511
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0101_h1.png",
+      "bytes": 460765
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0916_h1.png",
+      "bytes": 563032
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/scenes/scene-0002_scientific_rollout.mp4",
+      "bytes": 631354
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/plots/main_dynamic_iou.png",
+      "bytes": 62663
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/plots/dynamic_causal_by_horizon.png",
+      "bytes": 158956
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/plots/dynamic_gain_by_horizon.png",
+      "bytes": 158402
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/plots/main_fixed17_miou.png",
+      "bytes": 61781
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/plots/main_static_group_iou.png",
+      "bytes": 59050
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/world-model/assets/plots/main_global_occ_iou.png",
+      "bytes": 75215
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/videos/track_history_scene0101.mp4",
+      "bytes": 37543
+    },
+    {
+      "path": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site/ltmap/assets/videos/track_history_scene1094.mp4",
+      "bytes": 21095
+    }
+  ],
+  "image_changes": [
+    {
+      "from": "ltmap/assets/method_overview.png",
+      "to": "ltmap/assets/method_overview.webp",
+      "old_bytes": 1892772,
+      "new_bytes": 207500,
+      "quality": 90
+    },
+    {
+      "from": "world-model/assets/method/method_overview.png",
+      "to": "world-model/assets/method/method_overview.webp",
+      "old_bytes": 2511439,
+      "new_bytes": 342124,
+      "quality": 90
+    },
+    {
+      "from": "world-model/assets/plots/full_gain_by_horizon.png",
+      "to": "world-model/assets/plots/full_gain_by_horizon.webp",
+      "old_bytes": 121823,
+      "new_bytes": 48930,
+      "quality": 88
+    },
+    {
+      "from": "vggt/assets/r02_preview.jpg",
+      "to": "vggt/assets/r02_preview.webp",
+      "old_bytes": 157608,
+      "new_bytes": 55710,
+      "quality": 82
+    },
+    {
+      "from": "vggt/assets/vggt_compare.jpg",
+      "to": "vggt/assets/vggt_compare.webp",
+      "old_bytes": 402923,
+      "new_bytes": 156430,
+      "quality": 84
+    },
+    {
+      "from": "vggt/assets/omega_compare.jpg",
+      "to": "vggt/assets/omega_compare.webp",
+      "old_bytes": 246532,
+      "new_bytes": 94550,
+      "quality": 84
+    },
+    {
+      "recompress": "vggt/assets/qD_ref.webp",
+      "saved_bytes": 49168,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/finetune_case_a.webp",
+      "saved_bytes": 38430,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/omega_compare.webp",
+      "saved_bytes": 5962,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qC_ref.webp",
+      "saved_bytes": 19918,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qB_vggt.webp",
+      "saved_bytes": 16318,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qD_omega.webp",
+      "saved_bytes": 15136,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/finetune_case_b.webp",
+      "saved_bytes": 26160,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qA_ref.webp",
+      "saved_bytes": 27580,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qA_omega.webp",
+      "saved_bytes": 18204,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qC_vggt.webp",
+      "saved_bytes": 13910,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/finetune_curves.webp",
+      "saved_bytes": 13952,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qD_vggt.webp",
+      "saved_bytes": 26852,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qB_ref.webp",
+      "saved_bytes": 59286,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/vggt_compare.webp",
+      "saved_bytes": 11116,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qC_omega.webp",
+      "saved_bytes": 12632,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qB_omega.webp",
+      "saved_bytes": 13746,
+      "quality": 82
+    },
+    {
+      "recompress": "vggt/assets/qA_vggt.webp",
+      "saved_bytes": 20266,
+      "quality": 82
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h4_ours_bev.webp",
+      "saved_bytes": 3410,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h3_ours_bev.webp",
+      "saved_bytes": 3244,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h6_gt_3d.webp",
+      "saved_bytes": 5288,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h5_ours_3d.webp",
+      "saved_bytes": 3366,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h3_ours_3d.webp",
+      "saved_bytes": 3408,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h2_ours_bev.webp",
+      "saved_bytes": 4244,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h2_ours_3d.webp",
+      "saved_bytes": 3640,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h2_gt_bev.webp",
+      "saved_bytes": 5592,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h5_ours_bev.webp",
+      "saved_bytes": 3686,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h4_gt_bev.webp",
+      "saved_bytes": 6038,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h1_gt_3d.webp",
+      "saved_bytes": 5410,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h6_gt_bev.webp",
+      "saved_bytes": 5724,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h5_gt_3d.webp",
+      "saved_bytes": 5454,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h5_gt_bev.webp",
+      "saved_bytes": 5636,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h4_gt_3d.webp",
+      "saved_bytes": 5306,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h3_gt_3d.webp",
+      "saved_bytes": 5378,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h6_ours_bev.webp",
+      "saved_bytes": 3700,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h4_ours_3d.webp",
+      "saved_bytes": 3466,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h2_gt_3d.webp",
+      "saved_bytes": 5068,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h6_ours_3d.webp",
+      "saved_bytes": 3120,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h1_ours_3d.webp",
+      "saved_bytes": 3740,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/h3_gt_bev.webp",
+      "saved_bytes": 5776,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h4_ours_bev.webp",
+      "saved_bytes": 3634,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h3_ours_bev.webp",
+      "saved_bytes": 4202,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h6_gt_3d.webp",
+      "saved_bytes": 3254,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h5_ours_3d.webp",
+      "saved_bytes": 3340,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h3_ours_3d.webp",
+      "saved_bytes": 3576,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h2_ours_bev.webp",
+      "saved_bytes": 3998,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h2_ours_3d.webp",
+      "saved_bytes": 3412,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h2_gt_bev.webp",
+      "saved_bytes": 4248,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h5_ours_bev.webp",
+      "saved_bytes": 4008,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h4_gt_bev.webp",
+      "saved_bytes": 4818,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h1_gt_3d.webp",
+      "saved_bytes": 3912,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h6_gt_bev.webp",
+      "saved_bytes": 5104,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h5_gt_3d.webp",
+      "saved_bytes": 3320,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h5_gt_bev.webp",
+      "saved_bytes": 4300,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h1_ours_bev.webp",
+      "saved_bytes": 3992,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h4_gt_3d.webp",
+      "saved_bytes": 3330,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h3_gt_3d.webp",
+      "saved_bytes": 3402,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h6_ours_bev.webp",
+      "saved_bytes": 3896,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h4_ours_3d.webp",
+      "saved_bytes": 3480,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h1_gt_bev.webp",
+      "saved_bytes": 4478,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h2_gt_3d.webp",
+      "saved_bytes": 3408,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h6_ours_3d.webp",
+      "saved_bytes": 3468,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h1_ours_3d.webp",
+      "saved_bytes": 3386,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/h3_gt_bev.webp",
+      "saved_bytes": 4156,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h4_ours_bev.webp",
+      "saved_bytes": 2476,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h3_ours_bev.webp",
+      "saved_bytes": 2910,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h6_gt_3d.webp",
+      "saved_bytes": 2664,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h5_ours_3d.webp",
+      "saved_bytes": 2632,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h3_ours_3d.webp",
+      "saved_bytes": 2578,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h2_ours_bev.webp",
+      "saved_bytes": 2722,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h2_ours_3d.webp",
+      "saved_bytes": 2542,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h2_gt_bev.webp",
+      "saved_bytes": 3076,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h5_ours_bev.webp",
+      "saved_bytes": 2508,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h4_gt_bev.webp",
+      "saved_bytes": 2952,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h1_gt_3d.webp",
+      "saved_bytes": 2376,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h6_gt_bev.webp",
+      "saved_bytes": 2858,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h5_gt_3d.webp",
+      "saved_bytes": 2386,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h5_gt_bev.webp",
+      "saved_bytes": 3006,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h1_ours_bev.webp",
+      "saved_bytes": 2908,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h4_gt_3d.webp",
+      "saved_bytes": 2628,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h3_gt_3d.webp",
+      "saved_bytes": 2738,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h6_ours_bev.webp",
+      "saved_bytes": 2722,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h4_ours_3d.webp",
+      "saved_bytes": 2574,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h1_gt_bev.webp",
+      "saved_bytes": 3028,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h2_gt_3d.webp",
+      "saved_bytes": 2686,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h6_ours_3d.webp",
+      "saved_bytes": 2568,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h1_ours_3d.webp",
+      "saved_bytes": 2614,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/h3_gt_bev.webp",
+      "saved_bytes": 2950,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h4_ours_bev.webp",
+      "saved_bytes": 3382,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h3_ours_bev.webp",
+      "saved_bytes": 3716,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h6_gt_3d.webp",
+      "saved_bytes": 5178,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h5_ours_3d.webp",
+      "saved_bytes": 3428,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h3_ours_3d.webp",
+      "saved_bytes": 3432,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h2_ours_bev.webp",
+      "saved_bytes": 3470,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h2_ours_3d.webp",
+      "saved_bytes": 3538,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h2_gt_bev.webp",
+      "saved_bytes": 5152,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h5_ours_bev.webp",
+      "saved_bytes": 3570,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h4_gt_bev.webp",
+      "saved_bytes": 5162,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h1_gt_3d.webp",
+      "saved_bytes": 4312,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h6_gt_bev.webp",
+      "saved_bytes": 5092,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h5_gt_3d.webp",
+      "saved_bytes": 4842,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h5_gt_bev.webp",
+      "saved_bytes": 5046,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h1_ours_bev.webp",
+      "saved_bytes": 2888,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h4_gt_3d.webp",
+      "saved_bytes": 4778,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h3_gt_3d.webp",
+      "saved_bytes": 4430,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h6_ours_bev.webp",
+      "saved_bytes": 3346,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h4_ours_3d.webp",
+      "saved_bytes": 3462,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h1_gt_bev.webp",
+      "saved_bytes": 4370,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h2_gt_3d.webp",
+      "saved_bytes": 4440,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h6_ours_3d.webp",
+      "saved_bytes": 3648,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h1_ours_3d.webp",
+      "saved_bytes": 3392,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/h3_gt_bev.webp",
+      "saved_bytes": 5244,
+      "quality": 78
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front_h1.jpg",
+      "saved_bytes": 44305,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front_h3.jpg",
+      "saved_bytes": 41520,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front_h5.jpg",
+      "saved_bytes": 40573,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front.jpg",
+      "saved_bytes": 43629,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front_h6.jpg",
+      "saved_bytes": 41958,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front_h4.jpg",
+      "saved_bytes": 40770,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-1094_a023/cam_front_h2.jpg",
+      "saved_bytes": 42576,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front_h1.jpg",
+      "saved_bytes": 17095,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front_h3.jpg",
+      "saved_bytes": 16674,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front_h5.jpg",
+      "saved_bytes": 15729,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front.jpg",
+      "saved_bytes": 16694,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front_h6.jpg",
+      "saved_bytes": 15722,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front_h4.jpg",
+      "saved_bytes": 16312,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0101_a023/cam_front_h2.jpg",
+      "saved_bytes": 17027,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front_h1.jpg",
+      "saved_bytes": 15535,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front_h3.jpg",
+      "saved_bytes": 15741,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front_h5.jpg",
+      "saved_bytes": 15853,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front.jpg",
+      "saved_bytes": 15546,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front_h6.jpg",
+      "saved_bytes": 15803,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front_h4.jpg",
+      "saved_bytes": 15729,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0553_a021/cam_front_h2.jpg",
+      "saved_bytes": 15788,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front_h1.jpg",
+      "saved_bytes": 19692,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front_h3.jpg",
+      "saved_bytes": 21482,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front_h5.jpg",
+      "saved_bytes": 22099,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front.jpg",
+      "saved_bytes": 18466,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front_h6.jpg",
+      "saved_bytes": 22443,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front_h4.jpg",
+      "saved_bytes": 21852,
+      "quality": 72
+    },
+    {
+      "recompress": "world-model/assets/qualitative_r11/scene-0916_a004/cam_front_h2.jpg",
+      "saved_bytes": 20884,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/002_CAM_FRONT_RIGHT.jpg",
+      "saved_bytes": 43481,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/001_CAM_FRONT.jpg",
+      "saved_bytes": 58759,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/002_CAM_BACK.jpg",
+      "saved_bytes": 49871,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/002_CAM_FRONT_LEFT.jpg",
+      "saved_bytes": 55843,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/003_CAM_BACK_LEFT.jpg",
+      "saved_bytes": 57266,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/001_CAM_BACK.jpg",
+      "saved_bytes": 44876,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/000_CAM_BACK_LEFT.jpg",
+      "saved_bytes": 55186,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/000_CAM_BACK_RIGHT.jpg",
+      "saved_bytes": 48688,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/002_CAM_FRONT.jpg",
+      "saved_bytes": 62552,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/000_CAM_BACK.jpg",
+      "saved_bytes": 49568,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/000_CAM_FRONT_LEFT.jpg",
+      "saved_bytes": 58988,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/000_CAM_FRONT_RIGHT.jpg",
+      "saved_bytes": 42595,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/002_CAM_BACK_RIGHT.jpg",
+      "saved_bytes": 46740,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/000_CAM_FRONT.jpg",
+      "saved_bytes": 55384,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/001_CAM_BACK_RIGHT.jpg",
+      "saved_bytes": 48037,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/001_CAM_FRONT_RIGHT.jpg",
+      "saved_bytes": 40474,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/003_CAM_BACK_RIGHT.jpg",
+      "saved_bytes": 43153,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/001_CAM_BACK_LEFT.jpg",
+      "saved_bytes": 55622,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/003_CAM_BACK.jpg",
+      "saved_bytes": 53431,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/003_CAM_FRONT.jpg",
+      "saved_bytes": 64645,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/003_CAM_FRONT_RIGHT.jpg",
+      "saved_bytes": 52702,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/001_CAM_FRONT_LEFT.jpg",
+      "saved_bytes": 58597,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/003_CAM_FRONT_LEFT.jpg",
+      "saved_bytes": 52217,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/media/cameras/002_CAM_BACK_LEFT.jpg",
+      "saved_bytes": 52570,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/fallback/CAM_FRONT.jpg",
+      "saved_bytes": 45756,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/fallback/CAM_BACK_RIGHT.jpg",
+      "saved_bytes": 53547,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/fallback/CAM_BACK_LEFT.jpg",
+      "saved_bytes": 47901,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/fallback/CAM_BACK.jpg",
+      "saved_bytes": 48392,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/fallback/CAM_FRONT_LEFT.jpg",
+      "saved_bytes": 51080,
+      "quality": 72
+    },
+    {
+      "recompress": "ltmap/assets/scene1094_authoritative/fallback/CAM_FRONT_RIGHT.jpg",
+      "saved_bytes": 53583,
+      "quality": 72
+    }
+  ],
+  "video_changes": [],
+  "other_changes": [
+    {
+      "minify": "world-model/R11_FRAME_ALIGNMENT_QA.json",
+      "saved_bytes": 638
+    },
+    {
+      "minify": "world-model/assets/qualitative_r11/manifest.json",
+      "saved_bytes": 456
+    },
+    {
+      "minify": "world-model/assets/qualitative_r11/cam_front_sync_manifest.json",
+      "saved_bytes": 4368
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/R24_FULL_AUTHORITY_OK.json",
+      "saved_bytes": 323
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/fallback/fallback_manifest.json",
+      "saved_bytes": 12
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/data/manifest.json",
+      "saved_bytes": 208
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/data/frames/000002.json",
+      "saved_bytes": 188554
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/data/frames/000003.json",
+      "saved_bytes": 202178
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/data/frames/000000.json",
+      "saved_bytes": 166815
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/data/frames/000001.json",
+      "saved_bytes": 177490
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/_r24_previous_data_backup/data/manifest.json",
+      "saved_bytes": 208
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/_r24_previous_data_backup/data/v18_2_decision_graph.json",
+      "saved_bytes": 2353
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/_r24_previous_data_backup/data/frames/000002.json",
+      "saved_bytes": 188554
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/_r24_previous_data_backup/data/frames/000003.json",
+      "saved_bytes": 202178
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/_r24_previous_data_backup/data/frames/000000.json",
+      "saved_bytes": 166815
+    },
+    {
+      "minify": "ltmap/assets/scene1094_authoritative/_r24_previous_data_backup/data/frames/000001.json",
+      "saved_bytes": 177490
+    }
+  ],
+  "image_backend": "Pillow",
+  "runtime_contracts": [
+    "homepage videos poster-first + viewport lazy",
+    "LTMap authoritative iframe lazy",
+    "VGGT R02 point payload idle-loaded",
+    "WM forecast loads only near viewport and preloads adjacent horizon only",
+    "no cache-busting URLs",
+    "Cloudflare _headers enables browser cache and Early-Hint preload CSS"
+  ]
+}

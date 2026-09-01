@@ -1,1 +1,1 @@
-Frames 013-016. Current-frame perception/relation/advice retained. Only pedestrian display IDs in explanatory text are aliased to Frame 013. Dynamic BBX >= 0.40; static BBX >= 0.20. Source run is not modified.
+R28: F013-F016 action/urgency/advice/hazard-count/relation-count are validated against the accepted raw R27 output. Only pedestrian DISPLAY IDs in visible explanatory strings are remapped to the F013 anchor; raw IDs are preserved in audit/raw_summary_zh. Website ships compact relation data, not all 500+ relation edges.

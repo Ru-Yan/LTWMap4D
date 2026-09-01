@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "version": "R28-real-reasoning-f013-display-anchor",
+  "source_run": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/scene1094_align_check",
+  "decision_sha256": "cff14732ebca5b8f49ae6a84ccb0d8c881ed180ad6f40caee7a93d9f743a8cb1",
+  "relation_sha256": "d2b66983bf6f998d1a131e8aa7e92da4405c3a3fe935bdab5614cdb40f61acc8",
+  "expected_signature": {
+    "13": {
+      "action": "DECELERATE",
+      "urgency": "MEDIUM",
+      "hazards": 2,
+      "relations": 518,
+      "primary_raw_id": 17,
+      "advice": "行人 #17位于自车前方约25.0米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约26.9米）。 建议适当减速并确认周围通行空间。"
+    },
+    "14": {
+      "action": "DECELERATE",
+      "urgency": "MEDIUM",
+      "hazards": 2,
+      "relations": 507,
+      "primary_raw_id": 49,
+      "advice": "行人 #49位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约22.7米）。 建议适当减速并确认周围通行空间。"
+    },
+    "15": {
+      "action": "DECELERATE",
+      "urgency": "MEDIUM",
+      "hazards": 1,
+      "relations": 512,
+      "primary_raw_id": 24,
+      "advice": "行人 #24位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议适当减速并确认周围通行空间。"
+    },
+    "16": {
+      "action": "YIELD",
+      "urgency": "HIGH",
+      "hazards": 1,
+      "relations": 503,
+      "primary_raw_id": 48,
+      "advice": "行人 #48位于自车前方约16.5米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议减速并准备让行。"
+    }
+  },
+  "frames": [
+    {
+      "source_frame": 13,
+      "raw_action": "DECELERATE",
+      "raw_urgency": "MEDIUM",
+      "raw_hazard_count": 2,
+      "raw_relation_count": 518,
+      "raw_advice": "行人 #17位于自车前方约25.0米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约26.9米）。 建议适当减速并确认周围通行空间。",
+      "display_advice": "行人 #17位于自车前方约25.0米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约26.9米）。 建议适当减速并确认周围通行空间。",
+      "pedestrian_display_alias": {
+        "12": 12,
+        "17": 17,
+        "19": 19,
+        "27": 27,
+        "31": 31,
+        "53": 53,
+        "55": 53
+      },
+      "alias_distance_m": {
+        "12": 0.0,
+        "17": 0.0,
+        "19": 0.0,
+        "27": 0.0,
+        "31": 0.0,
+        "53": 0.0,
+        "55": 0.5198742998535506
+      }
+    },
+    {
+      "source_frame": 14,
+      "raw_action": "DECELERATE",
+      "raw_urgency": "MEDIUM",
+      "raw_hazard_count": 2,
+      "raw_relation_count": 507,
+      "raw_advice": "行人 #49位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约22.7米）。 建议适当减速并确认周围通行空间。",
+      "display_advice": "行人 #17位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约22.7米）。 建议适当减速并确认周围通行空间。",
+      "pedestrian_display_alias": {
+        "8": 8,
+        "12": 12,
+        "15": 15,
+        "27": 27,
+        "31": 31,
+        "38": 38,
+        "48": 48,
+        "49": 17,
+        "50": 50
+      },
+      "alias_distance_m": {
+        "8": 0.0,
+        "12": 0.0,
+        "15": 0.0,
+        "27": 0.0,
+        "31": 0.0,
+        "38": 0.0,
+        "48": 0.0,
+        "49": 0.0,
+        "50": 0.0
+      }
+    },
+    {
+      "source_frame": 15,
+      "raw_action": "DECELERATE",
+      "raw_urgency": "MEDIUM",
+      "raw_hazard_count": 1,
+      "raw_relation_count": 512,
+      "raw_advice": "行人 #24位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议适当减速并确认周围通行空间。",
+      "display_advice": "行人 #17位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议适当减速并确认周围通行空间。",
+      "pedestrian_display_alias": {
+        "8": 8,
+        "12": 12,
+        "24": 17,
+        "27": 27,
+        "31": 31,
+        "38": 38,
+        "48": 48
+      },
+      "alias_distance_m": {
+        "8": 0.0,
+        "12": 0.0,
+        "24": 0.0,
+        "27": 0.0,
+        "31": 0.0,
+        "38": 0.0,
+        "48": 0.0
+      }
+    },
+    {
+      "source_frame": 16,
+      "raw_action": "YIELD",
+      "raw_urgency": "HIGH",
+      "raw_hazard_count": 1,
+      "raw_relation_count": 503,
+      "raw_advice": "行人 #48位于自车前方约16.5米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议减速并准备让行。",
+      "display_advice": "行人 #17位于自车前方约16.5米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议减速并准备让行。",
+      "pedestrian_display_alias": {
+        "8": 8,
+        "27": 27,
+        "31": 31,
+        "38": 38,
+        "48": 17
+      },
+      "alias_distance_m": {
+        "8": 0.0,
+        "27": 0.0,
+        "31": 0.0,
+        "38": 0.0,
+        "48": 0.0
+      }
+    }
+  ]
+}

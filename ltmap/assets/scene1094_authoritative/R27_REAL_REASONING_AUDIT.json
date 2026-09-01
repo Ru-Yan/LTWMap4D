@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "version": "R27-real-reasoning-raw-graph-sync",
+  "site": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/site",
+  "source_run": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/scene1094_align_check",
+  "source_decision_graph": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/scene1094_align_check/decision_graph_v18_2_2.json",
+  "source_relation_graph": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/scene1094_align_check/relation_risk_graph_v18_2_2.json",
+  "source_decision_sha256": "cff14732ebca5b8f49ae6a84ccb0d8c881ed180ad6f40caee7a93d9f743a8cb1",
+  "source_relation_sha256": "d2b66983bf6f998d1a131e8aa7e92da4405c3a3fe935bdab5614cdb40f61acc8",
+  "source_frames": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "entity_id_text_aliasing": false,
+  "frontend_export_decision_graph_used": false,
+  "backup": "/home/walle/桌面/web1/LTMap3D_PORTFOLIO_R25_R14_FULL_TEXT_NUSCENES_FRAME_SYNC_20260901/R27_REASONING_BACKUP_20260901_204150",
+  "frames": [
+    {
+      "local_index": 0,
+      "source_frame": 13,
+      "decision_longitudinal": "DECELERATE",
+      "decision_lateral": "KEEP_LANE",
+      "urgency": "MEDIUM",
+      "decision_source": "deterministic_safety_validator_multi_risk",
+      "advice_summary_zh": "行人 #17位于自车前方约25.0米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约26.9米）。 建议适当减速并确认周围通行空间。",
+      "relation_hazard_count": 2,
+      "relation_count": 518,
+      "relation_explanation_count": 12,
+      "relation_explanations_preview": [
+        "行人 #17与自车路径交叉：自车未来行驶路径。",
+        "行人 #19与自车路径交叉：自车未来行驶路径。",
+        "车辆 #5正在从后方接近自车：自车。",
+        "车辆 #25正在从后方接近自车：自车。",
+        "行人 #31正在从后方接近自车：自车。",
+        "车辆 #5正在从侧方接近自车：自车。",
+        "车辆 #25正在从侧方接近自车：自车。",
+        "行人 #27正在从侧方接近自车：自车。"
+      ]
+    },
+    {
+      "local_index": 1,
+      "source_frame": 14,
+      "decision_longitudinal": "DECELERATE",
+      "decision_lateral": "KEEP_LANE",
+      "urgency": "MEDIUM",
+      "decision_source": "deterministic_safety_validator_multi_risk",
+      "advice_summary_zh": "行人 #49位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 同时关注：弱势交通参与者路径冲突（约22.7米）。 建议适当减速并确认周围通行空间。",
+      "relation_hazard_count": 2,
+      "relation_count": 507,
+      "relation_explanation_count": 12,
+      "relation_explanations_preview": [
+        "行人 #15与自车路径交叉：自车未来行驶路径。",
+        "行人 #49与自车路径交叉：自车未来行驶路径。",
+        "车辆 #5正在从后方接近自车：自车。",
+        "行人 #31正在从后方接近自车：自车。",
+        "车辆 #5正在从侧方接近自车：自车。",
+        "行人 #8正在从侧方接近自车：自车。",
+        "行人 #27正在从侧方接近自车：自车。",
+        "行人 #31正在从侧方接近自车：自车。"
+      ]
+    },
+    {
+      "local_index": 2,
+      "source_frame": 15,
+      "decision_longitudinal": "DECELERATE",
+      "decision_lateral": "KEEP_LANE",
+      "urgency": "MEDIUM",
+      "decision_source": "deterministic_safety_validator_multi_risk",
+      "advice_summary_zh": "行人 #24位于自车前方约20.7米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议适当减速并确认周围通行空间。",
+      "relation_hazard_count": 1,
+      "relation_count": 512,
+      "relation_explanation_count": 12,
+      "relation_explanations_preview": [
+        "行人 #24与自车路径交叉：自车未来行驶路径。",
+        "车辆 #5正在从后方接近自车：自车。",
+        "行人 #27正在从后方接近自车：自车。",
+        "行人 #31正在从后方接近自车：自车。",
+        "车辆 #5正在从侧方接近自车：自车。",
+        "行人 #8正在从侧方接近自车：自车。",
+        "行人 #27正在从侧方接近自车：自车。",
+        "行人 #31正在从侧方接近自车：自车。"
+      ]
+    },
+    {
+      "local_index": 3,
+      "source_frame": 16,
+      "decision_longitudinal": "YIELD",
+      "decision_lateral": "KEEP_LANE",
+      "urgency": "HIGH",
+      "decision_source": "deterministic_safety_validator_multi_risk",
+      "advice_summary_zh": "行人 #48位于自车前方约16.5米，轨迹显示其正在进入、占据或交叉自车未来行驶路径。 建议减速并准备让行。",
+      "relation_hazard_count": 1,
+      "relation_count": 503,
+      "relation_explanation_count": 12,
+      "relation_explanations_preview": [
+        "行人 #48与自车路径交叉：自车未来行驶路径。",
+        "车辆 #5正在从后方接近自车：自车。",
+        "行人 #8正在从后方接近自车：自车。",
+        "行人 #27正在从后方接近自车：自车。",
+        "行人 #31正在从后方接近自车：自车。",
+        "行人 #38正在从后方接近自车：自车。",
+        "车辆 #58正在从后方接近自车：自车。",
+        "车辆 #5正在从侧方接近自车：自车。"
+      ]
+    }
+  ],
+  "candidate_raw_runs": [
+    "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/scene1094_align_check"
+  ]
+}

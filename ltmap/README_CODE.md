@@ -5,7 +5,7 @@
 - `assets/site.css`
 
 ## Method figure
-- `assets/method_overview.png`
+- `assets/method_overview.webp`
 - Uses the user-selected CVPR-style academic figure without regenerating it.
 
 ## Quantitative block

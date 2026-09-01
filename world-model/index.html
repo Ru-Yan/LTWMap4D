@@ -26,6 +26,14 @@ section{padding:62px 0;border-top:1px solid var(--line)}.section-title{text-alig
 
 .case-tabs{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:0 auto 18px}.case-tab{border:1px solid var(--line);background:#fff;color:#41545a;border-radius:999px;padding:8px 13px;font-size:12px;font-weight:700;cursor:pointer}.case-tab.active{background:#14363a;color:#fff;border-color:#14363a}.case-head{display:grid;grid-template-columns:1.25fr .75fr;gap:16px;margin-bottom:16px}.case-camera{border:1px solid var(--line);border-radius:16px;padding:14px;background:#fff}.case-camera img{width:100%;aspect-ratio:16/8.3;object-fit:cover;border-radius:10px;display:block}.case-camera .cap{display:flex;justify-content:space-between;gap:12px;margin-top:9px;font-size:12px;color:var(--muted)}.case-meta{border:1px solid var(--line);border-radius:16px;padding:18px;background:#f8faf9;display:flex;flex-direction:column;justify-content:center}.case-meta b{font-size:18px}.case-meta span{font-size:12px;color:var(--muted);margin-top:5px}.track-legend{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:9px;font-size:11px;color:#64757a}.track-legend i{display:inline-block;width:18px;height:3px;border-radius:2px;margin-right:5px;vertical-align:3px}.provenance-note{font-size:10px;color:#93a1a5;text-align:center;margin-top:8px}.case-count{font-variant-numeric:tabular-nums}.http-gate{border:1px solid #e7c880;background:#fff9e8;color:#5b4a1b;border-radius:12px;padding:16px;text-align:center;margin-top:12px}.authoritative-shell{height:760px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#081117}.authoritative-frame{display:block;width:100%;height:100%;border:0;background:#081117}
 @media(max-width:900px){.case-head{grid-template-columns:1fr}.authoritative-shell{height:900px}}
+
+/* R30 synchronized horizon playback */
+.wm-seqbar{max-width:760px;margin:10px auto 0;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.wm-seqbtn{appearance:none;border:1px solid #b8c9c4;background:#fff;color:#26383b;border-radius:999px;padding:8px 14px;font:inherit;font-weight:700;cursor:pointer;box-shadow:0 2px 10px rgba(28,60,56,.05)}
+.wm-seqbtn:hover{border-color:#5c907c}.wm-seqbtn.playing{background:#2f7f62;color:#fff;border-color:#2f7f62}
+.wm-seqstatus{font-size:11px;color:#728185}.wm-track-note{margin:8px 14px 0;font-size:10.5px;line-height:1.55;color:#718086;text-align:center}
+#r10Ours3d,#r10Gt3d,#r10OursBev,#r10GtBev,#r10Cam{transition:opacity .12s ease}
+
 </style>
 <link href="../shared/portfolio_nav.css" rel="stylesheet"/><link href="../shared/final_layout.css" rel="stylesheet"/></head>
 <body>
@@ -40,7 +48,7 @@ section{padding:62px 0;border-top:1px solid var(--line)}.section-title{text-alig
 在预测阶段，模型联合当前 world state、persistent static memory 与 identity-preserving dynamic history，对未来 0.5–3.0 s 的 semantic occupancy 进行预测。VLM 分支进一步提供场景级语义、实体关系与上下文先验，从而探索长期地图记忆对遮挡区域恢复、静态结构保持以及长时域 4D 场景预测的作用。</div><div class="contrib"><div><b>持久世界记忆</b><small>跨帧、跨时间积累静态地图结构与动态实体历史，使模型能够访问当前观测窗口之外的历史场景信息。</small></div><div><b>VLM 语义场景推理</b><small>利用 VLM 对长尾实体、场景关系、拓扑语义与驾驶上下文进行高层语义 Grounding。</small></div><div><b>记忆条件化 4D 预测</b><small>将 Persistent Memory 与当前 world latent 显式融合，对未来 semantic occupancy 与动态场景演化进行联合预测。</small></div></div></div></section>
 <section id="method"><div class="wrap"><div class="section-title"><div class="eyebrow">方法概览</div><h2>持久记忆 + VLM 语义 Grounding + 未来 4D 预测</h2><p>LTWMap4D 由当前世界表征、长期地图记忆、VLM 场景语义与 memory-conditioned World Model 四部分组成。当前观测首先形成短时 world state；历史静态结构与动态实体信息持续写入 LTWMap Persistent Memory；VLM 为长尾实体及其场景关系提供高层语义先验；最终将当前状态与长期记忆共同条件化到 I²-World 中，预测未来多个时间尺度的 semantic occupancy。
 
-</p></div><div class="method-figure"><img alt="LTMap3D VLM-Grounded Persistent Memory method overview" src="assets/method/method_overview.png"/></div></div></section>
+</p></div><div class="method-figure"><img loading="lazy" decoding="async" alt="LTMap3D VLM-Grounded Persistent Memory method overview" src="assets/method/method_overview.webp"/></div></div></section>
 <section id="quant"><div class="wrap"><div class="section-title"><div class="eyebrow">定量结果
 </div></div><div class="metrics"><div class="metric"><strong class="gain">+0.651 pp</strong><span>Global Occupancy IoU 增益</span></div><div class="metric"><strong class="gain">+0.707 pp</strong><span>Static Group IoU 增益</span></div><div class="metric"><strong class="gain">+0.202 pp</strong><span>Dynamic IoU 增益</span></div><div class="metric"><strong>0.5–3.0 s</strong><span>未来预测 Horizon</span></div></div>
 <div class="quant-full"><div class="table-wrap"><table><thead><tr><th>Method</th><th>Input</th><th>1s mIoU</th><th>2s mIoU</th><th>3s mIoU</th><th>Avg. mIoU</th><th>Avg. IoU</th></tr></thead><tbody>
@@ -54,14 +62,14 @@ section{padding:62px 0;border-top:1px solid var(--line)}.section-title{text-alig
 </tbody></table></div></div>
 <div class="quant-row">
 <div class="chart-card"><h3>目标值与当前SOTA对比</h3><p>Occ3D-nuScenes · 3D Occupancy 输入 · GT 自车轨迹分支</p><div class="barrow"><span>GAST mIoU</span><div class="bartrack"><div class="bar gast" style="width:94.8%"></div></div><b>47.40</b></div><div class="barrow"><span>LTMap3D*</span><div class="bartrack"><div class="bar ours" style="width:98.5%"></div></div><b>49.23</b></div><div class="barrow"><span>GAST IoU</span><div class="bartrack"><div class="bar gast" style="width:93.7%"></div></div><b>56.24</b></div><div class="barrow"><span>LTMap3D*</span><div class="bartrack"><div class="bar ours" style="width:95.7%"></div></div><b>57.40</b></div><svg class="horizon-svg" viewbox="0 0 460 210"><line stroke="#cfd8da" x1="48" x2="430" y1="168" y2="168"></line><line stroke="#cfd8da" x1="48" x2="48" y1="28" y2="168"></line><text fill="#718086" font-size="11" x="53" y="22">Semantic mIoU ↑</text><text fill="#718086" font-size="11" x="95" y="190">1s</text><text fill="#718086" font-size="11" x="230" y="190">2s</text><text fill="#718086" font-size="11" x="365" y="190">3s</text><polyline fill="none" points="105,46 240,70 375,88" stroke="#8874b7" stroke-width="4"></polyline><polyline fill="none" points="105,42 240,64 375,82" stroke="#3a8a65" stroke-width="4"></polyline><circle cx="105" cy="46" fill="#8874b7" r="5"></circle><circle cx="240" cy="70" fill="#8874b7" r="5"></circle><circle cx="375" cy="88" fill="#8874b7" r="5"></circle><circle cx="105" cy="42" fill="#3a8a65" r="5"></circle><circle cx="240" cy="64" fill="#3a8a65" r="5"></circle><circle cx="375" cy="82" fill="#3a8a65" r="5"></circle><text fill="#3a8a65" font-size="10" x="98" y="37">57.0</text><text fill="#3a8a65" font-size="10" x="233" y="59">48.2</text><text fill="#3a8a65" font-size="10" x="368" y="77">42.5</text></svg></div>
-<div class="plot"><img alt="Measured gain by horizon" src="assets/plots/full_gain_by_horizon.png"/><div class="caption">实测结果表明，随着 Forecast Horizon 增大，Global Occupancy IoU 增益由 0.5 s 时的 +0.218 pp 提升至 3.0 s 时的 +0.914 pp。</div></div>
+<div class="plot"><img loading="lazy" decoding="async" alt="Measured gain by horizon" src="assets/plots/full_gain_by_horizon.webp"/><div class="caption">实测结果表明，随着 Forecast Horizon 增大，Global Occupancy IoU 增益由 0.5 s 时的 +0.218 pp 提升至 3.0 s 时的 +0.914 pp。</div></div>
 </div></div></section>
 <section id="forecast"><div class="wrap"><div class="section-title"><div class="eyebrow">4D Occupancy Forecasting</div><h2>4D 未来场景预测</h2><p>选择四个具有代表性的场景，在统一的 0.5–3.0 s Forecast Horizon 下同步展示 LTWMap4D Prediction 与 Ground Truth。3D occupancy 与 BEV 视图均采用 horizon-specific future-ego 坐标系；历史 Track 从 global frame 经对应 future ego pose 的 SE(3) 变换后与预测结果对齐，从而保证动态历史与未来 occupancy 位于一致参考系中。</p></div>
 <div class="case-tabs" id="caseTabs"></div>
-<div class="forecast-case"><div class="case-head"><div class="case-camera"><img alt="current visual input" id="r10Cam"/><div class="cap"><b id="r10CaseTitle">scene-1094 · anchor 023</b><span id="r10CaseBadge">Full LTMap3D</span></div></div><div class="case-meta"><b></b><span>每个预测 Horizon 都将历史 Track 变换至对应的 future-ego frame，同时考虑 ego vehicle 的旋转与平移，使动态实体历史与未来 semantic occupancy 在同一空间参考系下进行可视化与分析。</span><span class="case-count" id="r10TrackCount"></span></div></div>
-<div class="horizon-control" style="margin:16px auto 0;max-width:760px"><label>Forecast horizon <input id="r10Slider" max="6" min="1" step="1" type="range" value="4"/></label><b id="r10Horizon">2.0 s</b></div>
-<div class="forecast-layout"><div class="forecast-panel"><div class="panel-head"><div><h3>3D Semantic Occupancy 预测</h3></div></div><div class="compare-two"><figure><figcaption class="ourslab">OURS · LTMap3D</figcaption><img alt="LTMap3D 3D occupancy" id="r10Ours3d"/></figure><figure><figcaption class="gtlab">Ground Truth</figcaption><img alt="Ground truth 3D occupancy" id="r10Gt3d"/></figure></div></div>
-<div class="forecast-panel"><div class="panel-head"><div><h3>BEV Semantic Forecast + 历史 Track</h3></div></div><div class="compare-two"><figure><figcaption class="ourslab">OURS · LTMap3D</figcaption><img alt="LTMap3D BEV occupancy with tracks" id="r10OursBev"/></figure><figure><figcaption class="gtlab">Ground Truth</figcaption><img alt="Ground truth BEV occupancy with track context" id="r10GtBev"/></figure></div></div></div>
+<div class="forecast-case"><div class="case-head"><div class="case-camera"><img loading="lazy" decoding="async" alt="current visual input" id="r10Cam"/><div class="cap"><b id="r10CaseTitle">scene-1094 · anchor 023</b><span id="r10CaseBadge">Full LTMap3D</span></div></div><div class="case-meta"><b></b><span>每个预测 Horizon 都将历史 Track 变换至对应的 future-ego frame，同时考虑 ego vehicle 的旋转与平移，使动态实体历史与未来 semantic occupancy 在同一空间参考系下进行可视化与分析。</span><span class="case-count" id="r10TrackCount"></span></div></div>
+<div class="horizon-control" style="margin:16px auto 0;max-width:760px"><label>Forecast horizon <input id="r10Slider" max="6" min="1" step="1" type="range" value="4"/></label><b id="r10Horizon">2.0 s</b></div><div class="wm-seqbar"><button class="wm-seqbtn" id="wmSeqBtn" type="button">❚❚ 暂停时序播放</button><span class="wm-seqstatus" id="wmSeqStatus">真实 h1–h6 逐帧播放 · 与 slider / CAM_FRONT / 3D / BEV 同步</span></div>
+<div class="forecast-layout"><div class="forecast-panel"><div class="panel-head"><div><h3>3D Semantic Occupancy 预测</h3></div></div><div class="compare-two"><figure><figcaption class="ourslab">OURS · LTMap3D</figcaption><img loading="lazy" decoding="async" alt="LTMap3D 3D occupancy" id="r10Ours3d"/></figure><figure><figcaption class="gtlab">Ground Truth</figcaption><img loading="lazy" decoding="async" alt="Ground truth 3D occupancy" id="r10Gt3d"/></figure></div></div>
+<div class="forecast-panel"><div class="panel-head"><div><h3>BEV Semantic Forecast + Anchor-Ego 历史 Track（时序播放）</h3></div></div><div class="compare-two"><figure><figcaption class="ourslab">OURS · LTMap3D</figcaption><img loading="lazy" decoding="async" alt="LTMap3D BEV occupancy with tracks" id="r10OursBev"/></figure><figure><figcaption class="gtlab">Ground Truth · anchor-ego aligned</figcaption><img loading="lazy" decoding="async" alt="Ground truth BEV occupancy with track context" id="r10GtBev"/></figure></div><p class="wm-track-note">OURS 与 Ground Truth 均显示在同一 anchor-ego 坐标系；Ground Truth 由各 horizon 的 native future-ego GT 通过 SE(3) 变换回 anchor frame。历史 Track 使用 t0 anchor-ego 中最近 2.0 s 的真实 observation history，旧点渐隐；黑色三角为对应 horizon 的 future ego 位置。</p></div></div>
 <div class="semantic-legend"><span><i style="background:#39C5C4"></i>Road</span><span><i style="background:#E8C99A"></i>Sidewalk</span><span><i style="background:#2D70C9"></i>Car</span><span><i style="background:#E85A8A"></i>Pedestrian</span><span><i style="background:#6E397B"></i>Building</span><span><i style="background:#4C9A2A"></i>Vegetation</span></div><div class="track-legend"><span><i style="background:#1565C0"></i>Vehicle track</span><span><i style="background:#EF6C00"></i>Pedestrian track</span><span><i style="background:#7B1FA2"></i>Two-wheel track</span><span>▲ Ego</span></div></div>
 </div></section><section><div class="wrap"><div class="section-title"><div class="eyebrow">Why LTMap Memory</div><h2>为什么需要 Persistent Map Memory？</h2><p>短时 Future Forecast 可以较大程度依赖当前 world state，但随着 Forecast Horizon 增大，当前观测能够提供的有效约束逐渐减弱。此前已经观察到、但当前被遮挡或离开视野的道路结构、静态环境和动态实体历史，仍然可能对未来场景演化产生影响。
 当前 controlled study 中，LTWMap Persistent Memory 带来的 Global Occupancy IoU 增益由 0.5 s 的 +0.218 pp 提升至 3.0 s 的 +0.914 pp，说明长期地图信息在更长时间尺度上能够补充 Current-only World Model 所缺失的历史场景信息。
@@ -76,48 +84,34 @@ const cases={
 "scene-0916_a004":{title:"scene-0916 · anchor 004",badge:"Multi-scene",tracks:45,prov:"Frozen multi-scene memory + track raw rollout; no-VLM raw export branch."},
 "scene-0553_a021":{title:"scene-0553 · anchor 021",badge:"Multi-scene",tracks:20,prov:"Frozen multi-scene memory + track raw rollout; no-VLM raw export branch."}
 };
-let cur="scene-1094_a023";
+let cur="scene-1094_a023",initialized=false;
 const tabs=document.getElementById('caseTabs'),sl=document.getElementById('r10Slider'),hz=document.getElementById('r10Horizon');
 const el=id=>document.getElementById(id);
-let seq=0;
-function bust(rel,n){return rel;}
-function setImg(id,rel,n){const x=el(id);if(!x)return;x.onerror=null;x.src=bust(rel,n);x.dataset.case=cur;x.dataset.horizon=String(n);}
-function setCam(base,n){
- const x=el('r10Cam'); if(!x)return;
- const wanted=base+'cam_front_h'+n+'.jpg';
- const fallback=base+'cam_front.jpg';
- x.onerror=()=>{x.onerror=null;x.src=bust(fallback,n);};
- x.src=bust(wanted,n); x.dataset.case=cur; x.dataset.horizon=String(n);
-}
-function preload(id){
- const base='assets/qualitative_r11/'+id+'/';
- for(let n=1;n<=6;n++){
-  for(const suf of ['ours_3d.webp','gt_3d.webp','ours_bev.webp','gt_bev.webp']){const im=new Image();im.src=base+'h'+n+'_'+suf;}
-  const cam=new Image();cam.src=base+'cam_front_h'+n+'.jpg';
- }
-}
-function update(){
- const c=cases[cur]; if(!c||!sl)return;
- const n=Math.max(1,Math.min(6,Number(sl.value)||1));
- const base='assets/qualitative_r11/'+cur+'/';
- const p=base+'h'+n+'_';
- hz.textContent=(n*.5).toFixed(1)+' s';
- setCam(base,n);
- const title=el('r10CaseTitle'); if(title)title.textContent=c.title;
- const badge=el('r10CaseBadge'); if(badge)badge.textContent=c.badge;
- const count=el('r10TrackCount'); if(count)count.textContent='History tracks: '+c.tracks;
- const prov=el('r10Prov'); if(prov)prov.textContent=c.prov;
- setImg('r10Ours3d',p+'ours_3d.webp',n); setImg('r10Gt3d',p+'gt_3d.webp',n);
- setImg('r10OursBev',p+'ours_bev.webp',n); setImg('r10GtBev',p+'gt_bev.webp',n);
- document.documentElement.dataset.wmCase=cur; document.documentElement.dataset.wmHorizon=String(n);
-}
-Object.entries(cases).forEach(([id,c],i)=>{const b=document.createElement('button');b.type='button';b.className='case-tab'+(i===0?' active':'');b.textContent=c.title;b.dataset.id=id;b.addEventListener('click',()=>{cur=id;[...tabs.children].forEach(x=>x.classList.toggle('active',x===b));preload(cur);update()});tabs.appendChild(b)});
-let __wmRaf=0;
-function scheduleUpdate(){if(__wmRaf)return;__wmRaf=requestAnimationFrame(()=>{__wmRaf=0;update();});}
-sl.addEventListener('input',scheduleUpdate,{passive:true});
-sl.addEventListener('change',update,{passive:true});
-sl.addEventListener('keydown',scheduleUpdate);
-preload(cur);update();
+function setImg(id,rel,n){const x=el(id);if(!x)return;x.onerror=null;x.src=rel;x.dataset.case=cur;x.dataset.horizon=String(n);}
+function setCam(base,n){const x=el('r10Cam');if(!x)return;const wanted=base+'cam_front_h'+n+'.jpg',fallback=base+'cam_front.jpg';x.onerror=()=>{x.onerror=null;x.src=fallback};x.src=wanted;x.dataset.case=cur;x.dataset.horizon=String(n);}
+function preloadOne(id,n){if(n<1||n>6)return;const base='assets/qualitative_r11/'+id+'/';for(const suf of ['ours_3d.webp','gt_3d.webp','ours_bev.webp','gt_bev.webp']){const im=new Image();im.decoding='async';im.src=base+'h'+n+'_'+suf+(suf.indexOf('bev')>=0?'?v=r31-bev-09ea8633':'');}}
+function warmAdjacent(id,n){const run=()=>{preloadOne(id,n-1);preloadOne(id,n+1)};if('requestIdleCallback'in window)requestIdleCallback(run,{timeout:900});else setTimeout(run,120)}
+function update(){const c=cases[cur];if(!c||!sl)return;const n=Math.max(1,Math.min(6,Number(sl.value)||1)),base='assets/qualitative_r11/'+cur+'/',p=base+'h'+n+'_';hz.textContent=(n*.5).toFixed(1)+' s';setCam(base,n);const title=el('r10CaseTitle');if(title)title.textContent=c.title;const badge=el('r10CaseBadge');if(badge)badge.textContent=c.badge;const count=el('r10TrackCount');if(count)count.textContent='History tracks: '+c.tracks;const prov=el('r10Prov');if(prov)prov.textContent=c.prov;setImg('r10Ours3d',p+'ours_3d.webp',n);setImg('r10Gt3d',p+'gt_3d.webp',n);setImg('r10OursBev',p+'ours_bev.webp?v=r31-bev-09ea8633',n);setImg('r10GtBev',p+'gt_bev.webp?v=r31-bev-09ea8633',n);document.documentElement.dataset.wmCase=cur;document.documentElement.dataset.wmHorizon=String(n);warmAdjacent(cur,n)}
+Object.entries(cases).forEach(([id,c],i)=>{const b=document.createElement('button');b.type='button';b.className='case-tab'+(i===0?' active':'');b.textContent=c.title;b.dataset.id=id;b.addEventListener('click',()=>{cur=id;[...tabs.children].forEach(x=>x.classList.toggle('active',x===b));if(initialized){preloadOne(id,Number(sl.value)||1);update()}});b.addEventListener('pointerenter',()=>{if(initialized)preloadOne(id,Number(sl.value)||1)},{passive:true});tabs.appendChild(b)});
+let raf=0;function scheduleUpdate(){if(!initialized||raf)return;raf=requestAnimationFrame(()=>{raf=0;update()})}
+sl.addEventListener('input',scheduleUpdate,{passive:true});sl.addEventListener('change',()=>{if(initialized)update()},{passive:true});
+
+// R30 synchronized horizon playback: animate the six real horizon assets, not a synthetic GIF.
+const seqBtn=document.getElementById('wmSeqBtn'),seqStatus=document.getElementById('wmSeqStatus');
+let seqTimer=0,seqPlaying=false,seqStarted=false;
+function setSeqUI(){if(!seqBtn)return;seqBtn.classList.toggle('playing',seqPlaying);seqBtn.textContent=seqPlaying?'❚❚ 暂停时序播放':'▶ 播放 0.5–3.0 s';if(seqStatus)seqStatus.textContent=seqPlaying?'真实 h1–h6 循环播放 · 所有可视化严格同步':'已暂停 · 拖动 slider 可逐 horizon 检查';}
+function stopSeq(){if(seqTimer){clearInterval(seqTimer);seqTimer=0}seqPlaying=false;setSeqUI();}
+function seqStep(){if(!initialized||!sl)return;let n=Number(sl.value)||1;n=n>=6?1:n+1;sl.value=String(n);update();}
+function startSeq(){if(!initialized||seqPlaying)return;seqPlaying=true;setSeqUI();seqTimer=setInterval(seqStep,850);}
+if(seqBtn)seqBtn.addEventListener('click',()=>{if(seqPlaying)stopSeq();else startSeq()});
+function userOwnsSlider(){if(seqPlaying)stopSeq();}
+sl.addEventListener('pointerdown',userOwnsSlider,{passive:true});
+sl.addEventListener('keydown',userOwnsSlider);
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&seqPlaying)stopSeq()});
+
+function initForecast(){if(initialized)return;initialized=true;update();if(!seqStarted){seqStarted=true;setTimeout(startSeq,450)}}
+const fs=document.getElementById('forecast');if('IntersectionObserver'in window&&fs){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){initForecast();io.disconnect()}}),{rootMargin:'500px 0px'});io.observe(fs)}else addEventListener('load',()=>setTimeout(initForecast,300),{once:true});
 })();
 </script>
+<!-- R31: forecast tensors and GT are visualized in the same anchor-ego frame; history tracks show the recent 2.0 s. -->
 </body></html>

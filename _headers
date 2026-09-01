@@ -1,0 +1,49 @@
+# Cloudflare Pages R28 performance headers
+/
+  Cache-Control: no-cache
+  Link: </shared/portfolio_nav.css>; rel=preload; as=style
+  Link: </shared/final_layout.css>; rel=preload; as=style
+
+/ltmap/
+  Cache-Control: no-cache
+  Link: </shared/portfolio_nav.css>; rel=preload; as=style
+  Link: </shared/final_layout.css>; rel=preload; as=style
+  Link: </ltmap/assets/site.css>; rel=preload; as=style
+
+/vggt/
+  Cache-Control: no-cache
+  Link: </shared/portfolio_nav.css>; rel=preload; as=style
+  Link: </shared/final_layout.css>; rel=preload; as=style
+
+/world-model/
+  Cache-Control: no-cache
+  Link: </shared/portfolio_nav.css>; rel=preload; as=style
+  Link: </shared/final_layout.css>; rel=preload; as=style
+
+/shared/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/ltmap/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/vggt/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/world-model/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+# R30 cache-proof LTMap reasoning
+/ltmap/assets/scene1094_authoritative/index.html
+  Cache-Control: no-cache
+
+/ltmap/assets/scene1094_authoritative/data/*.json
+  Cache-Control: no-cache
+
+/ltmap/assets/scene1094_authoritative/static/app.r30.5ff56256cc36.js
+  Cache-Control: public, max-age=31536000, immutable
+# R31 repaired BEV assets: content can be updated under stable h1..h6 filenames
+/world-model/assets/qualitative_r11/scene-0101_a023/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/world-model/assets/qualitative_r11/scene-0553_a021/*
+  Cache-Control: public, max-age=0, must-revalidate
+

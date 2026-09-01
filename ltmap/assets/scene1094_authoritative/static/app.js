@@ -4,7 +4,7 @@ const STATIC_COL={traffic_light:"#00e5ff",pedestrian_traffic_light:"#58d9ff",tra
 const MAP_COL={divider:"#ff9500",ped_crossing:"#2f6fff",boundary:"#e12b2b"};
 const SEM={0:"#777",1:"#888",2:"#b85cff",3:"#ffb020",4:"#ff7043",5:"#c49a42",6:"#805cff",7:"#ff3f81",8:"#ffd45d",9:"#c08055",10:"#ff9e3d",11:"#7f7f7f",12:"#9a8f7f",13:"#d7839a",14:"#b6925f",15:"#90a4ae",16:"#4caf50"};
 const NAMES={4:"car",7:"pedestrian",3:"bus",10:"truck",2:"bicycle",6:"motorcycle",11:"driveable",13:"sidewalk",15:"manmade",16:"vegetation"};
-const S={d182:null,showOcc:true,m:null,f:null,idx:0,conf:.30,staticConf:.20,pc:"semantic",mode:"3d",pts:null,lane:null,showStatic:true,showMap:true,ground:null,view:{yaw:-.72,pitch:.92,roll:0,zoom:7,px:0,py:0,drag:null},lv:{z:1,px:0,py:0,drag:null}};
+const S={d182:null,r182:null,showOcc:true,m:null,f:null,idx:0,conf:.30,staticConf:.20,pc:"semantic",mode:"3d",pts:null,lane:null,showStatic:true,showMap:true,ground:null,view:{yaw:-.72,pitch:.92,roll:0,zoom:7,px:0,py:0,drag:null},lv:{z:1,px:0,py:0,drag:null}};
 const $=q=>document.querySelector(q),oc=l=>COL[l]||"#e6edf3",sc=l=>STATIC_COL[l]||"#65d6c0";
 let __loadSeq=0;
 async function gj(u){const r=await fetch(u,{cache:"force-cache"});if(!r.ok)throw Error(`${u}:${r.status}`);return r.json()}
@@ -115,17 +115,21 @@ function updateStaticCount(){
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]))}
 function panel(){
 const d=(S.d182&&S.d182.frames||[])[S.idx]||{};
-const hazards=d.hazards||[],dec=d.decision||{},adv=d.advice||{},vr=d.vlm_reasoning||{};
+const r=(S.r182&&S.r182.frames||[])[S.idx]||{};
+const hazards=(r.hazards||[]),dec=d.decision||{},adv=d.advice||{},vr=d.vlm_reasoning||{};
 const act={MAINTAIN:"保持",FOLLOW:"跟随",DECELERATE:"减速",YIELD:"让行",STOP:"停车"}[dec.longitudinal]||dec.longitudinal||"";
-let h='<div class="section"><h3>驾驶建议 · 行人显示ID锚定 F013</h3>';
-h+=`<div class="adviceHero">${esc(adv.summary_zh||"当前帧暂无建议")}<div class="adviceMeta">${esc(act)} · ${esc(dec.urgency||"")} · ${esc(adv.primary_concern_zh||"无新增关键风险")}</div></div>`;
-const chain=adv.critical_relation_chain||[];
-if(chain.length){h+='<div class="section"><h3>关键实体关系</h3>';chain.slice(0,2).forEach((x,i)=>{h+=`<div class="item why"><b>${esc(x.subject_zh||x.subject_id)}</b> → ${esc(x.predicate_zh||x.predicate)} → <b>${esc(x.object_zh||x.object_id)}</b></div>`});h+='</div>'}
+const sf=Number(d.source_frame_index??r.source_frame_index??S.f?.source_frame_index??S.idx);
+const relText=(r.relation_explanations_zh||d.relation_explanations_zh||[]).filter(Boolean);
+const src=dec.source||"deterministic_safety_validator";
+let h=`<div class="section"><h3>驾驶建议 · F${String(sf).padStart(3,"0")} 当前帧真实推理</h3>`;
+h+=`<div class="adviceHero">${esc(adv.summary_zh||"当前帧暂无驾驶建议")}<div class="adviceMeta">${esc(act)} · ${esc(dec.urgency||"")} · ${esc(adv.primary_concern_zh||"当前帧关系风险见下方")}</div><div class="muted" style="margin-top:6px">关系审计：${hazards.length} 个 hazard · ${Number(r.relation_count||0)} 条 relation</div><div class="muted" style="margin-top:4px">来源：${esc(src)} · 当前帧原始 decision/relation · 行人显示ID强制锚定 F013（仅改显示ID，不改距离、动作、风险或关系）</div></div>`;
+if(relText.length){h+='<div class="section"><h3>当前帧实体关系</h3>';relText.slice(0,8).forEach(x=>h+=`<div class="item why">${esc(x)}</div>`);h+='</div>'}
 h+='<details class="evidenceDetails"><summary>展开详细证据与安全审计</summary>';
+if(adv.raw_summary_zh&&adv.raw_summary_zh!==adv.summary_zh)h+=`<div class="item why"><b>原始推理ID审计</b><br><span class="muted">${esc(adv.raw_summary_zh)}</span></div>`;
 if((adv.secondary_concerns_zh||[]).length)h+=`<div class="item why"><b>次要关注</b>：${esc((adv.secondary_concerns_zh||[]).join("；"))}</div>`;
 const facts=adv.explanation_facts||[];if(facts.length){h+='<div class="section"><h3>解释事实</h3>';facts.forEach(x=>h+=`<div class="item"><b>${esc(x.text_zh||"")}</b></div>`);h+='</div>'}
-if(hazards.length){h+='<div class="section"><h3>驾驶风险</h3>';hazards.slice(0,6).forEach(v=>{const dm=v.distance_m!=null?` · ${Number(v.distance_m).toFixed(1)}m`:"";h+=`<div class="item hazard"><b>${esc(v.display_name_zh||v.type)}</b> <span class="pill">${esc(v.severity)}</span>${dm}<br><span class="muted">${esc(v.explanation_zh||"")}</span></div>`});h+='</div>'}
-const sig=d.signal_explanations_zh||[];if(sig.length){h+='<div class="section"><h3>交通信号</h3>';sig.forEach(s=>h+=`<div class="item"><b>${esc(s.title_zh||"交通信号")}</b><br><span class="muted">${esc(s.explanation_zh||"")}</span></div>`);h+='</div>'}
+if(hazards.length){h+='<div class="section"><h3>真实关系风险</h3>';hazards.slice(0,8).forEach(v=>{const dm=v.distance_m!=null?` · ${Number(v.distance_m).toFixed(1)}m`:"";h+=`<div class="item hazard"><b>${esc(v.display_name_zh||v.type||v.hazard_id||"risk")}</b> <span class="pill">${esc(v.severity||"")}</span>${dm}<br><span class="muted">${esc(v.explanation_zh||v.reason_zh||"")}</span></div>`});h+='</div>'}
+const sig=(r.signal_explanations_zh||d.signal_explanations_zh||[]);if(sig.length){h+='<div class="section"><h3>交通信号</h3>';sig.forEach(x=>{if(typeof x==="string")h+=`<div class="item">${esc(x)}</div>`;else h+=`<div class="item"><b>${esc(x.title_zh||"交通信号")}</b><br><span class="muted">${esc(x.explanation_zh||"")}</span></div>`});h+='</div>'}
 const occ=(S.f&&S.f.occupancy_boxes)||[];if(occ.length){h+='<div class="section"><h3>多源确认残余障碍</h3>';occ.slice(0,5).forEach(o=>h+=`<div class="item"><b>${esc(o.display_name_zh||"物理残余")}</b> <span class="pill">${Number(o.distance_m||0).toFixed(1)}m</span></div>`);h+='</div>'}
 const vh=vr.visual_hazards||[];h+='<div class="section"><h3>VLM 360°安全审计</h3>';if(vr.used){if(vh.length)vh.forEach(x=>h+=`<div class="item why"><b>${esc(x.zone||"周围")} · ${esc(x.hazard_type||"视觉安全假设")}</b><br><span class="muted">${esc(x.description_zh||"")}</span></div>`);else h+='<div class="muted">本帧未提出需要保留的新增视觉安全假设。</div>'}else h+='<div class="muted">本帧未调用 VLM 安全审计。</div>';h+='</div></details></div>';
 $("#panel").innerHTML=h;
@@ -137,5 +141,5 @@ const __tp=new Map();
 c.addEventListener("pointerdown",e=>{if(e.pointerType!=="touch")return;__tp.set(e.pointerId,{x:e.clientX,y:e.clientY});try{c.setPointerCapture(e.pointerId)}catch(_){}});
 c.addEventListener("pointermove",e=>{if(e.pointerType!=="touch"||!__tp.has(e.pointerId))return;e.preventDefault();const old=__tp.get(e.pointerId),dx=e.clientX-old.x,dy=e.clientY-old.y;__tp.set(e.pointerId,{x:e.clientX,y:e.clientY});if(__tp.size===1){if(S.mode==="3d"){S.view.px+=dx;S.view.py+=dy}else{S.lv.px+=dx;S.lv.py+=dy}draw()}else if(__tp.size===2){const a=[...__tp.values()];const dist=Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y);const prev=Number(c.dataset.touchDist||dist);const ratio=prev>1?dist/prev:1;c.dataset.touchDist=String(dist);if(S.mode==="3d")S.view.zoom=Math.max(2,Math.min(22,S.view.zoom*ratio));else S.lv.z=Math.max(.4,Math.min(4,S.lv.z*ratio));draw()}} ,{passive:false});
 const __tend=e=>{if(e.pointerType!=="touch")return;__tp.delete(e.pointerId);if(__tp.size<2)delete c.dataset.touchDist};c.addEventListener("pointerup",__tend);c.addEventListener("pointercancel",__tend)}
-async function init(){S.m=await gj("data/manifest.json");S.d182=await gj("data/v18_2_decision_graph.json");bind();const hero=new URLSearchParams(location.search).get("hero")==="1";if(hero)document.documentElement.classList.add("hero-mode");await load(0);if(hero){let i=0;setInterval(()=>{i=(i+1)%Math.max(1,S.m.frame_count);load(i)},1700)}}
+async function init(){S.m=await gj("data/manifest.json");S.d182=await gj("data/v18_2_decision_graph.json");try{S.r182=await gj("data/relation_risk_graph_v18_2_2.json")}catch(e){console.warn("R27 relation graph unavailable",e);S.r182=null}bind();const hero=new URLSearchParams(location.search).get("hero")==="1";if(hero)document.documentElement.classList.add("hero-mode");await load(0);if(hero){let i=0;setInterval(()=>{i=(i+1)%Math.max(1,S.m.frame_count);load(i)},1700)}}
 init().catch(e=>{console.error(e);document.body.innerHTML=`<pre>${e.stack||e}</pre>`});

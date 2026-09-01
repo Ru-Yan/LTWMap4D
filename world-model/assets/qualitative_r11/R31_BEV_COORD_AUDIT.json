@@ -1,0 +1,307 @@
+{
+  "version": "R31",
+  "purpose": "frame-consistent BEV renderer repair",
+  "cases": {
+    "scene-0101_a023": {
+      "tag": "scene-0101_a023",
+      "contract": {
+        "prediction_frame": "anchor/current ego; [X_forward,Y_left,Z_up]",
+        "gt_source_frame": "native future ego per horizon",
+        "gt_render_frame": "anchor/current ego via inverse SE(3) resampling",
+        "history_track_frame": "center_ego_t0 / anchor ego; recent 2.0 s only; older states fade/omitted for readability",
+        "future_ego_marker": "triangle at future ego pose expressed in anchor ego",
+        "training_reexecuted": false,
+        "wm_inference_reexecuted": false
+      },
+      "source_sha256": {
+        "pred": "22a2ed2a7ca82185234da8d02b9a75273ef521f1643a1283f4395cb1584e5a4c",
+        "gt_native": "36ddbe0cf0dabf37e2d0e5cffbc4291a27f1203473167dfce7a3a39aecbf91f4",
+        "history": "96c10076f13b1fac2d2fcdb941053f1a2eb1be03ddf582978f9f6e91e066157f",
+        "ego": "42f2582cc1cdd721b6163fa4d264593c3d04cf27d792fa6b91dc196efc44b147",
+        "future_ego": "0aaa25ca162a4ce11ac5d19d3871ec306a6ec211ed59526f92c2cc8ad2e28c8f"
+      },
+      "scientific_gt_export_diagnostic": {
+        "horizon_hashes": [
+          "59db1090bb37048a",
+          "59db1090bb37048a",
+          "59db1090bb37048a",
+          "59db1090bb37048a",
+          "59db1090bb37048a",
+          "59db1090bb37048a"
+        ],
+        "unique_horizons": 1,
+        "source": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/project_assets/LTMap3D_WM_FINAL_VISUAL_RAW_COMPLETION_20260831/02_R5M2_RAW/scene-0101/a023/gt_semantic.npz"
+      },
+      "track_count_raw": 39,
+      "horizons": [
+        {
+          "horizon": 1,
+          "seconds": 0.5,
+          "future_ego_xy_in_anchor_m": [
+            3.518057586697978,
+            -0.02889823808368419
+          ],
+          "ego_displacement_m": 3.518176273509834,
+          "pred_vs_native_gt_occ_iou": 0.2689970462626757,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.5090098247838095,
+          "visible_history_tracks_recent_2s": 37,
+          "max_visible_history_segment_m": 5.6322679268656195,
+          "ours_file": "h1_ours_bev.webp",
+          "gt_file": "h1_gt_bev.webp",
+          "ours_sha256": "fd80296da6c19e256287af2a6bb2bd4023d114df5a48516664598df4ab7adf84",
+          "gt_sha256": "5e8adb5bbfc7a7d2d9a9cc0f8db59194fbebad67e3deb4e5e24ccdaeeb4076a0",
+          "ours_bytes": 40346,
+          "gt_bytes": 56268
+        },
+        {
+          "horizon": 2,
+          "seconds": 1.0,
+          "future_ego_xy_in_anchor_m": [
+            7.265558800047074,
+            -0.1258480638216497
+          ],
+          "ego_displacement_m": 7.266648636896457,
+          "pred_vs_native_gt_occ_iou": 0.17780751080333412,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.4207050923335199,
+          "visible_history_tracks_recent_2s": 37,
+          "max_visible_history_segment_m": 5.6322679268656195,
+          "ours_file": "h2_ours_bev.webp",
+          "gt_file": "h2_gt_bev.webp",
+          "ours_sha256": "55424fcfc397c2a1eb0fe9471c3580ba94649e6ee63890b35efe8c5d7a73b03b",
+          "gt_sha256": "7e967626ad53dba6c09fc76ce0d0b455512e8c2d2a416af473bd0d3a236301a9",
+          "ours_bytes": 40646,
+          "gt_bytes": 50390
+        },
+        {
+          "horizon": 3,
+          "seconds": 1.5,
+          "future_ego_xy_in_anchor_m": [
+            11.196831428599126,
+            -0.2306016163536242
+          ],
+          "ego_displacement_m": 11.199205826572259,
+          "pred_vs_native_gt_occ_iou": 0.13550861706599412,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.39815395644771034,
+          "visible_history_tracks_recent_2s": 37,
+          "max_visible_history_segment_m": 5.6322679268656195,
+          "ours_file": "h3_ours_bev.webp",
+          "gt_file": "h3_gt_bev.webp",
+          "ours_sha256": "34e8fb51144b64ee03928032aad7b4df652b21463d497dd382999a66d57edb05",
+          "gt_sha256": "75802e93f31e1f1d6e354eaba089f431d8e0793de2b7db9b2471ae6d42506c89",
+          "ours_bytes": 41112,
+          "gt_bytes": 50312
+        },
+        {
+          "horizon": 4,
+          "seconds": 2.0,
+          "future_ego_xy_in_anchor_m": [
+            15.22964388170783,
+            -0.29864270409802884
+          ],
+          "ego_displacement_m": 15.232571687943954,
+          "pred_vs_native_gt_occ_iou": 0.10273581477443804,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.34895985278606856,
+          "visible_history_tracks_recent_2s": 37,
+          "max_visible_history_segment_m": 5.6322679268656195,
+          "ours_file": "h4_ours_bev.webp",
+          "gt_file": "h4_gt_bev.webp",
+          "ours_sha256": "a210a66a2b5fa5685dd952e00dc411ad4ccd0758a5df4d088a472d36efec36cd",
+          "gt_sha256": "da45e0f426929fc6df85ddea504121d5eba24924568a880ac63b4581e31606f3",
+          "ours_bytes": 40790,
+          "gt_bytes": 50670
+        },
+        {
+          "horizon": 5,
+          "seconds": 2.5,
+          "future_ego_xy_in_anchor_m": [
+            19.453523919745805,
+            -0.28261511481105117
+          ],
+          "ego_displacement_m": 19.455576686370463,
+          "pred_vs_native_gt_occ_iou": 0.06853795033228402,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.31946094106898126,
+          "visible_history_tracks_recent_2s": 37,
+          "max_visible_history_segment_m": 5.6322679268656195,
+          "ours_file": "h5_ours_bev.webp",
+          "gt_file": "h5_gt_bev.webp",
+          "ours_sha256": "fca94cbd99cb1c9cb449b48a357829c4e08f6368abe81baf8353edb48a73db57",
+          "gt_sha256": "85442fe2b5a134b1b40af3fd26ed199ca6d705b90ab72998d7fbdba0e8f728d0",
+          "ours_bytes": 41156,
+          "gt_bytes": 45950
+        },
+        {
+          "horizon": 6,
+          "seconds": 3.0,
+          "future_ego_xy_in_anchor_m": [
+            24.169775825444788,
+            -0.23565664902434946
+          ],
+          "ego_displacement_m": 24.17092463081387,
+          "pred_vs_native_gt_occ_iou": 0.06341734087491946,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.28366126092442867,
+          "visible_history_tracks_recent_2s": 37,
+          "max_visible_history_segment_m": 5.6322679268656195,
+          "ours_file": "h6_ours_bev.webp",
+          "gt_file": "h6_gt_bev.webp",
+          "ours_sha256": "159b781711cb12fdaf8d788e39c4555fe7762528dc20aa1b88e3786b0b821f4e",
+          "gt_sha256": "bb23eb996506aee0f3bfc3e42e1122e4a298e9da4e256d576162e57dc06ede97",
+          "ours_bytes": 40186,
+          "gt_bytes": 41234
+        }
+      ]
+    },
+    "scene-0553_a021": {
+      "tag": "scene-0553_a021",
+      "contract": {
+        "prediction_frame": "anchor/current ego; [X_forward,Y_left,Z_up]",
+        "gt_source_frame": "native future ego per horizon",
+        "gt_render_frame": "anchor/current ego via inverse SE(3) resampling",
+        "history_track_frame": "center_ego_t0 / anchor ego; recent 2.0 s only; older states fade/omitted for readability",
+        "future_ego_marker": "triangle at future ego pose expressed in anchor ego",
+        "training_reexecuted": false,
+        "wm_inference_reexecuted": false
+      },
+      "source_sha256": {
+        "pred": "28224fd11362f53d5cb9bb65605353e87dba21a3b4fe0f3ccbc9d07453321da3",
+        "gt_native": "0d137469dd5b8e927c4483da8b5b82cd682e21361cf6d82ccf7635e6c72ece7b",
+        "history": "40195151ee2d80ac6c12de364de40f6187997953f73a9235be163d2b1bf1ac83",
+        "ego": "ead94275e522c9f149e4db81e97b99f3be1064a1ad9dd821786371595b21455b",
+        "future_ego": "fc7e5d826d655aa52cdd66bd5b844f7eaca2a59c50dfd3c1f4ce178069f5793e"
+      },
+      "scientific_gt_export_diagnostic": {
+        "horizon_hashes": [
+          "06c3c1e52a82eb6e",
+          "e6ae3f02ac9f0d9c",
+          "e6ae3f02ac9f0d9c",
+          "e6ae3f02ac9f0d9c",
+          "e6ae3f02ac9f0d9c",
+          "e6ae3f02ac9f0d9c"
+        ],
+        "unique_horizons": 2,
+        "source": "/home/walle/桌面/进度/LTMap3D_Workspace/releases/LTMap3D_CURRENT_COMPLETE/runs/project_assets/LTMap3D_WM_FINAL_VISUAL_RAW_COMPLETION_20260831/02_R5M2_RAW/scene-0553/a021/gt_semantic.npz"
+      },
+      "track_count_raw": 20,
+      "horizons": [
+        {
+          "horizon": 1,
+          "seconds": 0.5,
+          "future_ego_xy_in_anchor_m": [
+            -7.937732675600273e-06,
+            -2.5744088816281874e-07
+          ],
+          "ego_displacement_m": 7.941906310212324e-06,
+          "pred_vs_native_gt_occ_iou": 0.6520157623522279,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.6520157623522279,
+          "visible_history_tracks_recent_2s": 19,
+          "max_visible_history_segment_m": 5.478044359075505,
+          "ours_file": "h1_ours_bev.webp",
+          "gt_file": "h1_gt_bev.webp",
+          "ours_sha256": "9bf490a8098ecd2509a951b216ba43848824f2361ba1d85e4dc619ff3c1cad5a",
+          "gt_sha256": "2402d0aa54befad77b8cb21b213ea7e8d5f59f1009a7760f461a2df3059f265b",
+          "ours_bytes": 28026,
+          "gt_bytes": 31114
+        },
+        {
+          "horizon": 2,
+          "seconds": 1.0,
+          "future_ego_xy_in_anchor_m": [
+            -4.124039321595774e-06,
+            -4.79554955745698e-07
+          ],
+          "ego_displacement_m": 4.151827703752696e-06,
+          "pred_vs_native_gt_occ_iou": 0.6241099683544303,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.6241099683544303,
+          "visible_history_tracks_recent_2s": 19,
+          "max_visible_history_segment_m": 5.478044359075505,
+          "ours_file": "h2_ours_bev.webp",
+          "gt_file": "h2_gt_bev.webp",
+          "ours_sha256": "ff366d606bf36062dafcb360ce534ed9ad8e3622b443ceb1827feb3791f0801b",
+          "gt_sha256": "920031014d3d6fe361bfd61ba8baead36b7d9e145bb6f74e9636cd30f05e1065",
+          "ours_bytes": 27936,
+          "gt_bytes": 30692
+        },
+        {
+          "horizon": 3,
+          "seconds": 1.5,
+          "future_ego_xy_in_anchor_m": [
+            -5.682493792846799e-06,
+            -7.188195922935847e-07
+          ],
+          "ego_displacement_m": 5.7277776940107855e-06,
+          "pred_vs_native_gt_occ_iou": 0.5966254659603688,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.5966254659603688,
+          "visible_history_tracks_recent_2s": 19,
+          "max_visible_history_segment_m": 5.478044359075505,
+          "ours_file": "h3_ours_bev.webp",
+          "gt_file": "h3_gt_bev.webp",
+          "ours_sha256": "ae438d459160e8fdfd797140bcecb9fe1f5230a5da0e86007ddca78d8666ab9d",
+          "gt_sha256": "1d9b0bf63758951f44aeeba653544e11e1752ce5e39f45b310ca72027a7a6829",
+          "ours_bytes": 27874,
+          "gt_bytes": 30596
+        },
+        {
+          "horizon": 4,
+          "seconds": 2.0,
+          "future_ego_xy_in_anchor_m": [
+            -1.286637137809521e-05,
+            -8.295523912238423e-07
+          ],
+          "ego_displacement_m": 1.2893086116553042e-05,
+          "pred_vs_native_gt_occ_iou": 0.5901703544155081,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.5901703544155081,
+          "visible_history_tracks_recent_2s": 19,
+          "max_visible_history_segment_m": 5.478044359075505,
+          "ours_file": "h4_ours_bev.webp",
+          "gt_file": "h4_gt_bev.webp",
+          "ours_sha256": "555bf6e7db2883cc1411cc708a42167ecafded82b2db93cbcb702e6c90e1c788",
+          "gt_sha256": "b3dd3d9b64a6a259cc2e2de6263f98d905c89130409dd15d075894b5415beffa",
+          "ours_bytes": 27552,
+          "gt_bytes": 30742
+        },
+        {
+          "horizon": 5,
+          "seconds": 2.5,
+          "future_ego_xy_in_anchor_m": [
+            -6.0623915487667546e-06,
+            -9.618022431823192e-07
+          ],
+          "ego_displacement_m": 6.138212675164417e-06,
+          "pred_vs_native_gt_occ_iou": 0.5753107834634288,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.5753107834634288,
+          "visible_history_tracks_recent_2s": 19,
+          "max_visible_history_segment_m": 5.478044359075505,
+          "ours_file": "h5_ours_bev.webp",
+          "gt_file": "h5_gt_bev.webp",
+          "ours_sha256": "69c3f0ee7f3f3bb2f768e561b6d1212bcea31deef351a093bfca7fc25c2c0849",
+          "gt_sha256": "72e7f009453730aa6a64d1a6c76cff9b0d64c7f4b299ed60398f4d0dd79b5f97",
+          "ours_bytes": 27504,
+          "gt_bytes": 30974
+        },
+        {
+          "horizon": 6,
+          "seconds": 3.0,
+          "future_ego_xy_in_anchor_m": [
+            3.382297393272893e-06,
+            -1.1096472007920966e-06
+          ],
+          "ego_displacement_m": 3.559670289052954e-06,
+          "pred_vs_native_gt_occ_iou": 0.575139146567718,
+          "pred_vs_anchor_warped_gt_occ_iou": 0.575139146567718,
+          "visible_history_tracks_recent_2s": 19,
+          "max_visible_history_segment_m": 5.478044359075505,
+          "ours_file": "h6_ours_bev.webp",
+          "gt_file": "h6_gt_bev.webp",
+          "ours_sha256": "77a5df818e823d344c0607e0e056b0d07e82688269e0b8f0c5d772b1594c8723",
+          "gt_sha256": "a8fe19a0392085a5b9327e69dabc0acfba247e5a8e9959f0ce82461f90c46d71",
+          "ours_bytes": 27768,
+          "gt_bytes": 30738
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Does not train or run the world model.",
+    "Uses frozen R5-M2 full_no_vlm prediction unchanged.",
+    "Rejects scientific-export gt_semantic as visualization authority when horizons are duplicated; uses native horizon-specific GT + pose warp instead."
+  ]
+}

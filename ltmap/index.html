@@ -24,7 +24,7 @@
 <section class="section" id="abstract"><div class="wrap"><h2>摘要</h2><p class="abstract">传统矢量地图主要描述车道线、道路边界、停止线等固定类别，但真实驾驶中还存在大量与决策相关、却难以通过封闭类别完整建模的长尾实体。
 LTMap3D 在现有道路地图基础上，引入多视角图像、LiDAR / 语义点云、Mask2Map 道路结构与动态目标 Track，利用 VLM 判断场景中存在的长尾实体，并进一步补充实体类别、空间位置、属性和时序身份。
 最终输出的不只是单帧检测结果，而是一张包含道路结构、长尾实体、动态对象及实体关系的结构化地图，为后续跨帧 Persistent Map 和 World Model 提供可持续使用的场景信息。</p></div></section>
-<section class="section" id="method"><div class="wrap"><h2>方法概览</h2><p class="lead">从道路几何，到实体级场景地图</p><figure class="method-figure"><img alt="LTMap3D Open-World Entity Map Perception 方法图" src="assets/method_overview.png"/><figcaption class="caption">多帧输入 → BEV 几何语义编码 → 开放世界地图感知 → VLM Grounding → 实体关系推理 → 结构化 LTMap 与实体级驾驶建议。</figcaption></figure></div></section>
+<section class="section" id="method"><div class="wrap"><h2>方法概览</h2><p class="lead">从道路几何，到实体级场景地图</p><figure class="method-figure"><img loading="lazy" decoding="async" alt="LTMap3D Open-World Entity Map Perception 方法图" src="assets/method_overview.webp"/><figcaption class="caption">多帧输入 → BEV 几何语义编码 → 开放世界地图感知 → VLM Grounding → 实体关系推理 → 结构化 LTMap 与实体级驾驶建议。</figcaption></figure></div></section>
 <section class="section" id="quant"><div class="wrap"><h2>定量结果</h2><p class="lead">在统一的 <strong>20,000 个 Case</strong>长尾场景协议下，评估系统对目标实体的识别能力。</p>
 <div class="stat-grid stat-grid-4"><div class="stat accent"><strong>20,000</strong><span>Evaluation Cases</span></div><div class="stat"><strong>97.77%</strong><span>Precision</span></div><div class="stat"><strong>92.80%</strong><span>Recall</span></div><div class="stat"><strong>95.22%</strong><span>F1</span></div></div>
 <div class="benchmark-layout"><div class="benchmark-chart"><h3>F1 对比</h3>
@@ -47,7 +47,7 @@ LTMap3D 在现有道路地图基础上，引入多视角图像、LiDAR / 语义�
 </div></section>
 <section class="section" id="qual"><div class="wrap"><h2>定性结果 </h2>
 <div class="contract-strip"><span><b></b></span><span><b></b></span><span><b></b></span><span><b></b></span></div>
-<div class="http-gate" id="ltmapFileGate" style="display:none"><b>完整 LTMap 前端需要通过本地 HTTP 打开。</b><br/>请运行网站根目录的 <code>OPEN_SITE.sh</code>；启动后这里会直接显示之前验收的六相机 + 语义点云 + BBX + Track + Mask2Map + 驾驶建议前端。</div><div class="authoritative-shell" id="ltmapInteractive"><iframe class="authoritative-frame" loading="eager" src="assets/scene1094_authoritative/index.html" title="scene-1094 authoritative LTMap frontend frames 013 to 016"></iframe></div></div></section>
+<div class="http-gate" id="ltmapFileGate" style="display:none"><b>交互式 LTMap 前端需要通过 HTTP/HTTPS 打开。</b><br/>请运行网站根目录的 <code>OPEN_SITE.sh</code>；启动后这里会直接显示之前验收的六相机 + 语义点云 + BBX + Track + Mask2Map + 驾驶建议前端。</div><div class="authoritative-shell" id="ltmapInteractive"><iframe class="authoritative-frame" loading="lazy" src="assets/scene1094_authoritative/index.html" title="scene-1094 authoritative LTMap frontend frames 013 to 016"></iframe></div></div></section>
 <section class="section"><div class="wrap"><div class="next"><div><h3>下一阶段：LTMap → World Model</h3><p>本页只讲开放长尾实体地图感知。地图进入未来 4D occupancy / semantic forecasting 后的指标与可视化，独立放在 World Model 页面。</p></div><a href="../world-model/index.html">查看 World Model →</a></div></div></section>
 </main>
 <footer class="footer"><div class="wrap">LTMap3D Project Page · Open-World Entity Map Perception</div></footer>
