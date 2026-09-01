@@ -80,7 +80,7 @@ let cur="scene-1094_a023";
 const tabs=document.getElementById('caseTabs'),sl=document.getElementById('r10Slider'),hz=document.getElementById('r10Horizon');
 const el=id=>document.getElementById(id);
 let seq=0;
-function bust(rel,n){return rel+'?r25='+encodeURIComponent(cur+'-'+n+'-'+(++seq));}
+function bust(rel,n){return rel;}
 function setImg(id,rel,n){const x=el(id);if(!x)return;x.onerror=null;x.src=bust(rel,n);x.dataset.case=cur;x.dataset.horizon=String(n);}
 function setCam(base,n){
  const x=el('r10Cam'); if(!x)return;
@@ -112,8 +112,11 @@ function update(){
  document.documentElement.dataset.wmCase=cur; document.documentElement.dataset.wmHorizon=String(n);
 }
 Object.entries(cases).forEach(([id,c],i)=>{const b=document.createElement('button');b.type='button';b.className='case-tab'+(i===0?' active':'');b.textContent=c.title;b.dataset.id=id;b.addEventListener('click',()=>{cur=id;[...tabs.children].forEach(x=>x.classList.toggle('active',x===b));preload(cur);update()});tabs.appendChild(b)});
-['input','change','pointerup','touchend'].forEach(ev=>sl.addEventListener(ev,update,{passive:true}));
-sl.addEventListener('keydown',()=>requestAnimationFrame(update));
+let __wmRaf=0;
+function scheduleUpdate(){if(__wmRaf)return;__wmRaf=requestAnimationFrame(()=>{__wmRaf=0;update();});}
+sl.addEventListener('input',scheduleUpdate,{passive:true});
+sl.addEventListener('change',update,{passive:true});
+sl.addEventListener('keydown',scheduleUpdate);
 preload(cur);update();
 })();
 </script>
